@@ -1,0 +1,889 @@
+phish_id,host,url,submission_time,target,online,httpstatus,phish_detail_url
+12748,www.misterpoolman.com,http://www.misterpoolman.com/modules/mod_articles_category/tmpl/mod_articles_category/view_articles_category/dn/,2018-01-24 15:00:54,Credit Suisse,offline,403,http://melani.admin.ch/
+12747,chinradioottawa.com,https://chinradioottawa.com/cache/asc/,2018-01-24 11:32:57,PayPal,online,302,http://melani.admin.ch/
+12746,www.popularpackers.com,http://www.popularpackers.com/suo2.php</td,2018-01-24 09:41:41,Cembra,online,301,http://melani.admin.ch/
+12745,bpopulso.beget.tech,http://bpopulso.beget.tech/https-eservice.cembra.ch/,2018-01-24 09:41:38,Cembra,online,200,http://melani.admin.ch/
+12744,bpopulgs.beget.tech,http://bpopulgs.beget.tech/https-eservice.cembra.ch/,2018-01-24 08:40:45,Cembra,online,200,http://melani.admin.ch/
+12743,trinityflora.com,http://trinityflora.com/suo2.php,2018-01-24 08:40:38,Cembra,online,301,http://melani.admin.ch/
+12742,fischer.ro,http://fischer.ro/components/APPLE_Vsms/,2018-01-23 20:06:39,Apple,online,302,http://melani.admin.ch/
+12741,kat13.ru,http://kat13.ru/components/APPLE_Vsms/,2018-01-23 20:06:20,Apple,online,200,http://melani.admin.ch/
+12740,kartonvtulka.com,http://kartonvtulka.com/index3.php,2018-01-23 20:06:14,Apple,offline,401,http://melani.admin.ch/
+12739,nemostudio.pl,https://nemostudio.pl/wp-includes/random_compat/random_bytes_libsodium_legacy/c-clan/cls_auth_login.php,2018-01-23 14:25:10,Credit Suisse,offline,403,http://melani.admin.ch/
+12738,www.wedonline.be,https://www.wedonline.be/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/vrf/,2018-01-23 13:57:52,Apple,offline,404,http://melani.admin.ch/
+12737,pinepollenpowder.net,http://pinepollenpowder.net/wp-includes/365new/index.php,2018-01-23 12:37:33,Microsoft,offline,302,http://melani.admin.ch/
+12736,bbs.ambitiongifts.com,https://bbs.ambitiongifts.com/,2018-01-23 12:37:25,Microsoft,dnserror,0,http://melani.admin.ch/
+12735,www.hge.is,https://www.hge.is/wp-includes/SimplePie/Cache/note/simple/CH/,2018-01-23 10:11:19,Apple,offline,404,http://melani.admin.ch/
+12734,scan-remont33.ru,http://scan-remont33.ru/zapchasti,2018-01-23 10:11:15,Apple,online,200,http://melani.admin.ch/
+12733,zurchb.co,https://zurchb.co/en/lg/ew/finance/online/login.php,2018-01-23 10:11:00,ZKB,dnserror,0,http://melani.admin.ch/
+12732,phpstack-142600-412648.cloudwaysapps.com,http://phpstack-142600-412648.cloudwaysapps.com//,2018-01-23 09:05:39,Visa,dnserror,0,http://melani.admin.ch/
+12731,supportsafelyhome.tk,http://supportsafelyhome.tk/,2018-01-23 09:05:21,Visa,dnserror,0,http://melani.admin.ch/
+12730,pandelioudc.lt,http://pandelioudc.lt/postfin/,2018-01-23 07:38:43,PostFinance,online,200,http://melani.admin.ch/
+12729,user56657.vs.speednames.com,http://user56657.vs.speednames.com/zay/,2018-01-23 07:38:10,Swiss Bankers,online,200,http://melani.admin.ch/
+12728,teleworking.gr,http://teleworking.gr/plugins/editors/confirme.php,2018-01-23 07:37:24,PayPal,offline,404,http://melani.admin.ch/
+12727,mmartink.beget.tech,http://mmartink.beget.tech/IT-it/L.WhatsAppweb.it/,2018-01-23 07:33:16,Visa,online,200,http://melani.admin.ch/
+12726,ndsyb.com,http://ndsyb.com/mi/,2018-01-23 07:32:49,Visa,online,200,http://melani.admin.ch/
+12725,timrepsz.beget.tech,http://timrepsz.beget.tech/swbk/,2018-01-23 07:26:46,Swiss Bankers,online,200,http://melani.admin.ch/
+12724,user56841.vs.speednames.com,http://user56841.vs.speednames.com/ji/,2018-01-23 07:26:35,Swiss Bankers,online,200,http://melani.admin.ch/
+12723,schoolimprovementsolutions.net,http://schoolimprovementsolutions.net/cli/amex/,2018-01-23 07:19:59,American Express,online,302,http://melani.admin.ch/
+12722,vasmaers.com,http://vasmaers.com/wakilab7e7ccd04651768d760ff21665715c724e54ffda</td,2018-01-23 07:19:44,Schweizerische Post,offline,503,http://melani.admin.ch/
+12721,www.postchsewiss.com,http://www.postchsewiss.com/wp-admin/user/post/,2018-01-23 07:19:31,Schweizerische Post,offline,302,http://melani.admin.ch/
+12720,lalupatemedical.com,https://lalupatemedical.com/wp-includes/js/verygooggoogle/godaddy/godaddy/,2018-01-23 07:19:19,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12719,www.mediaskills.com.au,http://www.mediaskills.com.au/modules/ch/,2018-01-22 10:28:34,PostFinance,offline,404,http://melani.admin.ch/
+12718,wudertf1.beget.tech,http://wudertf1.beget.tech/f/swbk/,2018-01-22 08:27:54,MasterCard,online,200,http://melani.admin.ch/
+12717,sisterhood-watching-recommended.scieron.com,http://sisterhood-watching-recommended.scieron.com/Gesamtbestellung1/nummer.translated/deskscene.management/,2018-01-22 05:50:47,Apple,dnserror,0,http://melani.admin.ch/
+12716,sjournals.net,https://sjournals.net/security/signin/Paypal/Confirmation/Security/,2018-01-21 14:15:38,PayPal,offline,302,http://melani.admin.ch/
+12715,appleid.manageverify-account.ga,https://appleid.manageverify-account.ga/,2018-01-21 13:27:47,Apple,dnserror,0,http://melani.admin.ch/
+12714,account.customer.apple.com.support.milterz.info,https://account.customer.apple.com.support.milterz.info/Login.php,2018-01-21 07:28:03,Apple,dnserror,0,http://melani.admin.ch/
+12713,estensioni-watching-recommended.effers.com,http://estensioni-watching-recommended.effers.com/Gesamtbestellung/nummer.translated/deskscene.management/,2018-01-21 07:27:36,Apple,dnserror,0,http://melani.admin.ch/
+12712,www.yes.com.tn,http://www.yes.com.tn//wp-content/themes/Duotive/includes/cache/.pay/Signin/,2018-01-21 07:27:23,PayPal,dnserror,0,http://melani.admin.ch/
+12711,suiserya.sornator.beget.tech,http://suiserya.sornator.beget.tech/-/Login/car.php,2018-01-20 10:28:12,Swiss Bankers,online,200,http://melani.admin.ch/
+12710,marek.baralkiewicz.pl,http://marek.baralkiewicz.pl/Home/79711XXXXXXXXXXxx300217/remove_limit_in_your_account/XXXXXX78913247XXXX/Manage-account-netlix/hard_net_manage/home/Xver/,2018-01-20 07:31:07,Netflix,offline,404,http://melani.admin.ch/
+12709,formlets.com,https://formlets.com/forms/WU2rPFlOfWrogcQR/,2018-01-19 14:01:28,E-Mail Provider,offline,404,http://melani.admin.ch/
+12708,generaltours-eg.com,https://generaltours-eg.com/server/,2018-01-19 13:21:51,E-Mail Provider,offline,302,http://melani.admin.ch/
+12707,fixinpost.com,http://fixinpost.com/server/index.php,2018-01-19 11:00:45,E-Mail Provider,offline,303,http://melani.admin.ch/
+12706,poushaketabriz.ir,http://poushaketabriz.ir/cache/mod_vvisit_counter/e-estore_Ricardoshop.Umfrage-zur-Kunden800/index.htm,2018-01-19 06:29:32,Ricardo,offline,404,http://melani.admin.ch/
+12705,uid-netflix.com,http://uid-netflix.com/Files/Login.php,2018-01-19 06:28:27,Netflix,dnserror,0,http://melani.admin.ch/
+12704,logosbooks.in,https://logosbooks.in/wp-content/upgrade/posos/,2018-01-19 06:26:39,Apple,offline,404,http://melani.admin.ch/
+12703,www.lovevitamin.net,http://www.lovevitamin.net/js/tiny_mce/themes/advanced/skins/default/img/default/,2018-01-19 06:26:23,Apple,offline,404,http://melani.admin.ch/
+12702,prysmianperformanstesti.com,http://prysmianperformanstesti.com/components/com_search/views/search/tmpl/,2018-01-19 06:26:11,Apple,online,200,http://melani.admin.ch/
+12701,www.scancafe.com,https://www.scancafe.com/blog/wp-content/img/014/dat/az/signin/,2018-01-19 06:23:58,PayPal,offline,404,http://melani.admin.ch/
+12700,imotsivg.beget.tech,http://imotsivg.beget.tech/imtp/,2018-01-19 06:20:55,impots.gouv.fr,online,200,http://melani.admin.ch/
+12699,e4sc.org,https://e4sc.org/wp-content/upgrade/crypt/,2018-01-19 06:13:53,E-Mail Provider,offline,404,http://melani.admin.ch/
+12698,applications.acc.reload345appl.geoshield.com.my,http://applications.acc.reload345appl.geoshield.com.my/signstart/refresh1/welcome/client,2018-01-19 06:09:00,Apple,dnserror,0,http://melani.admin.ch/
+12697,primapastarestaurant.com,https://primapastarestaurant.com/qin/index.php,2018-01-18 19:31:36,E-Mail Provider,offline,500,http://melani.admin.ch/
+12696,ni1431880-1.web03.nitrado.hosting,http://ni1431880-1.web03.nitrado.hosting/swbk/,2018-01-18 14:16:05,Swiss Bankers,offline,404,http://melani.admin.ch/
+12695,intechsecure.com,https://intechsecure.com/moves/FEDEXM/index.php,2018-01-18 14:11:39,E-Mail Provider,offline,302,http://melani.admin.ch/
+12694,smawasnv.mnauom.nut.cc,https://smawasnv.mnauom.nut.cc/easnmunom/oesewsazxsae/nmounm/?email=,2018-01-18 12:52:05,E-Mail Provider,online,302,http://melani.admin.ch/
+12693,swazs.aba.ae,http://swazs.aba.ae/nmuon/,2018-01-18 12:52:01,E-Mail Provider,offline,403,http://melani.admin.ch/
+12692,www.ccs.org.au,https://www.ccs.org.au/staging-2017/erroreng/erroreng/erroreng/erroreng/start.php,2018-01-18 12:31:43,E-Mail Provider,online,200,http://melani.admin.ch/
+12691,www.nirapad.org.bd,http://www.nirapad.org.bd/images/js/,2018-01-18 09:12:30,Apple,online,302,http://melani.admin.ch/
+12690,klaviertrio-hannover.com,http://klaviertrio-hannover.com/wp-includes/js/look/all1/others/cmd-login=fe3b3828c30dde1386ef28f892f51a26/,2018-01-18 09:12:21,E-Mail Provider,offline,404,http://melani.admin.ch/
+12689,uni2aunigech.weebly.com,https://uni2aunigech.weebly.com/,2018-01-18 09:11:42,E-Mail Provider,offline,404,http://melani.admin.ch/
+12688,benvictors.ga,http://benvictors.ga/valvet/vessel/,2018-01-18 09:11:23,E-Mail Provider,offline,404,http://melani.admin.ch/
+12687,meine.norisbank.de-vorgangsnummer-xadw2.bid,https://meine.norisbank.de-vorgangsnummer-xadw2.bid/,2018-01-17 18:01:48,norisbank,dnserror,0,http://melani.admin.ch/
+12686,lancastercars.co.uk,http://lancastercars.co.uk/wp-includes/Text/tax.no/,2018-01-17 11:57:45,Skatteetaten,offline,404,http://melani.admin.ch/
+12685,expressl.ru,http://expressl.ru/ap/top/Fedex/ela/index.php,2018-01-17 11:16:47,E-Mail Provider,offline,403,http://melani.admin.ch/
+12684,www.lookn2it.com,http://www.lookn2it.com/wesselsmasonryrestoration/tmp/tax.no/,2018-01-17 09:24:27,Skatteetaten,offline,500,http://melani.admin.ch/
+12683,lancastercars.co.uk,http://lancastercars.co.uk/portfolio/prius/,2018-01-17 09:24:17,Skatteetaten,online,200,http://melani.admin.ch/
+12682,demo.cctvcbe.com,https://demo.cctvcbe.com/.well-known/acme-challenge/wp-mail.php,2018-01-17 09:02:10,PayPal,offline,302,http://melani.admin.ch/
+12681,famfoam.com,http://famfoam.com/indexx.html,2018-01-17 09:02:04,PayPal,offline,500,http://melani.admin.ch/
+12680,dunsta3d.beget.tech,http://dunsta3d.beget.tech/en/ricardo-shop.info/e-store.10029888273880/chw/Ssui-10092832788c8272881d819a1/index.htm,2018-01-17 07:07:18,Ricardo,online,200,http://melani.admin.ch/
+12679,superlinedance.com,http://superlinedance.com/wp-admin/includes/EmailDeactivation/crypt/,2018-01-17 06:48:22,E-Mail Provider,online,200,http://melani.admin.ch/
+12678,stringsandbeads.com,https://stringsandbeads.com/.quota/english/index.php,2018-01-17 06:45:03,E-Mail Provider,offline,302,http://melani.admin.ch/
+12677,liveatmanhattanharbour.com,https://liveatmanhattanharbour.com/wp-includes/js/codemirror/godaddy/godaddy/,2018-01-17 06:44:36,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12676,www.ayma.es,http://www.ayma.es/admin/css/--/Login/,2018-01-17 06:44:15,Swiss Bankers,offline,404,http://melani.admin.ch/
+12675,user56764.vs.speednames.com,http://user56764.vs.speednames.com/ddxxd/1.php,2018-01-17 06:44:03,Swiss Bankers,offline,404,http://melani.admin.ch/
+12673,aktualisiierenap.com,http://aktualisiierenap.com,2018-01-17 06:43:44,Apple,offline,302,http://melani.admin.ch/
+12672,sichererccountap.com,http://sichererccountap.com/papple/,2018-01-17 06:43:26,Apple,offline,302,http://melani.admin.ch/
+12671,paypal.myaccount.home.jumbucksheepskin.com.au,http://paypal.myaccount.home.jumbucksheepskin.com.au/us/.con/,2018-01-17 06:42:44,PayPal,dnserror,0,http://melani.admin.ch/
+12670,varshamittal.in,https://varshamittal.in/dbusiness/index.php,2018-01-17 06:42:19,E-Mail Provider,offline,404,http://melani.admin.ch/
+12669,pandelioudc.lt,http://pandelioudc.lt/tmp/postfin/index.php,2018-01-16 22:05:38,PostFinance,online,200,http://melani.admin.ch/
+12668,www.apple-checkout.co,http://www.apple-checkout.co/owa/_session/efigUIH1/signin.php,2018-01-16 22:05:36,Apple,dnserror,0,http://melani.admin.ch/
+12667,www.apple-checkout.online,http://www.apple-checkout.online/auth/,2018-01-16 22:05:23,Apple,dnserror,0,http://melani.admin.ch/
+12666,sparkasse.de-vorgangsnummer-idje4.bid,https://sparkasse.de-vorgangsnummer-idje4.bid/portal/spar/kasse/,2018-01-16 17:07:56,Sparkasse,dnserror,0,http://melani.admin.ch/
+12665,cfs-partsclients.com,https://cfs-partsclients.com/bras/impots.gouv/HR0cHM6Ly9jZnNwYXJ0LmltcG90cy5nb3V2LmZyLw==/,2018-01-16 16:48:24,impots.gouv.fr,offline,500,http://melani.admin.ch/
+12664,bleju-espaceclients.com,https://bleju-espaceclients.com/,2018-01-16 16:48:12,impots.gouv.fr,dnserror,0,http://melani.admin.ch/
+12663,apelaez.com.ar,https://apelaez.com.ar/css/Support.Login.Apple.xss/,2018-01-16 12:01:27,Apple,offline,404,http://melani.admin.ch/
+12662,compteursdeauduquebec.com,https://compteursdeauduquebec.com/qulckstart/dropboxpage-final/index.php,2018-01-16 11:56:15,E-Mail Provider,offline,404,http://melani.admin.ch/
+12661,pandelioudc.lt,http://pandelioudc.lt/wwwtmp/postfinance/postfin/index.php,2018-01-16 11:55:57,PostFinance,online,200,http://melani.admin.ch/
+12660,kunert-strollers.co.uk,http://kunert-strollers.co.uk/206/Login/,2018-01-16 07:06:31,PayPal,offline,404,http://melani.admin.ch/
+12659,sspweb.in,https://sspweb.in/b7f7c8c9c1/https://www.netflix.com/login/,2018-01-16 07:00:10,Netflix,offline,404,http://melani.admin.ch/
+12658,qlbh.mipec.vn,http://qlbh.mipec.vn/a4b8b8c4a7/https://www.netflix.com/login/,2018-01-16 07:00:00,Netflix,online,200,http://melani.admin.ch/
+12657,www.akhtargroup.com.bd,http://www.akhtargroup.com.bd/wp-admin/network/DHL/,2018-01-16 06:56:47,E-Mail Provider,offline,404,http://melani.admin.ch/
+12656,finansukonsultants.lv,http://finansukonsultants.lv/wp-content/toda/all1/,2018-01-16 06:56:37,E-Mail Provider,online,302,http://melani.admin.ch/
+12655,gilbert.com.fj,https://gilbert.com.fj/includes/https/mail/quota/upgrade/25GB/,2018-01-16 06:56:00,E-Mail Provider,offline,401,http://melani.admin.ch/
+12654,xxgbhx.pe.hu,http://xxgbhx.pe.hu/,2018-01-15 15:19:24,E-Mail Provider,online,200,http://melani.admin.ch/
+12653,shop.davanam.com,https://shop.davanam.com/lib/Cm/Cache/Backend/acc0unt01/login/,2018-01-15 15:16:53,PayPal,offline,404,http://melani.admin.ch/
+12652,managechampions.com,http://managechampions.com/new/,2018-01-15 15:16:47,PayPal,offline,403,http://melani.admin.ch/
+12651,ni1417802-2.web03.nitrado.hosting,http://ni1417802-2.web03.nitrado.hosting/swbk/,2018-01-15 15:08:46,Swiss Bankers,offline,404,http://melani.admin.ch/
+12650,user56657.vs.speednames.com,http://user56657.vs.speednames.com/l7a/,2018-01-15 15:08:33,Swiss Bankers,offline,404,http://melani.admin.ch/
+12649,leiten-com.gq,https://leiten-com.gq/server/,2018-01-15 08:01:39,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12648,expediapastenerecentralle.com,http://expediapastenerecentralle.com/apt/signinopenidpape.max_auth_age8000&openidreturn_tohttps3A2F2html&o/Logon/parth/new/sin/kilog/index.htm,2018-01-15 07:48:57,Expedia,dnserror,0,http://melani.admin.ch/
+12647,www3.ucn.cl,http://www3.ucn.cl//Editor/assets/exexpex.htm,2018-01-15 07:48:24,Expedia,offline,404,http://melani.admin.ch/
+12646,kungaguesthouse.com,http://kungaguesthouse.com/wp-admin/english/,2018-01-15 06:03:20,E-Mail Provider,online,301,http://melani.admin.ch/
+12645,noreplinfobluewin89525.myfreesites.net,http://noreplinfobluewin89525.myfreesites.net,2018-01-15 06:02:34,Swisscom,online,200,http://melani.admin.ch/
+12644,ncamaraljr.000webhostapp.com,https://ncamaraljr.000webhostapp.com/uzh.html,2018-01-15 05:54:47,Universitt Zrich,offline,403,http://melani.admin.ch/
+12643,infomaniak.ukit.me,http://infomaniak.ukit.me/,2018-01-14 21:10:08,Infomaniak,offline,410,http://melani.admin.ch/
+12642,www.band-it-music.de,http://www.band-it-music.de/images/postfin/index.php,2018-01-14 21:09:57,PostFinance,offline,502,http://melani.admin.ch/
+12641,apelaez.com.ar,https://apelaez.com.ar/js/Apple.Use-Support.Login/,2018-01-14 12:11:51,Apple,offline,404,http://melani.admin.ch/
+12640,nexi-online-privati-aggiornamento-credenziali-utenze6.otzo.com,http://nexi-online-privati-aggiornamento-credenziali-utenze6.otzo.com/verificaonline/,2018-01-14 09:33:19,Nexi,offline,500,http://melani.admin.ch/
+12639,nexi-online3.it,http://nexi-online3.it/,2018-01-14 09:33:10,Nexi,offline,500,http://melani.admin.ch/
+12638,ni1427757-2.web15.nitrado.hosting,http://ni1427757-2.web15.nitrado.hosting/swbk/,2018-01-14 09:32:13,Swiss Bankers,offline,404,http://melani.admin.ch/
+12637,icsfincas.es,https://icsfincas.es/n.html,2018-01-14 09:32:04,Swiss Bankers,offline,403,http://melani.admin.ch/
+12636,toucanandtarpon.com,https://toucanandtarpon.com/h35/whatbeb10965t454rwefdfdwewefeww5b74994c46b/APPTlZWo3GHIjaU4reewtwertre/inc/What/,2018-01-13 11:45:50,Visa,offline,404,http://melani.admin.ch/
+12635,depczynski.com,http://depczynski.com/E39/,2018-01-13 11:45:42,Visa,offline,404,http://melani.admin.ch/
+12634,p0stepay-p0ste-it-start-lista-m0vimenti-accedi-utent001928.25u.com,http://p0stepay-p0ste-it-start-lista-m0vimenti-accedi-utent001928.25u.com/,2018-01-13 11:45:29,Poste Italiane,offline,500,http://melani.admin.ch/
+12633,p0stepay-cartaprepagata-lista-m0vimenti.25u.com,http://p0stepay-cartaprepagata-lista-m0vimenti.25u.com/,2018-01-13 11:45:18,Poste Italiane,offline,500,http://melani.admin.ch/
+12632,qu2000.cl,https://qu2000.cl/controllers/front/view1/,2018-01-13 07:18:02,E-Mail Provider,offline,404,http://melani.admin.ch/
+12631,www.consuegraespinosa.es,http://www.consuegraespinosa.es/tinho.htm,2018-01-13 07:17:36,Swiss Bankers,offline,404,http://melani.admin.ch/
+12630,ni1425330-4.web15.nitrado.hosting,http://ni1425330-4.web15.nitrado.hosting/s/swbk/,2018-01-12 19:29:49,Swiss Bankers,offline,404,http://melani.admin.ch/
+12629,www.consuegraespinosa.es,http://www.consuegraespinosa.es/tinho.html,2018-01-12 19:29:33,Swiss Bankers,offline,404,http://melani.admin.ch/
+12628,accountverify.sitey.me,http://accountverify.sitey.me/,2018-01-12 08:44:31,E-Mail Provider,online,200,http://melani.admin.ch/
+12627,obatawetmuda.com,http://obatawetmuda.com/wp-content/run.php,2018-01-12 07:24:23,Apple,offline,404,http://melani.admin.ch/
+12626,ni1425330-1.web19.nitrado.hosting,http://ni1425330-1.web19.nitrado.hosting/fnce/,2018-01-12 05:57:19,PostFinance,offline,404,http://melani.admin.ch/
+12625,icsfincas.es,http://icsfincas.es/klya.html,2018-01-12 05:57:06,PostFinance,offline,404,http://melani.admin.ch/
+12624,ppoiua.com,https://ppoiua.com/qq/domainz_confirmpassword/review/,2018-01-12 05:43:57,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12623,evritfilms.com,http://evritfilms.com/new/wp-includes/js/thickbox/vl/,2018-01-11 17:36:05,E-Mail Provider,online,200,http://melani.admin.ch/
+12622,www.campusfuenn.com,https://www.campusfuenn.com/ch/index.php,2018-01-11 17:27:25,E-Mail Provider,offline,200,http://melani.admin.ch/
+12621,mariavxt.beget.tech,http://mariavxt.beget.tech/jsllzo/4f07b48d453af6c11db212758e48feb8/,2018-01-11 17:22:29,Aruba,offline,404,http://melani.admin.ch/
+12620,ni1420344-2.web03.nitrado.hosting,http://ni1420344-2.web03.nitrado.hosting/jik/fnce/,2018-01-11 17:11:37,PostFinance,offline,404,http://melani.admin.ch/
+12619,icsfincas.es,http://icsfincas.es/trari.html,2018-01-11 17:11:22,PostFinance,offline,404,http://melani.admin.ch/
+12618,ms3dc.com,https://ms3dc.com/owa/login.php,2018-01-11 12:36:46,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12617,weconnectt.com,http://weconnectt.com/wp-includes/IXR/gb.php,2018-01-11 12:36:40,E-Mail Provider,online,200,http://melani.admin.ch/
+12616,weboro.000webhostapp.com,http://weboro.000webhostapp.com/,2018-01-11 12:36:04,E-Mail Provider,offline,403,http://melani.admin.ch/
+12615,primarysuccess.ca,https://primarysuccess.ca/msgeuudj.htm,2018-01-11 12:35:54,E-Mail Provider,offline,404,http://melani.admin.ch/
+12614,www.evelynoldfield.co.uk,http://www.evelynoldfield.co.uk/wp-includes/rest-api/tax.no/,2018-01-11 10:44:50,Skatteetaten,online,301,http://melani.admin.ch/
+12613,www.lostampateo.com,http://www.lostampateo.com/contatti/,2018-01-11 10:44:36,Skatteetaten,online,200,http://melani.admin.ch/
+12612,betterwayuae.com,https://betterwayuae.com/wp-includes/js/tinymce/langs/zn/verify.email/,2018-01-11 10:12:19,E-Mail Provider,offline,302,http://melani.admin.ch/
+12611,primarysuccess.ca,https://primarysuccess.ca/bbx/dropboxpage-final/,2018-01-11 10:12:04,E-Mail Provider,offline,404,http://melani.admin.ch/
+12610,sungavatv.com,https://sungavatv.com/0folder/BS/UBS-Suisse/,2018-01-11 08:20:08,UBS,offline,302,http://melani.admin.ch/
+12609,serviciosestetica.es,https://serviciosestetica.es/layouts/ub.php</td,2018-01-11 08:19:55,UBS,online,200,http://melani.admin.ch/
+12608,edubnation.com,https://edubnation.com/files/FILES/,2018-01-11 06:56:10,E-Mail Provider,offline,404,http://melani.admin.ch/
+12607,www.chocquibtown.com,https://www.chocquibtown.com/connect/,2018-01-11 06:52:01,PayPal,offline,404,http://melani.admin.ch/
+12606,www.salescomnet.com,https://www.salescomnet.com/cache/shop/,2018-01-11 06:51:45,PayPal,offline,302,http://melani.admin.ch/
+12605,www.3k.radom.pl,http://www.3k.radom.pl/3k.rad.pl/,2018-01-10 15:03:06,Netflix,offline,403,http://melani.admin.ch/
+12604,senhoradoviso.diocesedeviseu.pt,http://senhoradoviso.diocesedeviseu.pt/images/stories/Diversos/,2018-01-10 15:03:02,Netflix,offline,302,http://melani.admin.ch/
+12603,www.marottauto.it,http://www.marottauto.it/a5a2e7f2c8/https://www.netflix.com/login/,2018-01-10 12:47:16,Netflix,offline,503,http://melani.admin.ch/
+12602,security-update-account-customer.info.freewayexpress.com.br,https://security-update-account-customer.info.freewayexpress.com.br/customer_verification/,2018-01-10 11:57:12,PayPal,dnserror,0,http://melani.admin.ch/
+12601,rma.nwu.ac.za,https://rma.nwu.ac.za/media/css_secure/verification-ID/signin.php,2018-01-10 11:57:00,PayPal,online,200,http://melani.admin.ch/
+12600,paypal.de-sicherer-login.com,https://paypal.de-sicherer-login.com/script.php,2018-01-10 10:10:10,PayPal,dnserror,0,http://melani.admin.ch/
+12599,webpro00.000webhostapp.com,http://webpro00.000webhostapp.com/,2018-01-10 07:55:33,E-Mail Provider,offline,403,http://melani.admin.ch/
+12598,www.gehoin.dx.am,http://www.gehoin.dx.am/home.php,2018-01-10 07:28:54,E-Mail Provider,offline,403,http://melani.admin.ch/
+12597,appelsapch.com,http://appelsapch.com/,2018-01-10 07:12:35,Apple,dnserror,0,http://melani.admin.ch/
+12596,mafihad.com,http://mafihad.com/daniahaniae6c71cfe47281e4e3c3333609cd6fe2a6d3c260f,2018-01-10 07:12:32,Apple,offline,503,http://melani.admin.ch/
+12595,toelon.ml,https://toelon.ml/vali-/,2018-01-10 07:12:20,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12594,dramapaper.com,https://dramapaper.com/wp-includes/Requests/Response/Schild/,2018-01-10 05:41:32,Apple,offline,500,http://melani.admin.ch/
+12593,storenikestn.sytes.net,http://storenikestn.sytes.net/,2018-01-10 05:41:30,Apple,offline,503,http://melani.admin.ch/
+12592,cancel-subscription-confirmation-netflix.cf,http://cancel-subscription-confirmation-netflix.cf/,2018-01-09 19:06:17,Apple,dnserror,0,http://melani.admin.ch/
+12591,ni1420358-3.web15.nitrado.hosting,http://ni1420358-3.web15.nitrado.hosting/aah/fnce/,2018-01-09 18:42:04,PostFinance,offline,404,http://melani.admin.ch/
+12590,ni1421632-2.web02.nitrado.hosting,http://ni1421632-2.web02.nitrado.hosting/zid2/,2018-01-09 18:41:53,PostFinance,offline,404,http://melani.admin.ch/
+12589,haikmaty.beget.tech,http://haikmaty.beget.tech/29701127885238879423558/503258875112447553669/,2018-01-09 18:41:33,Visa,offline,404,http://melani.admin.ch/
+12588,58793419.swh.strato-hosting.eu,http://58793419.swh.strato-hosting.eu/,2018-01-09 18:41:05,Visa,online,200,http://melani.admin.ch/
+12587,ni1420358-2.web09.nitrado.hosting,http://ni1420358-2.web09.nitrado.hosting/lpmo/videos/,2018-01-09 18:40:52,Apple,offline,404,http://melani.admin.ch/
+12586,ni1421632-1.web11.nitrado.hosting,http://ni1421632-1.web11.nitrado.hosting/lopa/,2018-01-09 18:40:43,Apple,offline,404,http://melani.admin.ch/
+12585,dieposts.com,http://dieposts.com/post/,2018-01-09 18:40:13,Schweizerische Post,offline,503,http://melani.admin.ch/
+12584,amazon.de-verify-ssl-logincom.com,https://amazon.de-verify-ssl-logincom.com/script.php,2018-01-09 18:40:04,Amazon,dnserror,0,http://melani.admin.ch/
+12583,www.enatural.pl,http://www.enatural.pl/plugins/user/k2/post/,2018-01-09 14:59:47,Schweizerische Post,offline,404,http://melani.admin.ch/
+12582,wikiwealthcapital.com,http://wikiwealthcapital.com/wordpress/wp-content/themes/post/,2018-01-09 14:59:41,Schweizerische Post,offline,404,http://melani.admin.ch/
+12581,sofiafp8.beget.tech,http://sofiafp8.beget.tech/clientes/,2018-01-09 14:53:45,Aruba,offline,404,http://melani.admin.ch/
+12580,www.livetheevc.com,https://www.livetheevc.com/Documents/Microsoft/,2018-01-09 13:55:35,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12579,homeinspectors-sanantonio.com,http://homeinspectors-sanantonio.com/image/https/mail/quota/upgrade/25GB/,2018-01-09 13:50:30,E-Mail Provider,offline,302,http://melani.admin.ch/
+12578,sunriseh.weebly.com,https://sunriseh.weebly.com/,2018-01-09 12:31:59,Sunrise,offline,404,http://melani.admin.ch/
+12577,sunrisse.weebly.com,https://sunrisse.weebly.com/,2018-01-09 12:31:55,Sunrise,offline,404,http://melani.admin.ch/
+12576,nepaluniquetreks.com,https://nepaluniquetreks.com/wp-admin/upgrade/,2018-01-09 12:31:43,E-Mail Provider,offline,404,http://melani.admin.ch/
+12575,pdfaccessfiles.tk,http://pdfaccessfiles.tk/new/Validation/,2018-01-09 12:31:15,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12574,jgkcfjk.000webhostapp.com,https://jgkcfjk.000webhostapp.com/asrgf/,2018-01-09 12:30:35,E-Mail Provider,offline,403,http://melani.admin.ch/
+12573,aspirantlabs.com,https://aspirantlabs.com/wp-admin/network/Found/,2018-01-09 09:40:55,PayPal,offline,404,http://melani.admin.ch/
+12572,courtcircuitpaysan.com,https://courtcircuitpaysan.com/webservice/-/,2018-01-09 09:40:51,PayPal,offline,404,http://melani.admin.ch/
+12571,familyexpo.net,http://familyexpo.net/old/Image/_notes/Acc355L0g1n/general/,2018-01-09 07:31:27,E-Mail Provider,offline,404,http://melani.admin.ch/
+12570,dbinteriors.com.au,http://dbinteriors.com.au/img/crypt/index.html,2018-01-09 07:28:35,E-Mail Provider,offline,404,http://melani.admin.ch/
+12569,shirleyvarnagy.com,http://shirleyvarnagy.com/prp/,2018-01-09 06:57:08,PayPal,online,302,http://melani.admin.ch/
+12568,generations55.ukit.me,http://generations55.ukit.me/,2018-01-09 06:55:48,Infomaniak,offline,410,http://melani.admin.ch/
+12567,jobringa.ertekesitek.com,https://jobringa.ertekesitek.com/valami/ticket/comments/59bbaccea6a63/documents/IT/,2018-01-09 06:55:28,Apple,offline,403,http://melani.admin.ch/
+12566,103.57.74.213,http://103.57.74.213/ubscenterdata/de/,2018-01-09 06:54:23,UBS,offline,503,http://melani.admin.ch/
+12565,103.57.74.221,http://103.57.74.221/?=secondlink,2018-01-09 06:54:09,UBS,offline,503,http://melani.admin.ch/
+12564,webmailuplink.my-free.website,http://webmailuplink.my-free.website/,2018-01-09 06:53:49,E-Mail Provider,online,200,http://melani.admin.ch/
+12563,chwirika.com,http://chwirika.com/ri1eb1770159536cc4dd05576da6b3e1ed2dd0728c,2018-01-09 06:52:33,UBS,offline,503,http://melani.admin.ch/
+12562,northpennheart.com,http://northpennheart.com/timed-out/details/domain/,2018-01-09 06:47:33,E-Mail Provider,offline,403,http://melani.admin.ch/
+12561,almihnaw.com,http://almihnaw.com/rica17906998ba69b7b8f64ff6ef3a70dcf905702c</td,2018-01-09 06:46:14,UBS,offline,503,http://melani.admin.ch/
+12560,kritinaw.com,http://kritinaw.com/rie8726621fbce5ed6cc4d8c092a7bb7c1fcae3659</td,2018-01-09 06:46:06,UBS,offline,503,http://melani.admin.ch/
+12559,rwinaoal.com,http://rwinaoal.com/m/3D/UBS/,2018-01-09 06:45:59,UBS,dnserror,0,http://melani.admin.ch/
+12558,chwirika.com,http://chwirika.com/ri9ceec5ccac5e69e9080f91d3b403a5f729ef66bd,2018-01-09 06:45:56,UBS,offline,503,http://melani.admin.ch/
+12557,winybar.com,http://winybar.com/pdf/ubch/,2018-01-08 17:03:15,UBS,offline,404,http://melani.admin.ch/
+12556,ni1420358-3.web15.nitrado.hosting,http://ni1420358-3.web15.nitrado.hosting/videos/,2018-01-08 17:02:14,UBS,offline,404,http://melani.admin.ch/
+12555,ni1420358-2.web09.nitrado.hosting,http://ni1420358-2.web09.nitrado.hosting/videos/,2018-01-08 17:02:10,UBS,offline,404,http://melani.admin.ch/
+12554,me-lza-bor.com,http://me-lza-bor.com/,2018-01-08 17:01:34,UBS,dnserror,0,http://melani.admin.ch/
+12553,magasines441.ukit.me,http://magasines441.ukit.me/,2018-01-08 15:46:02,Infomaniak,offline,410,http://melani.admin.ch/
+12552,alternativaradiocr.com,https://alternativaradiocr.com/.msges/,2018-01-08 15:44:53,E-Mail Provider,offline,404,http://melani.admin.ch/
+12551,mine-absicherung.com,https://mine-absicherung.com,2018-01-08 14:12:33,UBS,dnserror,0,http://melani.admin.ch/
+12550,delkafo.com,http://delkafo.com/6da45edbafcab88909598d961f7c0fd9/,2018-01-08 14:12:30,UBS,offline,503,http://melani.admin.ch/
+12549,ni1407773-1.web13.nitrado.hosting,http://ni1407773-1.web13.nitrado.hosting/bs/videos/,2018-01-08 14:12:18,UBS,offline,404,http://melani.admin.ch/
+12548,dentobizz.co.in,http://dentobizz.co.in/ch.html,2018-01-08 14:12:12,UBS,offline,500,http://melani.admin.ch/
+12547,winybar.com,http://winybar.com/pdf/ubch,2018-01-08 12:07:29,UBS,offline,404,http://melani.admin.ch/
+12546,www.yourbedroomspices.com,http://www.yourbedroomspices.com/UB/,2018-01-08 12:07:24,UBS,offline,500,http://melani.admin.ch/
+12545,31.14.133.147,http://31.14.133.147/1/,2018-01-08 11:32:01,UBS,offline,500,http://melani.admin.ch/
+12544,ubs-schild.com,https://ubs-schild.com,2018-01-08 10:59:50,UBS,offline,500,http://melani.admin.ch/
+12543,consultancy.birn.eu.com,http://consultancy.birn.eu.com/5b78643c176579c94b3527a4e42795da/,2018-01-08 10:59:46,UBS,offline,404,http://melani.admin.ch/
+12542,bumisentosa.com,https://bumisentosa.com/RTL/norge/Norgesecure/Norge/,2018-01-08 09:56:48,Netflix,offline,500,http://melani.admin.ch/
+12541,veaulecoup.com,http://veaulecoup.com/terms-condition/,2018-01-08 09:56:34,Netflix,online,200,http://melani.admin.ch/
+12540,operating-refinements-enhancements.deaftone.com,http://operating-refinements-enhancements.deaftone.com/cutomer1/nummer-translated/deskscene-management/,2018-01-08 09:07:50,Apple,dnserror,0,http://melani.admin.ch/
+12539,intesasanpaolodisicurezzainlinea.nuovosistema.site,https://intesasanpaolodisicurezzainlinea.nuovosistema.site/register/portal-retail/main.app/,2018-01-08 05:49:00,Intesa Sanpaolo,offline,302,http://melani.admin.ch/
+12538,www.aarkstore.com,http://www.aarkstore.com/invoice/,2018-01-08 05:48:29,PayPal,offline,404,http://melani.admin.ch/
+12537,suspended-account.twm.ind.br,https://suspended-account.twm.ind.br/,2018-01-08 05:48:26,PayPal,dnserror,0,http://melani.admin.ch/
+12536,www.drn.adv.br,http://www.drn.adv.br/7133bb62814bb34de036e76cde76c86f/,2018-01-08 05:48:09,UBS,offline,404,http://melani.admin.ch/
+12535,www.gabikabrinzik.com,http://www.gabikabrinzik.com/ceb2c4b93457acc42f855585b3fe57ce/,2018-01-08 05:45:35,UBS,online,302,http://melani.admin.ch/
+12534,ubs-ch.net,https://ubs-ch.net,2018-01-08 05:45:25,UBS,offline,500,http://melani.admin.ch/
+12533,saneplan.com.br,http://saneplan.com.br/wp-content/themes/Untitled/blu2/blu//6609f/</td,2018-01-07 12:47:57,Swisscom,online,301,http://melani.admin.ch/
+12532,thunderbirdbingo.com,http://thunderbirdbingo.com/bloo.php</td,2018-01-07 12:47:51,Swisscom,online,302,http://melani.admin.ch/
+12531,nobetcicicekci.com,http://nobetcicicekci.com/img/sample_slides/_notes/workhard,2018-01-07 06:47:41,PayPal,offline,404,http://melani.admin.ch/
+12530,operating-intelligent-enhancements.deaftone.com,http://operating-intelligent-enhancements.deaftone.com/cutomer/nummer-translated/deskscene-management/,2018-01-07 06:44:06,Apple,dnserror,0,http://melani.admin.ch/
+12529,operating-intelligent-enhancements.scieron.com,http://operating-intelligent-enhancements.scieron.com/cutomer/nummer-translated/deskscene-management/,2018-01-07 06:43:34,Apple,dnserror,0,http://melani.admin.ch/
+12528,wiliamqw.beget.tech,http://wiliamqw.beget.tech/videos/,2018-01-06 19:23:56,UBS,offline,404,http://melani.admin.ch/
+12527,www.shtorkivdom.by,http://www.shtorkivdom.by/cli/navy/,2018-01-06 18:38:32,Navy Federal Credit Union,offline,403,http://melani.admin.ch/
+12526,www.freethelovelyyou.com,http://www.freethelovelyyou.com//Blog/wp-content/themes/twentyeleven/hml.html,2018-01-06 18:38:27,Navy Federal Credit Union,online,301,http://melani.admin.ch/
+12525,supertaynguyen.vn,http://supertaynguyen.vn/wp-includes/js/jcrop/.x/,2018-01-06 16:29:49,Credit Suisse,online,302,http://melani.admin.ch/
+12524,cmbsos.org,http://cmbsos.org/d/www.paypal.com-webapps-account-selection-pay-online/PPLULZ/,2018-01-06 15:31:25,PayPal,offline,500,http://melani.admin.ch/
+12523,megguess.com,http://megguess.com/wp-content/themes/bewe/d/,2018-01-06 15:31:21,PayPal,online,200,http://melani.admin.ch/
+12522,adansmi6.beget.tech,http://adansmi6.beget.tech/videos/,2018-01-06 14:14:48,UBS,offline,404,http://melani.admin.ch/
+12521,www.emissao.com.br,http://www.emissao.com.br/slide/-/lo/,2018-01-06 14:14:41,UBS,offline,404,http://melani.admin.ch/
+12520,online-relaiunicreditcard.it.grupposicurezza.site,https://online-relaiunicreditcard.it.grupposicurezza.site/wps/portal-retail/main.app/,2018-01-06 12:20:33,UniCredit,offline,302,http://melani.admin.ch/
+12519,ffdsfsd8de5spm3f.advantechnologies.com,http://ffdsfsd8de5spm3f.advantechnologies.com/.y/,2018-01-06 10:35:01,Credit Suisse,offline,404,http://melani.admin.ch/
+12518,www.creditsuisse.ch.whatsappinc.my,http://www.creditsuisse.ch.whatsappinc.my/.+++/1/cs/,2018-01-06 10:34:21,Credit Suisse,offline,500,http://melani.admin.ch/
+12517,www.behsazmashin.com,http://www.behsazmashin.com/xmlrpc/WhatsapAntivirus/whtsapavast/fe9176e6a0742dc925bb38edefe9b46d/,2018-01-06 10:25:38,Visa,online,200,http://melani.admin.ch/
+12516,www.kokgriezeji.lv,http://www.kokgriezeji.lv/index3.php,2018-01-06 10:25:06,Visa,offline,403,http://melani.admin.ch/
+12515,essamdougha.com,https://essamdougha.com/amz/login.html,2018-01-05 16:51:31,Amazon,offline,403,http://melani.admin.ch/
+12514,edwardsoothes.com,http://edwardsoothes.com/amz/zamzred.html,2018-01-05 16:51:26,Amazon,online,301,http://melani.admin.ch/
+12513,massim43.beget.tech,http://massim43.beget.tech/syuzo/,2018-01-05 15:33:14,Aruba,offline,404,http://melani.admin.ch/
+12512,www.secure3.areospolis.gr,http://www.secure3.areospolis.gr/.++/1/2/,2018-01-05 14:05:45,Apple,online,302,http://melani.admin.ch/
+12511,uspila.cf,http://uspila.cf/jpmorganchase/JPCh/JPCh/JPCh/index.php,2018-01-05 12:50:00,Chase,dnserror,0,http://melani.admin.ch/
+12510,bestpreis-kfzteile.de,https://bestpreis-kfzteile.de/502-2849265-1928845-.html,2018-01-05 10:14:21,eBay,offline,404,http://melani.admin.ch/
+12509,139.59.164.115,http://139.59.164.115/41/41/index.htm,2018-01-05 09:41:24,Amazon,offline,500,http://melani.admin.ch/
+12508,bluewinwebmail.godaddysites.com,https://bluewinwebmail.godaddysites.com/,2018-01-05 09:13:42,Swisscom,offline,404,http://melani.admin.ch/
+12507,lampuminimalis.com,http://lampuminimalis.com/1/Bluebaba.php/</td,2018-01-05 08:35:04,Swisscom,offline,302,http://melani.admin.ch/
+12506,interphase-online.com,https://interphase-online.com/uc/img%202/index.php,2018-01-05 07:26:04,E-Mail Provider,offline,404,http://melani.admin.ch/
+12505,ferrysdecuba.com,https://ferrysdecuba.com/870.909.809.769.657/,2018-01-05 07:03:38,Microsoft,online,200,http://melani.admin.ch/
+12503,guinneko.beget.tech,http://guinneko.beget.tech/Secure.management/,2018-01-05 05:42:08,Apple,offline,404,http://melani.admin.ch/
+12502,emmanuelabarbetti.org,http://emmanuelabarbetti.org/380797846cb.html,2018-01-05 05:42:00,Apple,offline,404,http://melani.admin.ch/
+12501,www.inteldrones.com.uy,https://www.inteldrones.com.uy/ppl/img/,2018-01-05 05:41:54,PayPal,dnserror,0,http://melani.admin.ch/
+12500,alaminkemaman.edu.my,http://alaminkemaman.edu.my/verify/,2018-01-04 19:39:52,UBS,offline,404,http://melani.admin.ch/
+12499,ni1417254-1.web11.nitrado.hosting,http://ni1417254-1.web11.nitrado.hosting/videos/,2018-01-04 19:39:09,UBS,offline,404,http://melani.admin.ch/
+12498,ni1417254-2.web13.nitrado.hosting,http://ni1417254-2.web13.nitrado.hosting/mo7/,2018-01-04 19:39:03,UBS,offline,404,http://melani.admin.ch/
+12496,www.jabol.mtvk.pl,http://www.jabol.mtvk.pl/data-ubs-seite-server/index.php,2018-01-04 13:46:14,UBS,offline,500,http://melani.admin.ch/
+12495,unibrak.com,http://unibrak.com/hannibalischen.html,2018-01-04 13:46:07,UBS,offline,404,http://melani.admin.ch/
+12494,www.ayma.es,http://www.ayma.es/js/compte/,2018-01-04 12:35:11,Swiss Bankers,offline,404,http://melani.admin.ch/
+12493,www.irancoffeeschool.com,http://www.irancoffeeschool.com/wp-includes/images/smilies/ubch/ubch/,2018-01-04 11:06:36,UBS,online,301,http://melani.admin.ch/
+12492,lebosdev.tulieservices.info,http://lebosdev.tulieservices.info/downloader/skin/,2018-01-04 11:06:33,UBS,offline,404,http://melani.admin.ch/
+12490,ricardmc.beget.tech,http://ricardmc.beget.tech/e-store-shopping.ricardo/.ch.Umfrage_ID.99003-vu/-inlogone/-/ch/-/-/cardmc/supporto/index.htm,2018-01-04 07:55:58,Ricardo,offline,404,http://melani.admin.ch/
+12489,daqwah.com,http://daqwah.com/ri/,2018-01-04 07:55:41,Ricardo,offline,500,http://melani.admin.ch/
+12488,camplakefire.com.au,http://camplakefire.com.au/wp-admin/includes/hop.html,2018-01-04 06:25:17,Navy Federal Credit Union,offline,302,http://melani.admin.ch/
+12487,ni1340450-1.web15.nitrado.hosting,http://ni1340450-1.web15.nitrado.hosting/videos/,2018-01-03 20:29:09,UBS,offline,404,http://melani.admin.ch/
+12485,keerom.ilmci.com,http://keerom.ilmci.com/fc684bf951ac1786d39b88801c9218bf/,2018-01-03 11:03:18,UBS,offline,404,http://melani.admin.ch/
+12484,5.196.91.129,http://5.196.91.129/~siagha52/-/ch/,2018-01-03 08:57:17,Apple,offline,404,http://melani.admin.ch/
+12483,www.thechairtailor.co.uk,http://www.thechairtailor.co.uk/sites/all/themes/drs/css/,2018-01-03 08:57:04,Apple,offline,404,http://melani.admin.ch/
+12482,ni1408542-2.web03.nitrado.hosting,http://ni1408542-2.web03.nitrado.hosting/khalifamya/videos/,2018-01-03 08:56:01,UBS,offline,404,http://melani.admin.ch/
+12481,ni1408542-4.web15.nitrado.hosting,http://ni1408542-4.web15.nitrado.hosting/15/,2018-01-03 08:55:45,UBS,offline,404,http://melani.admin.ch/
+12479,www.whatsapp.com.areospolis.gr,http://www.whatsapp.com.areospolis.gr/.+/2/,2018-01-03 08:54:41,Visa,online,302,http://melani.admin.ch/
+12476,www.bankers-ch.e-mengine.com,http://www.bankers-ch.e-mengine.com/index/login/,2018-01-02 18:37:15,Swiss Bankers,offline,404,http://melani.admin.ch/
+12475,mailterrabr.weebly.com,http://mailterrabr.weebly.com/</td,2018-01-02 14:03:47,Swisscom,offline,404,http://melani.admin.ch/
+12474,intra.asgb.org,https://intra.asgb.org/frontend/uploads/faq/x41c1405d089561.08786962/thn/Connexion.htm,2018-01-02 07:55:59,PayPal,offline,500,http://melani.admin.ch/
+12473,sevroomgood.com,http://sevroomgood.com/doc/dfh56df5h4d64f5h4dfhf1h65df6hdfhdf/ids/type/4861651687992816/dir/,2018-01-02 07:55:09,Visa,offline,302,http://melani.admin.ch/
+12472,www.alitkane.co.com,http://www.alitkane.co.com/wp-content/themes/alitkane/plugins/js_composer/js_composer/assets/css/lib/typicons/,2018-01-01 20:01:06,Apple,offline,404,http://melani.admin.ch/
+12471,dictionary-containing-articles.darktech.org,http://dictionary-containing-articles.darktech.org/pay/Secure/Secure-signLimithl.management/launchreason-launch/,2018-01-01 20:00:51,PayPal,dnserror,0,http://melani.admin.ch/
+12470,automatquement-whenever.suroot.com,http://automatquement-whenever.suroot.com/existantes/effectuer/automatically/signLimithl.statement/launchreason/,2018-01-01 20:00:39,Apple,dnserror,0,http://melani.admin.ch/
+12469,www.swisse-bankers.e-mengine.com,http://www.swisse-bankers.e-mengine.com/index/login/,2017-12-31 08:33:02,Swiss Bankers,offline,404,http://melani.admin.ch/
+12468,user56723.vs.speednames.com,http://user56723.vs.speednames.com/index/1.html,2017-12-31 08:32:55,Swiss Bankers,offline,500,http://melani.admin.ch/
+12467,www.whatsapp.areospolis.gr,http://www.whatsapp.areospolis.gr/.+/2/,2017-12-31 08:32:44,Visa,online,302,http://melani.admin.ch/
+12466,automatiquement-depending.deaftone.com,http://automatiquement-depending.deaftone.com/existantes/effectuer/automatically/signLimithl.statement/launchreason/,2017-12-31 08:31:11,Apple,dnserror,0,http://melani.admin.ch/
+12461,solomonlex.com,http://solomonlex.com/c56c78d92254e4a5445c5d7190df40cd/,2017-12-30 08:26:48,UBS,online,302,http://melani.admin.ch/
+12460,www.creditsuisse.burbridgestreetbandb.com,http://www.creditsuisse.burbridgestreetbandb.com/.x/1/,2017-12-30 08:26:36,Credit Suisse,offline,403,http://melani.admin.ch/
+12459,ikc7zol5z.areospolis.gr,http://ikc7zol5z.areospolis.gr/,2017-12-30 08:25:54,Credit Suisse,online,302,http://melani.admin.ch/
+12458,www.support.kuringgenerate8435helpingus.com,http://www.support.kuringgenerate8435helpingus.com/myaccount/,2017-12-30 08:24:09,PayPal,dnserror,0,http://melani.admin.ch/
+12457,c5y0wwcc8.areospolis.gr,http://c5y0wwcc8.areospolis.gr/,2017-12-29 08:25:30,Credit Suisse,online,302,http://melani.admin.ch/
+12456,www.creditsuisse.canada-travel.ca,http://www.creditsuisse.canada-travel.ca/maps/1/,2017-12-29 08:25:01,Credit Suisse,offline,404,http://melani.admin.ch/
+12455,6obpq75nx.areospolis.gr,http://6obpq75nx.areospolis.gr/,2017-12-29 08:24:36,Credit Suisse,online,302,http://melani.admin.ch/
+12454,lojavirtual.aresdabocaina.com.br,http://lojavirtual.aresdabocaina.com.br/verifizieren/,2017-12-29 08:23:39,UBS,offline,403,http://melani.admin.ch/
+12453,www.gbocontabilidade.com.br,https://www.gbocontabilidade.com.br/-/--/---/loading/case-id31/V4/,2017-12-28 14:44:28,PayPal,offline,404,http://melani.admin.ch/
+12452,zkusebni.breziny.cz,http://zkusebni.breziny.cz/wp-includes/js/red.html,2017-12-28 14:44:10,PayPal,offline,404,http://melani.admin.ch/
+12451,staryweb-lachim.vlcata.eu,http://staryweb-lachim.vlcata.eu/loga/red.html,2017-12-28 14:44:03,PayPal,offline,404,http://melani.admin.ch/
+12449,www.animazionebadini.it,http://www.animazionebadini.it/--/,2017-12-28 14:33:05,amfeli.fr,online,200,http://melani.admin.ch/
+12448,www.kltm.com.my,https://www.kltm.com.my/administrator/help/en-GB/client-connect/manager-settings/Xls-tds/,2017-12-28 11:35:42,Apple,offline,404,http://melani.admin.ch/
+12447,www.smartcorewealth.co.uk,http://www.smartcorewealth.co.uk/wp-content/upgrade/manager.php,2017-12-28 11:35:38,Apple,offline,403,http://melani.admin.ch/
+12446,budiekofin.com,http://budiekofin.com/fb04364e2f0efc5576452d11286d4ad0/,2017-12-28 11:27:04,UBS,offline,404,http://melani.admin.ch/
+12445,myubs.info,https://myubs.info,2017-12-28 11:17:15,UBS,dnserror,0,http://melani.admin.ch/
+12444,2460kiest.be,http://2460kiest.be/249a5e5bce157b0010d0387e2203b45f/,2017-12-28 11:17:05,UBS,offline,404,http://melani.admin.ch/
+12443,uhr-ubs.net,https://uhr-ubs.net/,2017-12-28 08:52:48,UBS,offline,500,http://melani.admin.ch/
+12442,crawi02mm.areospolis.gr,http://crawi02mm.areospolis.gr/,2017-12-28 08:14:24,Credit Suisse,online,302,http://melani.admin.ch/
+12441,ihr-ubs.net,https://ihr-ubs.net/,2017-12-28 07:42:34,UBS,dnserror,0,http://melani.admin.ch/
+12440,totalbodyfocuspt.com,http://totalbodyfocuspt.com/9d910dbbc59a6024ce84949e2659f3ef/,2017-12-28 07:42:30,UBS,offline,404,http://melani.admin.ch/
+12439,ihr-schutz.net,https://ihr-schutz.net/,2017-12-28 07:42:18,UBS,dnserror,0,http://melani.admin.ch/
+12438,www.ledled.co.il,https://www.ledled.co.il/errors/default/css/Pfinance/de/,2017-12-27 20:47:24,PostFinance,offline,404,http://melani.admin.ch/
+12437,www.glassiri.ro,http://www.glassiri.ro/errors/default/css/Pfinance/de/,2017-12-27 17:01:44,PostFinance,online,200,http://melani.admin.ch/
+12436,leoncarhiggins.com,http://leoncarhiggins.com/SP/post/,2017-12-27 16:44:22,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+12435,asmaiskele.com,http://asmaiskele.com/92fb4d6888743a2cfd8578b5d08756f7,2017-12-27 10:14:04,UBS,online,301,http://melani.admin.ch/
+12434,www.estudioboix.com.uy,https://www.estudioboix.com.uy/wp-service/Netfix/Net-International/,2017-12-27 07:33:17,Netflix,offline,404,http://melani.admin.ch/
+12433,pixelstation3.webserversystems.com,https://pixelstation3.webserversystems.com/~citizens/main/components/com_content/models/forms/-/-/,2017-12-27 07:33:00,Landesbank Berlin,offline,401,http://melani.admin.ch/
+12432,baooji.com,http://baooji.com/wp-content/themes/twentyseventeen/template-parts/post/-/,2017-12-27 07:32:52,Landesbank Berlin,offline,404,http://melani.admin.ch/
+12431,disqualification-exclusive.suroot.com,http://disqualification-exclusive.suroot.com/starten1/nummer-verkaufsrichtlinien/Sstornierungs-management/,2017-12-27 06:28:14,Apple,dnserror,0,http://melani.admin.ch/
+12429,www.amazn.de-sicherheit-kontrolle4.bid,https://www.amazn.de-sicherheit-kontrolle4.bid/service/abteilung/nutzer/,2017-12-26 09:47:32,Amazon,dnserror,0,http://melani.admin.ch/
+12428,interfaithchaplaincy.ca,https://interfaithchaplaincy.ca/wp-admin/css/colors/sunrise/2017/AppleStore-germany-autriche-suisse/,2017-12-26 09:47:12,Apple,offline,404,http://melani.admin.ch/
+12427,www.pagmotoring.com,http://www.pagmotoring.com/instal.php,2017-12-26 09:47:01,Apple,offline,404,http://melani.admin.ch/
+12426,ferpalinfrastructure.com,https://ferpalinfrastructure.com/wp-content/themes/twentyeleven/inc/images/end/,2017-12-26 09:46:51,Apple,offline,404,http://melani.admin.ch/
+12425,ferpaldev.com,https://ferpaldev.com/intex.html,2017-12-26 09:46:40,Apple,online,200,http://melani.admin.ch/
+12424,dsdsfs09qw8vks3dq6nlr.saarthifoundation.com,http://dsdsfs09qw8vks3dq6nlr.saarthifoundation.com/,2017-12-26 09:43:52,Visa,dnserror,0,http://melani.admin.ch/
+12423,www.whatsapp.com.medicoinazienda.it,http://www.whatsapp.com.medicoinazienda.it/.+++/1/2/,2017-12-26 09:43:10,Visa,offline,404,http://melani.admin.ch/
+12421,escoltavip.web981.uni5.net,http://escoltavip.web981.uni5.net/8974c2d55c426c7e918789bcfdcc3020/,2017-12-25 11:00:34,UBS,offline,404,http://melani.admin.ch/
+12420,secure209.inmotionhosting.com,https://secure209.inmotionhosting.com/~polka25/poste/poste/post/,2017-12-25 07:16:19,Schweizerische Post,offline,404,http://melani.admin.ch/
+12419,kalustekauppa24.fi,http://kalustekauppa24.fi/656e4a331cc17a7aa033d4d98ac699fc/,2017-12-25 07:16:09,UBS,online,301,http://melani.admin.ch/
+12418,rafisegal.com,http://rafisegal.com/wp-includes/js/tinymce/skins/wordpress/images/default/,2017-12-25 07:15:56,Apple,online,200,http://melani.admin.ch/
+12417,ihr-schutz.com,https://ihr-schutz.com/sichern/security-check.html,2017-12-25 07:15:26,UBS,offline,500,http://melani.admin.ch/
+12416,duzicialperemlak.com,http://duzicialperemlak.com/cc1ea3977d14118ad1d6afebf19d73ea/,2017-12-25 07:15:11,UBS,offline,403,http://melani.admin.ch/
+12415,www.mopilgazlar.com.tr,http://www.mopilgazlar.com.tr/2189a1cdf8c190da521e0df277f93ff3/,2017-12-24 21:04:15,UBS,offline,404,http://melani.admin.ch/
+12414,meine-sicherheit.ch,https://meine-sicherheit.ch/,2017-12-24 21:04:10,UBS,dnserror,0,http://melani.admin.ch/
+12413,infinitytradegroupinc.com,https://infinitytradegroupinc.com/Karry/swess/index.php,2017-12-24 14:42:17,E-Mail Provider,offline,500,http://melani.admin.ch/
+12412,dev.handsongloves.com,https://dev.handsongloves.com/ID77011/,2017-12-24 09:46:09,Amazon,offline,404,http://melani.admin.ch/
+12411,upcmails.myfreesites.net,http://upcmails.myfreesites.net/,2017-12-23 08:00:49,UPC,online,200,http://melani.admin.ch/
+12410,medicmate.in,https://medicmate.in/wp-content/crypt/index.html,2017-12-22 10:45:13,E-Mail Provider,online,200,http://melani.admin.ch/
+12409,www.therapc-solutions.com,http://www.therapc-solutions.com/images/login.html,2017-12-22 10:20:46,E-Mail Provider,offline,404,http://melani.admin.ch/
+12408,www.caldercad.co.uk,http://www.caldercad.co.uk/modules/mod_poll/tmpl/.../.../internet/,2017-12-22 06:46:56,PayPal,offline,403,http://melani.admin.ch/
+12407,lajessaojoao.com.br,https://lajessaojoao.com.br/index.html,2017-12-22 06:46:48,PayPal,offline,403,http://melani.admin.ch/
+12406,hotdeallab.com,http://hotdeallab.com/bin/D2017HL/,2017-12-22 05:48:22,E-Mail Provider,online,200,http://melani.admin.ch/
+12405,www.infobookstore.com,https://www.infobookstore.com/Signin/,2017-12-22 05:47:28,Netflix,online,200,http://melani.admin.ch/
+12404,www.lightoflovebooknovel.com,https://www.lightoflovebooknovel.com/img/1UjUhY,2017-12-22 05:47:13,Credit Mutuel,offline,403,http://melani.admin.ch/
+12403,www.you-print.fr,http://www.you-print.fr/css/-/,2017-12-22 05:46:40,Credit Mutuel,offline,302,http://melani.admin.ch/
+12402,serviceintelecquik.com,http://serviceintelecquik.com/dons/errors.php,2017-12-21 14:14:36,UBS,dnserror,0,http://melani.admin.ch/
+12401,destock-tuning.com,http://destock-tuning.com/Core/Business/postch/,2017-12-21 10:31:02,PostFinance,online,301,http://melani.admin.ch/
+12400,startzpoint.eu,http://startzpoint.eu/ca/email/frefr32423232,2017-12-21 10:30:58,PostFinance,dnserror,0,http://melani.admin.ch/
+12399,mejudydesign.com,http://mejudydesign.com/wp-includes/cemb/login.htm,2017-12-21 10:30:42,Cembra,offline,404,http://melani.admin.ch/
+12398,shadoocd.beget.tech,http://shadoocd.beget.tech/poste_ch/poste_ch/post/,2017-12-21 07:56:03,Schweizerische Post,offline,404,http://melani.admin.ch/
+12397,dlitemag.com,http://dlitemag.com/,2017-12-21 07:48:44,Apple,online,200,http://melani.admin.ch/
+12396,kwiaciarnia-m.pl,http://kwiaciarnia-m.pl/bootstrap/srs/Supportesd/,2017-12-21 07:48:41,Apple,offline,404,http://melani.admin.ch/
+12395,lrworkstation.com,http://lrworkstation.com/old/re/index.php,2017-12-21 06:31:50,UBS,offline,404,http://melani.admin.ch/
+12394,www.podiatrybluemountains.com.au,https://www.podiatrybluemountains.com.au/wp-content/uploads/2018/01/01/Swisscom/Suisse/,2017-12-21 06:28:53,Swisscom,offline,404,http://melani.admin.ch/
+12393,mejudydesign.com,http://mejudydesign.com/test/php/-/Swisscom/Suisse/,2017-12-21 06:28:49,Swisscom,online,302,http://melani.admin.ch/
+12392,www.passionevents.eu,https://www.passionevents.eu/html_mime_mail/auth/,2017-12-21 06:25:34,Apple,offline,500,http://melani.admin.ch/
+12390,lemancave.ca,https://lemancave.ca/wp-content/uploads/woocommerce_uploads/id/,2017-12-21 06:24:26,Apple,offline,500,http://melani.admin.ch/
+12389,zuiyx.top,http://zuiyx.top/deps/bin/abi.php,2017-12-21 06:24:20,Apple,offline,404,http://melani.admin.ch/
+12388,enlign-e.com,http://enlign-e.com/p/,2017-12-21 06:23:47,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+12387,edu-speedup.com,http://edu-speedup.com/wp-content/uploads/us_custom_css/watsapworkn.html,2017-12-21 06:22:44,UBS,offline,404,http://melani.admin.ch/
+12386,www.ces-caos.at,https://www.ces-caos.at/account/login/confirm/token/validate/authentification/login.htm,2017-12-20 15:03:14,Ricardo,dnserror,0,http://melani.admin.ch/
+12385,topupindia.in,https://topupindia.in/app/Manage/inc/,2017-12-20 15:02:34,PayPal,offline,500,http://melani.admin.ch/
+12384,missmarmelades.com,https://missmarmelades.com/gj.php,2017-12-20 15:02:27,PayPal,offline,404,http://melani.admin.ch/
+12383,esecuech.com,https://esecuech.com/Genf/ch/1.htm,2017-12-20 10:14:19,Netflix,offline,503,http://melani.admin.ch/
+12382,ebadi.co,https://ebadi.co,2017-12-20 10:13:42,Netflix,online,200,http://melani.admin.ch/
+12381,www.physicswiki.com,http://www.physicswiki.com,2017-12-20 09:59:23,Netflix,offline,302,http://melani.admin.ch/
+12380,ironsir2.beget.tech,http://ironsir2.beget.tech/poste/poste/post/,2017-12-20 08:04:48,Schweizerische Post,offline,500,http://melani.admin.ch/
+12378,esecflix.com,https://esecflix.com/Norge/,2017-12-20 07:55:53,Netflix,offline,503,http://melani.admin.ch/
+12377,pattadewal.com,https://pattadewal.com/wp-includes/widgets/Norge/,2017-12-20 07:55:40,Netflix,offline,403,http://melani.admin.ch/
+12376,www.personapower.com,http://www.personapower.com/about-us/,2017-12-20 07:55:30,Netflix,online,200,http://melani.admin.ch/
+12375,222.122.192.135,http://222.122.192.135:8089/panel/init/update/Logon.html,2017-12-19 13:38:45,Chase,offline,500,http://melani.admin.ch/
+12374,www.liendoan8.com.vn,http://www.liendoan8.com.vn/modules/mod_archive/tmpl/Logon.html,2017-12-19 13:38:40,Chase,offline,500,http://melani.admin.ch/
+12373,gidjr.weebly.com,https://gidjr.weebly.com/,2017-12-19 11:23:03,Sunrise,offline,404,http://melani.admin.ch/
+12372,limoorlando.net,http://limoorlando.net/wp-includes/fonts/tax.no/l/index.php,2017-12-19 10:33:03,Skatteetaten,offline,404,http://melani.admin.ch/
+12371,hotelstaff.com.au,http://hotelstaff.com.au/category/recruitment/,2017-12-19 10:32:46,Skatteetaten,offline,404,http://melani.admin.ch/
+12370,hiromasgizakeracloeif.me,https://hiromasgizakeracloeif.me/webapps/b661e/websrc,2017-12-19 10:06:27,PayPal,dnserror,0,http://melani.admin.ch/
+12369,limoorlando.net,http://limoorlando.net/wp-includes/fonts/tax.no/l/,2017-12-19 09:56:04,Skatteetaten,offline,404,http://melani.admin.ch/
+12368,cembra.ch-fr-cartes-cembra-mastercard-sie-haben.eine-neue.nachricht.a-kom.tn,http://cembra.ch-fr-cartes-cembra-mastercard-sie-haben.eine-neue.nachricht.a-kom.tn/master/manager/,2017-12-19 06:41:11,Cembra,dnserror,0,http://melani.admin.ch/
+12367,batostar.com,http://batostar.com/js/media/,2017-12-19 06:41:03,Cembra,offline,404,http://melani.admin.ch/
+12366,www.starbytes.it,https://www.starbytes.it/blog/wp-content/plugins/ubh/Support/,2017-12-19 06:39:30,PayPal,offline,404,http://melani.admin.ch/
+12365,nethouse.inf.br,http://nethouse.inf.br/site/wp-content/uploads/2017/12/,2017-12-19 06:37:54,LinkedIn,offline,403,http://melani.admin.ch/
+12364,bioresonantiegroningen.nl,http://bioresonantiegroningen.nl/wp-content/uploads/2017/11/rss.php,2017-12-19 06:37:48,LinkedIn,online,301,http://melani.admin.ch/
+12363,ctleds.com,http://ctleds.com/sev/,2017-12-18 15:15:32,Apple,offline,404,http://melani.admin.ch/
+12362,sv-cv.de,https://sv-cv.de/autoscout24/account/login/confirm/token/validate/authentification/login.htm,2017-12-18 13:19:57,AutoScout24,dnserror,0,http://melani.admin.ch/
+12361,limoorlando.net,http://limoorlando.net/tax.no/l/,2017-12-18 13:08:55,Skatteetaten,offline,404,http://melani.admin.ch/
+12360,www.tarunelectricals.in,https://www.tarunelectricals.in/poste/poste/post/,2017-12-18 12:20:23,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+12359,cuvera.club,http://cuvera.club/dx/index.php,2017-12-18 12:12:28,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12358,aoieyurye.org,http://aoieyurye.org/file_1/updt/others/index.php?email=,2017-12-18 12:12:23,E-Mail Provider,offline,404,http://melani.admin.ch/
+12357,examane-member-atribuire.chatnook.com,http://examane-member-atribuire.chatnook.com/starten1/nummer-verkaufsrichtlinien/Sstornierungs-management/,2017-12-18 11:46:49,Apple,dnserror,0,http://melani.admin.ch/
+12356,www.ken-motosport.com,http://www.ken-motosport.com/ads-img7/boa/index.htm,2017-12-18 08:31:20,Bank of America,offline,404,http://melani.admin.ch/
+12355,innosearch.by,http://innosearch.by/assets/images/moni.htm,2017-12-18 08:31:12,Bank of America,online,200,http://melani.admin.ch/
+12354,secure238.inmotionhosting.com,https://secure238.inmotionhosting.com/~portal47/de/kundencenter/post/,2017-12-18 07:51:36,Schweizerische Post,offline,302,http://melani.admin.ch/
+12353,foemaueye.com,http://foemaueye.com/.cal/none/index.php,2017-12-18 07:22:00,E-Mail Provider,offline,404,http://melani.admin.ch/
+12352,deticentr.zp.ua,http://deticentr.zp.ua/wp-content/uploads/2017/12/3Dubs/,2017-12-18 07:17:03,UBS,offline,404,http://melani.admin.ch/
+12351,rotoworld.pw,http://rotoworld.pw/avatars/Actors/UBS/UB06/,2017-12-18 07:14:51,UBS,dnserror,0,http://melani.admin.ch/
+12350,www.driveinchurch.org,http://www.driveinchurch.org/libraries/gb.php,2017-12-18 06:23:58,E-Mail Provider,offline,404,http://melani.admin.ch/
+12349,examane-member-atribuire.effers.com,http://examane-member-atribuire.effers.com/starten1/nummer-verkaufsrichtlinien/Sstornierungs-management/,2017-12-18 05:46:13,Apple,dnserror,0,http://melani.admin.ch/
+12348,examane-disputat-atribuire.slyip.net,http://examane-disputat-atribuire.slyip.net/starten1/nummer-verkaufsrichtlinien/Sstornierungs-management/,2017-12-18 05:46:02,Apple,dnserror,0,http://melani.admin.ch/
+12347,examane-disputat-atribuire.etowns.net,http://examane-disputat-atribuire.etowns.net/starten1/nummer-verkaufsrichtlinien/Sstornierungs-management/,2017-12-18 05:45:53,Apple,dnserror,0,http://melani.admin.ch/
+12346,loginsunrisemail2.weebly.com,http://loginsunrisemail2.weebly.com/,2017-12-17 16:11:57,Sunrise,offline,404,http://melani.admin.ch/
+12345,www.tourcapeyork.com.au,http://www.tourcapeyork.com.au/includes/css/,2017-12-17 12:24:09,Netflix,online,302,http://melani.admin.ch/
+12344,www.duralloy.com.au,https://www.duralloy.com.au/a2e0f8c6a8/https://www.netflix.com/login,2017-12-17 12:24:01,Netflix,offline,404,http://melani.admin.ch/
+12343,www.linoleum.com.br,https://www.linoleum.com.br/errors/default/images/ubch/ubch/,2017-12-16 18:27:41,UBS,offline,404,http://melani.admin.ch/
+12341,faizanautos.com,http://faizanautos.com/ub/,2017-12-16 10:36:01,UBS,offline,404,http://melani.admin.ch/
+12340,www.giteopale.eu,http://www.giteopale.eu/sites/all/modules/ctools/,2017-12-16 10:35:52,UBS,offline,403,http://melani.admin.ch/
+12339,firlstam.com,https://firlstam.com/PurchaseOrder.html,2017-12-15 14:44:57,E-Mail Provider,offline,302,http://melani.admin.ch/
+12338,www.zet-tynk.pl,http://www.zet-tynk.pl//Redirect-Agri.php,2017-12-15 09:41:00,CrÃ©dit Agricole,offline,404,http://melani.admin.ch/
+12337,izraelisot.com,https://izraelisot.com/Service25-messagerie-assistance/,2017-12-15 09:40:53,CrÃ©dit Agricole,offline,500,http://melani.admin.ch/
+12336,intranet.comstockhomes.com,http://intranet.comstockhomes.com/service.account/as/,2017-12-15 09:31:08,PayPal,offline,302,http://melani.admin.ch/
+12335,labourhiregoldcoast.com,http://labourhiregoldcoast.com/wp-includes/Text/Diff/jacki.php,2017-12-15 09:27:42,PayPal,offline,302,http://melani.admin.ch/
+12334,ricardosurvey.com,http://ricardosurvey.com/umfrage.ricardo.ch/,2017-12-15 08:52:23,Ricardo,dnserror,0,http://melani.admin.ch/
+12333,webflixone.com,https://webflixone.com/o/ch/1.htm,2017-12-14 18:07:46,Netflix,dnserror,0,http://melani.admin.ch/
+12332,www.ischooltoolbox.de,http://www.ischooltoolbox.de/metaport/wvinze=/,2017-12-14 18:01:58,PayPal,offline,503,http://melani.admin.ch/
+12331,www.blowskre.ga,http://www.blowskre.ga/wpu/wp-includes/pomo/jaks/brain/admin.php,2017-12-14 17:32:06,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12330,mm-pro.info,http://mm-pro.info/Account/index.php,2017-12-14 17:15:10,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12329,sudeposutemizligi.net,https://sudeposutemizligi.net/alaba/Qmails/Web/index.php,2017-12-14 17:11:23,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12328,sunriseche.weebly.com,https://sunriseche.weebly.com/,2017-12-14 16:07:41,Sunrise,offline,404,http://melani.admin.ch/
+12327,drawdeep.com,http://drawdeep.com/umfrage/,2017-12-14 14:55:32,Ricardo,offline,403,http://melani.admin.ch/
+12325,www.joss.com.pk,https://www.joss.com.pk/wp-includes/images/media/sec/,2017-12-14 06:58:32,Netflix,offline,404,http://melani.admin.ch/
+12324,usmobilestore.com,http://usmobilestore.com/wp-content/uploads/2016/04/wf/online/wellsfargo/wells/,2017-12-13 14:52:32,Wells Fargo,offline,500,http://melani.admin.ch/
+12323,reachout.world,http://reachout.world/fonts/glyph/,2017-12-13 14:52:26,Wells Fargo,offline,404,http://melani.admin.ch/
+12322,www.drugvilla.com,https://www.drugvilla.com/checkout/impots.gouv/zobi/,2017-12-13 12:17:57,impots.gouv.fr,offline,404,http://melani.admin.ch/
+12319,icscards.nl.notice.schaer-events.ch,http://icscards.nl.notice.schaer-events.ch/_nl/login/a3827e42accca6375e4c6342775b2b21/login.php,2017-12-13 08:50:17,Visa,dnserror,0,http://melani.admin.ch/
+12318,icompetent.com.au,https://icompetent.com.au/wp-content/plugins/remove-dashboard-access-for-non-admins/languages/remove-dashboard-timtim/auth~uEe47-0masjfgVmp0pAINOo37VUu9bFZ6f~/portal/36ba7ab3a53ad4b72424225e4fceef79ZGNjZjI3NjMxZTM0Y2U2Yjg4YzE0OWM1NzY5OTRhOGE=/lang=DE/direct_directnet.php,2017-12-13 08:23:56,Credit Suisse,offline,403,http://melani.admin.ch/
+12317,ricardoag.000webhostapp.com,http://ricardoag.000webhostapp.com/,2017-12-13 07:54:21,Ricardo,offline,403,http://melani.admin.ch/
+12316,out-info-compte.weebly.com,https://out-info-compte.weebly.com/,2017-12-13 07:54:17,E-Mail Provider,offline,404,http://melani.admin.ch/
+12313,bkp-kupang.or.id,https://bkp-kupang.or.id/Log/,2017-12-12 17:01:47,PayPal,offline,404,http://melani.admin.ch/
+12312,smktunasmekar.sch.id,http://smktunasmekar.sch.id,2017-12-12 15:09:39,UBS,offline,500,http://melani.admin.ch/
+12311,prous.co,https://prous.co/ch/,2017-12-12 15:09:35,UBS,dnserror,0,http://melani.admin.ch/
+12310,www.swisscomclient.com,http://www.swisscomclient.com/,2017-12-12 12:20:53,Swisscom,dnserror,0,http://melani.admin.ch/
+12309,swisscomclient-com.webs.com,http://swisscomclient-com.webs.com/</td,2017-12-12 12:20:46,Swisscom,offline,403,http://melani.admin.ch/
+12307,chckandaccssone.ml,http://chckandaccssone.ml/,2017-12-12 11:59:59,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12306,pensiunealazar.ro,http://pensiunealazar.ro/den217all/,2017-12-12 11:59:51,E-Mail Provider,offline,404,http://melani.admin.ch/
+12305,omx.hammock.com,https://omx.hammock.com/wp-includes/Text/.cdM6/bin/,2017-12-12 11:59:44,PayPal,offline,401,http://melani.admin.ch/
+12304,hdnalldmn.cf,http://hdnalldmn.cf/,2017-12-12 11:59:33,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12303,koopmkm.com.my,https://koopmkm.com.my/outoffice//index.php,2017-12-12 11:58:32,E-Mail Provider,offline,403,http://melani.admin.ch/
+12302,www.ilvascellodelmonsignore.com,http://www.ilvascellodelmonsignore.com/wp-content/themes/goodoldwinewp/postmaster/,2017-12-12 11:09:52,E-Mail Provider,offline,404,http://melani.admin.ch/
+12301,www.dash-021ains.com,http://www.dash-021ains.com/,2017-12-12 10:53:04,Infomaniak,dnserror,0,http://melani.admin.ch/
+12299,ebanking-ubs.e-mengine.com,http://ebanking-ubs.e-mengine.com/index/login/,2017-12-11 19:52:03,UBS,offline,404,http://melani.admin.ch/
+12298,user56672.vs.speednames.com,http://user56672.vs.speednames.com/index/1.html,2017-12-11 19:51:55,UBS,offline,404,http://melani.admin.ch/
+12297,duanoceangatenhatrang.com,https://duanoceangatenhatrang.com/fraymija/tborira/serviceid/,2017-12-11 18:28:51,Apple,online,302,http://melani.admin.ch/
+12296,unicorn4.com.au,http://unicorn4.com.au/hosmas/kobye/r.php,2017-12-11 18:28:48,Apple,online,302,http://melani.admin.ch/
+12294,www.linoleum.com.br,http://www.linoleum.com.br/downloader/skin/,2017-12-11 14:54:35,UBS,offline,404,http://melani.admin.ch/
+12293,www.tlenz.eu,http://www.tlenz.eu/website-data-danmark/detaljerfakturering.html,2017-12-11 14:44:20,Netflix,offline,404,http://melani.admin.ch/
+12292,vestbemuniformes.com.br,http://vestbemuniformes.com.br/wp-content/themes/VestBem/css/Css/img/JPG/,2017-12-11 12:57:21,Apple,offline,404,http://melani.admin.ch/
+12290,www.onlinecasino.us,https://www.onlinecasino.us/images/4a7b97431a213e25164c9e218eb0a31b/4a7b9743/,2017-12-11 12:56:31,PayPal,offline,404,http://melani.admin.ch/
+12289,www.hope-czech.cz,http://www.hope-czech.cz/logs/,2017-12-11 12:56:23,PayPal,dnserror,0,http://melani.admin.ch/
+12288,servicesunrise0000.weebly.com,https://servicesunrise0000.weebly.com/,2017-12-11 12:56:13,Sunrise,offline,404,http://melani.admin.ch/
+12287,2mynewhome.info,https://2mynewhome.info/ch/service/help/,2017-12-11 10:02:32,PayPal,offline,404,http://melani.admin.ch/
+12286,www.bitcludnetwork.eu,https://www.bitcludnetwork.eu/rec/,2017-12-11 10:02:30,PayPal,dnserror,0,http://melani.admin.ch/
+12285,filipeperina.com.br,http://filipeperina.com.br/clientes/geekmachine/wp-content/upgrade/js/uptade/Login/,2017-12-11 09:13:17,PayPal,offline,401,http://melani.admin.ch/
+12283,38.132.124.223,http://38.132.124.223/Authenticate/Account/Index,2017-12-11 09:12:55,E-Mail Provider,offline,500,http://melani.admin.ch/
+12282,www.solaryumcihazi.net,http://www.solaryumcihazi.net/tasarim/images/jacki.php,2017-12-11 09:12:41,PayPal,dnserror,0,http://melani.admin.ch/
+12281,balgowlahbeachhut.com,http://balgowlahbeachhut.com/dhl/DHL%20_%20Tracking.htm,2017-12-11 09:12:37,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12279,kpde2.ambon.go.id,https://kpde2.ambon.go.id/wp-content/upgrade/submit/,2017-12-10 16:24:27,PayPal,offline,404,http://melani.admin.ch/
+12278,pp-german-encryption.com,https://pp-german-encryption.com/script.php,2017-12-10 14:52:53,PayPal,dnserror,0,http://melani.admin.ch/
+12277,www.rareradiant.com,http://www.rareradiant.com/downloader/template/ubch/ubch/,2017-12-10 14:48:32,UBS,offline,302,http://melani.admin.ch/
+12276,www.andamantouroperators.com,http://www.andamantouroperators.com/img/,2017-12-10 14:48:17,UBS,offline,403,http://melani.admin.ch/
+12275,aunlianplastic.com,http://aunlianplastic.com/option/mpp/q/,2017-12-09 12:54:08,PayPal,offline,403,http://melani.admin.ch/
+12273,www.navcom.com.tr,http://www.navcom.com.tr/images/file/Navcom%20AT%20WEB/Net/Flix/Login/,2017-12-09 09:41:23,Netflix,offline,404,http://melani.admin.ch/
+12272,loadcell.vn,http://loadcell.vn/counter/ch/index.php,2017-12-09 09:41:13,Netflix,offline,500,http://melani.admin.ch/
+12270,www.rctoysbest.com,http://www.rctoysbest.com/skin/,2017-12-08 15:51:40,UBS,dnserror,0,http://melani.admin.ch/
+12269,darlanoliveira.adv.br,http://darlanoliveira.adv.br/D.H.L-t-number/DHL1482017/DHL/Exp/index.html,2017-12-08 13:28:25,E-Mail Provider,offline,404,http://melani.admin.ch/
+12268,digi-webs.com,https://digi-webs.com/fonts/font-awesome/less/AlFDgpfdgdgd6x0fdsGSs52d00xGs8f20200xfcgSDfs52000666sdFSf200xFd400/,2017-12-08 10:02:56,Apple,offline,404,http://melani.admin.ch/
+12267,f4rv.xyz,http://f4rv.xyz/1/fd.php,2017-12-08 10:01:40,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12266,email-ethz-ch.weebly.com,https://email-ethz-ch.weebly.com/,2017-12-08 09:44:44,ETH Zurich,offline,404,http://melani.admin.ch/
+12265,automatic39.ru,http://automatic39.ru/admin/templates/guestbook/img/,2017-12-08 07:20:47,Apple,offline,404,http://melani.admin.ch/
+12264,inc.connexion.pavpal.com.therops.net,http://inc.connexion.pavpal.com.therops.net/,2017-12-08 07:19:51,PayPal,dnserror,0,http://melani.admin.ch/
+12262,presentdayagents.usa.cc,http://presentdayagents.usa.cc/pdddf4/,2017-12-08 00:05:30,E-Mail Provider,offline,302,http://melani.admin.ch/
+12261,www.rlwclive.org,http://www.rlwclive.org/tr/signon/capital1/capital1/index.html,2017-12-08 00:01:45,Capital One,dnserror,0,http://melani.admin.ch/
+12260,quiosquescaragua.com.br,http://quiosquescaragua.com.br/layout/oned/oned/index.php,2017-12-07 17:01:26,E-Mail Provider,offline,404,http://melani.admin.ch/
+12258,governadornunesfreire.ma.gov.br,https://governadornunesfreire.ma.gov.br/includes/bethpage/BethpageOnline.htm,2017-12-07 14:34:40,Bethpage,offline,404,http://melani.admin.ch/
+12255,form.jotform.com,https://form.jotform.com/Johnathand/outlookweapp,2017-12-07 11:32:25,E-Mail Provider,offline,404,http://melani.admin.ch/
+12254,vdsxv.cf,https://vdsxv.cf/.cal/all1/index.php,2017-12-07 11:14:02,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12253,banking.ing-diba.de-umstellen-onlineverfahren.com,http://banking.ing-diba.de-umstellen-onlineverfahren.com/3S8RYAGJUGQAYP6/F2C82TNPFBCX5KD/,2017-12-07 07:36:02,ING,dnserror,0,http://melani.admin.ch/
+12252,redirect3193939443.de,http://redirect3193939443.de/3S8RYAGJUGQAYP6/F2C82TNPFBCX5KD/,2017-12-07 07:35:58,ING,dnserror,0,http://melani.admin.ch/
+12251,ballathie-estate.com,http://ballathie-estate.com/Contact/update/,2017-12-06 20:54:11,PayPal,offline,302,http://melani.admin.ch/
+12249,linkedin.deactivationprocess.online.santulanvision.com,http://linkedin.deactivationprocess.online.santulanvision.com/linkedinloginverifypasswordreactivationserver08878777secured676767655fgfghgghgfcgfdgfd4322fggfgfgffggffgf/,2017-12-06 20:53:48,LinkedIn,dnserror,0,http://melani.admin.ch/
+12248,doolini.de,http://doolini.de/flash/redir.php,2017-12-06 20:53:33,LinkedIn,offline,500,http://melani.admin.ch/
+12247,polohofer.ch,http://polohofer.ch/wp-includes/SimplePie/XML/Declaration/Group/,2017-12-06 15:52:01,Bank of America,online,301,http://melani.admin.ch/
+12246,brightandrisingstars.com,http://brightandrisingstars.com/wp-content/plugins/jp-students-result-management-system/cmb/tests/phpunit/tests/CMB_Core_TestS.php,2017-12-06 15:45:37,Credit Suisse,offline,302,http://melani.admin.ch/
+12245,www.ipcpharma.com,https://www.ipcpharma.com/wp-content/plugins/wp-maintenance-mode/assets/css/wp-maintenance-mode-content/jquery-ui-timepicker-addon9min-css/auth~uEe47-0masjfgVmp0pAINOo37VUu9bFZ6f~/portal/,2017-12-06 15:29:22,Credit Suisse,offline,404,http://melani.admin.ch/
+12244,box5029.bluehost.com,https://box5029.bluehost.com/~fivebra1/skatingkids/files/,2017-12-06 11:29:16,PayPal,offline,404,http://melani.admin.ch/
+12242,www.bandengenharia.com.br,http://www.bandengenharia.com.br/paypal/,2017-12-05 15:15:21,PayPal,offline,403,http://melani.admin.ch/
+12241,rdbed.org,http://rdbed.org/engine1/boa/index.htm,2017-12-05 15:14:29,Bank of America,offline,404,http://melani.admin.ch/
+12240,arseltrade.com,http://arseltrade.com/boos.htm,2017-12-05 15:14:23,Bank of America,offline,404,http://melani.admin.ch/
+12239,www.gbstoragessl.com,https://www.gbstoragessl.com/qsl/secure.srflc%3D1033%26sf%3D1%26ru%3Dhttpsaccount.live.com%253Fmkt%253dEN-US%2526lc%253d1033%2526id%253d38936%26tw%3D0%26fs%3D0%26kv%3D0%26cb%3D%26cbcxt%3D.php,2017-12-05 08:48:04,Microsoft,dnserror,0,http://melani.admin.ch/
+12238,www.fmy2003.com,http://www.fmy2003.com/na.php,2017-12-05 08:47:52,Microsoft,offline,500,http://melani.admin.ch/
+12236,segs.fr,http://segs.fr/img/common/index.html,2017-12-05 07:20:23,Ricardo,offline,503,http://melani.admin.ch/
+12235,kriativar.com.br,http://kriativar.com.br/mind/index.php,2017-12-05 05:34:52,E-Mail Provider,offline,404,http://melani.admin.ch/
+12234,domain.tld,http://domain.tld/evil.php,2017-12-04 15:08:36,PostFinance,dnserror,0,http://melani.admin.ch/
+12233,worldlingos.com,https://worldlingos.com/email-update-page/,2017-12-04 13:10:07,E-Mail Provider,offline,403,http://melani.admin.ch/
+12232,sosupgrade.ml,http://sosupgrade.ml/sosupdate/,2017-12-04 11:56:31,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12231,activety-pp-summary.tk,https://activety-pp-summary.tk/Bin/,2017-12-04 09:52:31,PayPal,dnserror,0,http://melani.admin.ch/
+12230,www.sreeproperties.co.in,http://www.sreeproperties.co.in/mnm/,2017-12-04 09:52:28,PayPal,offline,403,http://melani.admin.ch/
+12229,inter-asia.com.ph,https://inter-asia.com.ph/wp-includes/files/,2017-12-04 08:51:33,Apple,offline,404,http://melani.admin.ch/
+12228,atrioscontabil.com.br,http://atrioscontabil.com.br/media/k2/users/login/products/viewer.php,2017-12-04 07:51:08,E-Mail Provider,offline,401,http://melani.admin.ch/
+12227,nationaldetectivenews.com,https://nationaldetectivenews.com//wp-content/ind/strdropbox/,2017-12-04 07:50:58,E-Mail Provider,offline,500,http://melani.admin.ch/
+12225,lockfloors.com.au,https://lockfloors.com.au/click.0f9c2303e7b69db9f58e8d1baa3695c3.php,2017-12-04 07:17:37,Microsoft,offline,404,http://melani.admin.ch/
+12224,entertainment-ressources.effers.com,http://entertainment-ressources.effers.com/limited2/compensation/regulated/,2017-12-04 06:44:34,Apple,dnserror,0,http://melani.admin.ch/
+12223,secure.safe-platform.net,https://secure.safe-platform.net/user5776.php,2017-12-04 06:31:20,PayPal,dnserror,0,http://melani.admin.ch/
+12222,dacasadatata.com.br,http://dacasadatata.com.br/novo/images/include/content/uploads/PayPal-Verification/paypal2017/index.php,2017-12-04 06:22:42,PayPal,offline,404,http://melani.admin.ch/
+12220,allstripped.com.au,https://allstripped.com.au/login.microsoftonline.common/,2017-12-04 06:18:28,Microsoft,offline,404,http://melani.admin.ch/
+12219,entertainment-direttamente-ressources.chatnook.com,http://entertainment-direttamente-ressources.chatnook.com/limited2/compensation/regulated/,2017-12-04 06:07:45,Apple,dnserror,0,http://melani.admin.ch/
+12218,entertainment-ressources.deaftone.com,http://entertainment-ressources.deaftone.com/limited2/compensation/regulated/,2017-12-04 06:06:56,Apple,dnserror,0,http://melani.admin.ch/
+12217,entertainment-ressources.etowns.org,http://entertainment-ressources.etowns.org/limited2/compensation/regulated/,2017-12-04 06:05:54,Apple,dnserror,0,http://melani.admin.ch/
+12216,entertainment-ressources.scieron.com,http://entertainment-ressources.scieron.com/limited2/compensation/regulated/,2017-12-04 06:04:30,Apple,dnserror,0,http://melani.admin.ch/
+12215,appleid.security-apple.eu,http://appleid.security-apple.eu/ID/,2017-12-04 06:02:25,Apple,dnserror,0,http://melani.admin.ch/
+12214,rekening-wachtwoord-gegevens.gotgeeks.com,http://rekening-wachtwoord-gegevens.gotgeeks.com/limited2/compensation/regulated/,2017-12-03 14:49:18,Apple,dnserror,0,http://melani.admin.ch/
+12213,cuisinette-consultez-ressources.darktech.org,http://cuisinette-consultez-ressources.darktech.org/limited1/compensation/regulated/,2017-12-03 13:16:54,Apple,dnserror,0,http://melani.admin.ch/
+12212,cuisinette-consultez-ressources.deaftone.com,http://cuisinette-consultez-ressources.deaftone.com/limited1/compensation/regulated/,2017-12-03 10:05:30,Apple,dnserror,0,http://melani.admin.ch/
+12210,net-cancelserv.com,http://net-cancelserv.com/goto/,2017-12-03 09:37:25,Netflix,dnserror,0,http://melani.admin.ch/
+12206,myhomebook.com.au,http://myhomebook.com.au/backup.html,2017-12-03 09:26:08,Chase,offline,302,http://melani.admin.ch/
+12205,www.cbl-ly-online.com,http://www.cbl-ly-online.com/cbl/lib/accounts/login.html,2017-12-03 08:44:13,Central Bank of Libya,dnserror,0,http://melani.admin.ch/
+12204,72.52.245.18,http://72.52.245.18/~droneservicestx/.well-known/acme-challenge/js/S.e.c.u.r.i.t.y-C.h.e.c.k-U.p.d.a.t.e/,2017-12-02 11:01:49,Apple,offline,302,http://melani.admin.ch/
+12202,www.eservice-cembra.com,http://www.eservice-cembra.com/myaccounts/update/cebmra./,2017-12-02 07:57:56,Cembra,dnserror,0,http://melani.admin.ch/
+12201,secure-apple-ch-online.fr,http://secure-apple-ch-online.fr/validation/authcaptcha/retry/,2017-12-02 07:57:40,Cembra,dnserror,0,http://melani.admin.ch/
+12200,cuisinette-consultez-ressources.chatnook.com,http://cuisinette-consultez-ressources.chatnook.com/limited/compensation/regulated/,2017-12-02 07:57:26,Apple,dnserror,0,http://melani.admin.ch/
+12199,www.appleid.apple.com.account.recovery.support.datmy.name,https://www.appleid.apple.com.account.recovery.support.datmy.name/signin/iforgot/,2017-12-02 07:48:05,Apple,dnserror,0,http://melani.admin.ch/
+12198,www.ficustelecom.com,https://www.ficustelecom.com/js/redirect/appleid.apple.com/,2017-12-02 07:48:00,Apple,offline,404,http://melani.admin.ch/
+12197,mediak0j.beget.tech,http://mediak0j.beget.tech/erhaltdatum1/nummer/cancellation-management/,2017-12-01 12:41:28,Apple,offline,404,http://melani.admin.ch/
+12196,itnsap7c.beget.tech,http://itnsap7c.beget.tech/erhaltdatum/nummer/cancellation-management/,2017-12-01 12:02:24,Apple,offline,404,http://melani.admin.ch/
+12195,bppmd.ambon.go.id,https://bppmd.ambon.go.id/js/ID/,2017-12-01 10:58:37,PayPal,offline,404,http://melani.admin.ch/
+12194,tinfoilhat.com,http://tinfoilhat.com/coin-slider/master/bahlool.php,2017-12-01 10:58:22,PayPal,offline,404,http://melani.admin.ch/
+12193,caueharfuch.com.br,http://caueharfuch.com.br/wp-content/e-paypalogin.cgidispatch-access/,2017-12-01 08:45:33,PayPal,dnserror,0,http://melani.admin.ch/
+12192,kadesiana.dm1.co.id,http://kadesiana.dm1.co.id/index2.php/,2017-12-01 08:45:30,PayPal,dnserror,0,http://melani.admin.ch/
+12191,kaytent.com,http://kaytent.com/images/banners/CASE-201.255.632.21/2/updates/app/,2017-12-01 08:44:29,Apple,offline,404,http://melani.admin.ch/
+12190,iuri0030.hospedagemdesites.ws,https://iuri0030.hospedagemdesites.ws/~diskpizzaestrela/account-secure-case-25569854/,2017-12-01 08:44:26,Apple,offline,403,http://melani.admin.ch/
+12188,www.widsun.com,http://www.widsun.com/,2017-12-01 06:46:51,Visa,offline,500,http://melani.admin.ch/
+12187,franck3u.beget.tech,http://franck3u.beget.tech/--/Whatup/What/2018/,2017-12-01 06:46:37,Visa,offline,404,http://melani.admin.ch/
+12186,locked.netlfix.com.confirm.account.netflxsecure-serv.com,https://locked.netlfix.com.confirm.account.netflxsecure-serv.com/,2017-12-01 06:28:07,Netflix,dnserror,0,http://melani.admin.ch/
+12185,polygongroup.asia,http://polygongroup.asia/hello-world/,2017-12-01 06:17:59,Netflix,offline,404,http://melani.admin.ch/
+12181,pandelioudc.lt,http://pandelioudc.lt/postf/postfin/index.php,2017-12-01 06:06:00,PostFinance,offline,500,http://melani.admin.ch/
+12180,fastemr.com,http://fastemr.com/moo/log/,2017-12-01 06:05:50,PayPal,dnserror,0,http://melani.admin.ch/
+12179,www.ver-bena.com,http://www.ver-bena.com/projects/app/,2017-12-01 06:05:37,PayPal,offline,302,http://melani.admin.ch/
+12178,www.cafebarge.fr,https://www.cafebarge.fr/service/security/Inc/,2017-12-01 06:05:18,Netflix,offline,404,http://melani.admin.ch/
+12177,info-update.tumblr.com,http://info-update.tumblr.com/,2017-12-01 06:05:09,Netflix,offline,500,http://melani.admin.ch/
+12176,www.nohpindia.com,https://www.nohpindia.com/admin/images/-/Manage/inc/,2017-12-01 06:04:15,PayPal,dnserror,0,http://melani.admin.ch/
+12175,www.terhaab.com,https://www.terhaab.com/images/-/About.html,2017-12-01 06:04:11,PayPal,offline,302,http://melani.admin.ch/
+12173,booksdeskie.com,http://booksdeskie.com/wp-includes/fonts/redirs.php,2017-12-01 06:03:35,Swisscom,offline,406,http://melani.admin.ch/
+12172,redirect319201328.de,http://redirect319201328.de/6WB87SF4DH896TW/FEQC8HGWJJ93E43/,2017-12-01 06:03:15,ING,dnserror,0,http://melani.admin.ch/
+12171,banking.ing-diba.de-jahresende-update.com,http://banking.ing-diba.de-jahresende-update.com/6WB87SF4DH896TW/FEQC8HGWJJ93E43/,2017-12-01 06:02:53,ING,dnserror,0,http://melani.admin.ch/
+12170,trapaud.org,https://trapaud.org//wp-content/X3D-Domain/boxMrenewal.php,2017-12-01 06:02:15,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12169,qouested.ml,http://qouested.ml/images/mo/secure/ii.php,2017-12-01 06:01:58,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12168,www.appleid.apple.com.account.recovery.support.panda1337.com,http://www.appleid.apple.com.account.recovery.support.panda1337.com/signin/,2017-11-30 14:41:10,Apple,dnserror,0,http://melani.admin.ch/
+12167,www.logisticonex.com,http://www.logisticonex.com/redirect/app-connect/,2017-11-30 14:41:01,Apple,offline,404,http://melani.admin.ch/
+12166,www.kasbahangour.com,http://www.kasbahangour.com/fr/espace-pass-activer/,2017-11-30 14:37:42,SociÃ©tÃ© GÃ©nÃ©rale,offline,404,http://melani.admin.ch/
+12165,voyagetomedicalcare.com,https://voyagetomedicalcare.com/i.htm,2017-11-30 14:37:36,SociÃ©tÃ© GÃ©nÃ©rale,online,200,http://melani.admin.ch/
+12163,paypal.256bit-ssl-secure.com,https://paypal.256bit-ssl-secure.com/695480/7oVYBsx93nNTHOt/2E5RiKn69HSmlgM/468625011388/fu80k37xtw5AlqM/Ak1tZVYzGcI46Kb/,2017-11-30 11:55:15,PayPal,dnserror,0,http://melani.admin.ch/
+12160,servise.papyapl.home.oline.secrty.youknowyourecurious.com,http://servise.papyapl.home.oline.secrty.youknowyourecurious.com/mp/,2017-11-30 07:26:30,PayPal,offline,404,http://melani.admin.ch/
+12159,www.securudo2.net,https://www.securudo2.net/id3283.php,2017-11-30 06:30:57,PayPal,dnserror,0,http://melani.admin.ch/
+12158,user56645.vs.speednames.com,http://user56645.vs.speednames.com/index/1.html,2017-11-29 19:23:57,UBS,offline,500,http://melani.admin.ch/
+12157,www.ch-ubs.e-mengine.com,http://www.ch-ubs.e-mengine.com/index/ubs/de/,2017-11-29 18:45:43,UBS,offline,404,http://melani.admin.ch/
+12155,bpacdhaka.com,http://bpacdhaka.com/wp-admin/user/Swisscom/index.html,2017-11-29 16:17:43,Swisscom,offline,302,http://melani.admin.ch/
+12154,sapanatc.beget.tech,http://sapanatc.beget.tech/workbench/card.html,2017-11-29 16:16:57,UBS,offline,404,http://melani.admin.ch/
+12153,jaywinstelvocaltalent.com,http://jaywinstelvocaltalent.com/wp-includes/SimplePie/XML/Declaration/wp-admin/wp-css/2bbb/mail/quota/upgrade/25GB/index.php,2017-11-29 16:15:21,E-Mail Provider,offline,302,http://melani.admin.ch/
+12152,smartcasa-group.com,https://smartcasa-group.com/redi.php,2017-11-28 15:44:10,PayPal,offline,404,http://melani.admin.ch/
+12151,ibuyrc.com,https://ibuyrc.com/fast-update,2017-11-28 15:44:06,PayPal,offline,403,http://melani.admin.ch/
+12149,www.helpinghandsservices.org,http://www.helpinghandsservices.org/images/ud_2x2/ud_3x3/ch.htm,2017-11-28 14:23:07,PayPal,offline,302,http://melani.admin.ch/
+12148,www.aico.cat,http://www.aico.cat/img/logo_revista/css/2/Befestigung.html,2017-11-28 14:14:08,PayPal,dnserror,0,http://melani.admin.ch/
+12147,www.kinderkueche-stadthagen.de,http://www.kinderkueche-stadthagen.de/components/com_foxcontact/1511410851095/0xd4577/,2017-11-28 14:12:53,PayPal,offline,404,http://melani.admin.ch/
+12146,www.infinityinnotech.com,http://www.infinityinnotech.com/googlef7f0d74a1a82e4fd.html,2017-11-28 14:12:38,PayPal,offline,404,http://melani.admin.ch/
+12145,ricardo.8231985889.ch,http://ricardo.8231985889.ch/,2017-11-28 11:16:55,Ricardo,dnserror,0,http://melani.admin.ch/
+12144,ebase-lufthansa.com,http://ebase-lufthansa.com/apple-test/,2017-11-28 11:06:30,Lufthansa,offline,403,http://melani.admin.ch/
+12142,infoweavers.in,http://infoweavers.in/stjsclp/Admin/b0x/index.php,2017-11-28 09:21:37,Apple,offline,404,http://melani.admin.ch/
+12141,comayaproducts.com,https://comayaproducts.com/zaz/webmail/index.php,2017-11-28 06:36:04,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12139,pipelocomotoranaconda.hmshared.com,http://pipelocomotoranaconda.hmshared.com/coneyupheldahead,2017-11-28 05:56:15,HypoVereinsbank,offline,500,http://melani.admin.ch/
+12138,berhfer.co,http://berhfer.co/templates/gold/mind/index.php,2017-11-27 20:38:48,E-Mail Provider,offline,404,http://melani.admin.ch/
+12137,airtable.com,https://airtable.com/shrszzfRNooMJa01V,2017-11-27 20:33:12,E-Mail Provider,offline,404,http://melani.admin.ch/
+12136,aaryacreation.in,http://aaryacreation.in/js/tiny_mce/classes/adapter/jquery/,2017-11-27 20:32:25,Apple,offline,404,http://melani.admin.ch/
+12134,referdesigner.com,http://referdesigner.com/wp-includes/images/fronts/new/D2017HL/index.php,2017-11-27 11:26:00,E-Mail Provider,offline,403,http://melani.admin.ch/
+12133,appleid.security-apple.com,http://appleid.security-apple.com/update/,2017-11-27 11:14:52,Apple,dnserror,0,http://melani.admin.ch/
+12132,berhfer.co,http://berhfer.co/templates/order/adobe/index.php,2017-11-27 09:04:17,E-Mail Provider,offline,404,http://melani.admin.ch/
+12131,mataixxp.beget.tech,http://mataixxp.beget.tech/contact/,2017-11-27 07:54:27,Apple,offline,404,http://melani.admin.ch/
+12130,clienthelp-center.cf,https://clienthelp-center.cf/Manage/inc/,2017-11-27 07:54:16,PayPal,dnserror,0,http://melani.admin.ch/
+12129,elektrogitardersleri.com,http://elektrogitardersleri.com/gp.html,2017-11-27 07:54:09,PayPal,offline,404,http://melani.admin.ch/
+12127,r2-seattle.webserversystems.com,https://r2-seattle.webserversystems.com/~rosecity/joinid/,2017-11-27 07:54:00,Apple,offline,403,http://melani.admin.ch/
+12126,compane7.beget.tech,http://compane7.beget.tech/files/g65dfs65ghrt65er65trew6t4gre6tgrew/ch/,2017-11-27 07:42:51,UBS,offline,404,http://melani.admin.ch/
+12125,disolrfs.com,http://disolrfs.com/admin/Windows%20Settings.php,2017-11-27 07:42:23,E-Mail Provider,offline,404,http://melani.admin.ch/
+12124,www.queroterfibra.com.br,http://www.queroterfibra.com.br/wp-includes/c/,2017-11-27 07:42:06,Apple,offline,404,http://melani.admin.ch/
+12123,coopmas.com.br,http://coopmas.com.br/wp/wp-includes/css/one/,2017-11-27 07:41:48,Apple,offline,302,http://melani.admin.ch/
+12122,italianhome.no,http://italianhome.no/installation_old/language/ar-AA/,2017-11-27 07:41:33,Apple,offline,503,http://melani.admin.ch/
+12121,humbleindependent.com,http://humbleindependent.com/wp-content/themes/mystile/styles/default/5b3f8b41b469b4c3543195f7a977bb85/Files/default/,2017-11-27 07:26:59,Apple,offline,302,http://melani.admin.ch/
+12120,esteelmart.com,https://esteelmart.com/sun.html,2017-11-27 06:03:09,Suntrust,offline,302,http://melani.admin.ch/
+12119,bendotticostruzioni.com,http://bendotticostruzioni.com/wppaccess/index.php,2017-11-27 06:02:03,E-Mail Provider,offline,404,http://melani.admin.ch/
+12118,www.greenesjewelers.com,https://www.greenesjewelers.com/Netflx-secure,2017-11-26 18:11:29,Netflix,offline,404,http://melani.admin.ch/
+12117,www.jnkheatersindia.com,https://www.jnkheatersindia.com/jnkindia/usaa.html,2017-11-26 09:46:28,USAA,offline,302,http://melani.admin.ch/
+12116,www.memoriesbythesmile.com,https://www.memoriesbythesmile.com/blog/wp-includes/js/nav/g.nav/page/index.html,2017-11-26 09:16:29,Navy Federal Credit Union,offline,404,http://melani.admin.ch/
+12115,www.davidgobrothers.com,https://www.davidgobrothers.com/wp-includes/js/que/update.html,2017-11-26 09:16:23,Navy Federal Credit Union,dnserror,0,http://melani.admin.ch/
+12114,appddictionbusinesssolutions.com,http://appddictionbusinesssolutions.com/tmp/,2017-11-25 15:29:46,UBS,offline,403,http://melani.admin.ch/
+12113,chronopost.fr.cpl-livration.com,http://chronopost.fr.cpl-livration.com/,2017-11-25 15:29:25,chronopost,offline,302,http://melani.admin.ch/
+12112,sirm-trf-ln1.000webhostapp.com,https://sirm-trf-ln1.000webhostapp.com/autoricardo.ch?,2017-11-25 15:28:12,Ricardo,offline,410,http://melani.admin.ch/
+12111,online-sicherheitsbelegschaft-kundendatenverifizierung.xyz,http://online-sicherheitsbelegschaft-kundendatenverifizierung.xyz/script.php,2017-11-25 15:27:48,Amazon,dnserror,0,http://melani.admin.ch/
+12110,ama-secure-2017-encrypt.com,https://ama-secure-2017-encrypt.com/,2017-11-25 15:17:58,Amazon,dnserror,0,http://melani.admin.ch/
+12109,support.apple.com-ticket-a-0681.ml,https://support.apple.com-ticket-a-0681.ml/,2017-11-25 15:16:10,Apple,dnserror,0,http://melani.admin.ch/
+12106,www.newservices87.com,http://www.newservices87.com/blu/83ba9/,2017-11-25 15:15:09,Swisscom,dnserror,0,http://melani.admin.ch/
+12105,chanceit.beget.tech,http://chanceit.beget.tech/deutsh/di/,2017-11-25 15:14:40,UBS,offline,404,http://melani.admin.ch/
+12104,charikae.myhostpoint.ch,http://charikae.myhostpoint.ch/com.php,2017-11-25 15:14:26,UBS,dnserror,0,http://melani.admin.ch/
+12103,restaurants-montois.be.194-1-205-35.taho.be,http://restaurants-montois.be.194-1-205-35.taho.be/blog/wp-includes/SimplePie/Net/,2017-11-24 07:07:47,UBS,offline,503,http://melani.admin.ch/
+12102,www.abakus-werbeartikel.ch,http://www.abakus-werbeartikel.ch/asb/login.htm,2017-11-24 06:47:21,ASB Bank Limited,offline,404,http://melani.admin.ch/
+12101,psmser.com,https://psmser.com/db/360/secure.srflc%3D1033%26sf%3D1%26ru%3Dhttpsaccount.live.com%253Fmkt%253dEN-US%2526lc%253d1033%2526id%253d38936%26tw%3D0%26fs%3D0%26kv%3D0%26cb%3D%26cbcxt%3D.php,2017-11-24 06:10:13,Microsoft,dnserror,0,http://melani.admin.ch/
+12100,pusat.rocella.net,http://pusat.rocella.net/wp-includes/d65.php,2017-11-24 06:09:49,Microsoft,dnserror,0,http://melani.admin.ch/
+12099,izu.mail.b.hd6474.email-server.club,http://izu.mail.b.hd6474.email-server.club/32460156701f25007e3787d3b7e3a/84da4fe5ada446484c0ada4a641izu/,2017-11-24 06:09:31,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12098,izu-email-server.wiwa.mn,http://izu-email-server.wiwa.mn/fgpbf/,2017-11-24 06:09:03,E-Mail Provider,offline,302,http://melani.admin.ch/
+12097,wrmser.com,https://wrmser.com/ms/360/secure.srflc%3D1033%26sf%3D1%26ru%3Dhttpsaccount.live.com%253Fmkt%253dEN-US%2526lc%253d1033%2526id%253d38936%26tw%3D0%26fs%3D0%26kv%3D0%26cb%3D%26cbcxt%3D.php,2017-11-23 19:08:35,Microsoft,dnserror,0,http://melani.admin.ch/
+12096,www.nicktrench.com,https://www.nicktrench.com/d65.php,2017-11-23 19:08:00,Rabobank,offline,403,http://melani.admin.ch/
+12095,applewebkite.com,http://applewebkite.com/in.html,2017-11-23 11:53:40,Apple,dnserror,0,http://melani.admin.ch/
+12094,appacc-renew843179.com,https://appacc-renew843179.com/,2017-11-23 11:53:14,Apple,dnserror,0,http://melani.admin.ch/
+12093,www.practitionerconnect.com.au,https://www.practitionerconnect.com.au/js/https.mabanque.bnpparibas.fr.connexion/fr/,2017-11-23 10:31:51,BNP Paribas,dnserror,0,http://melani.admin.ch/
+12091,limpopopn.gov.mz,https://limpopopn.gov.mz/-/Manage/inc/,2017-11-23 10:16:43,PayPal,offline,404,http://melani.admin.ch/
+12090,ramadaplaza-gatineau.com,https://ramadaplaza-gatineau.com/pdf/.tmb/About.html,2017-11-23 10:16:37,PayPal,offline,404,http://melani.admin.ch/
+12088,hoidtux.weebly.com,https://hoidtux.weebly.com/,2017-11-23 10:14:16,Sunrise,offline,404,http://melani.admin.ch/
+12087,cyber-info.viralintex.info,http://cyber-info.viralintex.info/banquepopulaire/app/registre/,2017-11-23 10:13:51,Banque Populaire,dnserror,0,http://melani.admin.ch/
+12086,e-colon.com,http://e-colon.com/xcvb/microsoft/,2017-11-23 10:13:39,Microsoft,offline,404,http://melani.admin.ch/
+12085,sussfoundation.in,http://sussfoundation.in/css/international/Login-account/,2017-11-23 10:13:25,PayPal,offline,404,http://melani.admin.ch/
+12084,jobsinsap.us,http://jobsinsap.us/run/,2017-11-23 10:13:14,Apple,dnserror,0,http://melani.admin.ch/
+12083,odeer.com.au,http://odeer.com.au/wp-admin/sources/37939485/,2017-11-23 06:00:54,E-Mail Provider,offline,404,http://melani.admin.ch/
+12082,congresoaud.org,http://congresoaud.org/wp-content/fr/impo/,2017-11-22 18:10:26,impots.gouv.fr,offline,404,http://melani.admin.ch/
+12081,carbosol.ctfc.es,http://carbosol.ctfc.es/i.htm,2017-11-22 18:10:19,impots.gouv.fr,offline,404,http://melani.admin.ch/
+12079,secure238.inmotionhosting.com,https://secure238.inmotionhosting.com/~poster27/wp-includes/Requests/Auth/ch/secure/de/,2017-11-22 14:30:47,UBS,offline,404,http://melani.admin.ch/
+12077,sbcreativo.com,http://sbcreativo.com/apps/account/webapp/,2017-11-22 14:30:24,Apple,offline,404,http://melani.admin.ch/
+12076,www.update-account.appgou52.beget.tech,http://www.update-account.appgou52.beget.tech/signin/,2017-11-22 14:30:09,PayPal,offline,404,http://melani.admin.ch/
+12075,www.signin-accont.massawy2.beget.tech,http://www.signin-accont.massawy2.beget.tech/app/,2017-11-22 06:42:02,Apple,offline,404,http://melani.admin.ch/
+12073,www.added-protection.net,https://www.added-protection.net/id3130.php,2017-11-22 06:14:22,PayPal,dnserror,0,http://melani.admin.ch/
+12072,sandra.pl,http://sandra.pl/info/js/eddrees.confirm20hj45d5210yuh/,2017-11-22 06:05:34,Apple,offline,404,http://melani.admin.ch/
+12071,account-office.tk,http://account-office.tk/Office365/,2017-11-22 06:03:15,Microsoft,dnserror,0,http://melani.admin.ch/
+12069,masterticket.com.ve,https://masterticket.com.ve/mg/zipo/,2017-11-22 06:02:09,Apple,offline,404,http://melani.admin.ch/
+12068,hilfe-veripay.com,https://hilfe-veripay.com/ppm41n/,2017-11-22 05:59:48,PayPal,dnserror,0,http://melani.admin.ch/
+12067,veripalssl.info,http://veripalssl.info/1OMFn,2017-11-22 05:59:05,PayPal,dnserror,0,http://melani.admin.ch/
+12066,newupdatenow2018.com,http://newupdatenow2018.com/,2017-11-22 05:58:52,Apple,offline,302,http://melani.admin.ch/
+12064,unicorn4.com.au,http://unicorn4.com.au/-/2/bn/,2017-11-21 19:24:14,BNP Paribas,offline,404,http://melani.admin.ch/
+12063,chocolicious.co.zw,http://chocolicious.co.zw/,2017-11-21 19:23:56,BNP Paribas,offline,500,http://melani.admin.ch/
+12062,mastercard.com.todowebextremadura.com,http://mastercard.com.todowebextremadura.com/securecode/Globale-MasterCard-Datenschutzrichtlinie-Deutschland.htm,2017-11-21 19:22:36,MasterCard,dnserror,0,http://melani.admin.ch/
+12058,endoitfrance.com,http://endoitfrance.com/ubs1/,2017-11-21 19:10:15,UBS,dnserror,0,http://melani.admin.ch/
+12056,runs-free.com,http://runs-free.com/ee/,2017-11-21 19:08:44,Apple,dnserror,0,http://melani.admin.ch/
+12055,posterschweiz.com,http://posterschweiz.com/login/access/2017/post/,2017-11-21 19:05:00,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+12054,www.nyc-produce.com,http://www.nyc-produce.com/images/banners/run/,2017-11-21 19:04:49,Apple,offline,404,http://melani.admin.ch/
+12053,jalussa.com,https://jalussa.com/example/appID/,2017-11-21 18:58:13,Apple,offline,404,http://melani.admin.ch/
+12052,www.zidfire.com,https://www.zidfire.com/ID.php,2017-11-21 18:57:55,Apple,offline,500,http://melani.admin.ch/
+12051,credi.tssuise.com,https://credi.tssuise.com/en/us/en.html,2017-11-21 14:20:49,Credit Suisse,dnserror,0,http://melani.admin.ch/
+12050,woodpeckerindia.com,http://woodpeckerindia.com/wood/images/prettyPhoto/light_rounded/default/066dafae272081c3f1ae6689c3a6d207/index.php,2017-11-20 12:56:04,Apple,offline,404,http://melani.admin.ch/
+12049,e-sigini.com,https://e-sigini.com/WQ10W1,2017-11-20 08:31:02,PostFinance,offline,403,http://melani.admin.ch/
+12048,webscr-templates-documents.crabdance.com,http://webscr-templates-documents.crabdance.com/limited/compensation/regulated/,2017-11-19 18:57:49,Apple,offline,503,http://melani.admin.ch/
+12046,terrasaw.com,http://terrasaw.com/wp-content/gallery/e-finance/,2017-11-19 18:56:53,PostFinance,offline,404,http://melani.admin.ch/
+12045,secure-pp-2017-encryption.com,https://secure-pp-2017-encryption.com/script.php,2017-11-19 18:56:14,PayPal,dnserror,0,http://melani.admin.ch/
+12044,tokyobites.com,http://tokyobites.com/wp-content/themes/twentysixteen/js/id/,2017-11-19 18:53:37,PayPal,dnserror,0,http://melani.admin.ch/
+12043,www.odishaproducts.com,http://www.odishaproducts.com/ckeditor/plugins/flash/dialogs/fl.php,2017-11-19 18:53:31,PayPal,offline,302,http://melani.admin.ch/
+12041,www.celebraterecovery.ca,http://www.celebraterecovery.ca/on.html,2017-11-17 15:07:37,PayPal,offline,404,http://melani.admin.ch/
+12040,www.rdercontoservicee.com,http://www.rdercontoservicee.com/,2017-11-17 14:55:47,Apple,offline,302,http://melani.admin.ch/
+12039,www.narestan.net,http://www.narestan.net/conID/,2017-11-17 13:23:51,E-Mail Provider,offline,500,http://melani.admin.ch/
+12038,auto-vehid-id-ch1.000webhostapp.com,https://auto-vehid-id-ch1.000webhostapp.com/auto.ricardo.ch,2017-11-17 13:14:38,Ricardo,offline,403,http://melani.admin.ch/
+12037,auto-ricardo.ch-vehid-login.com,http://auto-ricardo.ch-vehid-login.com/,2017-11-17 13:14:19,Ricardo,offline,503,http://melani.admin.ch/
+12036,mehrsicherheitt.com,http://mehrsicherheitt.com/team/,2017-11-17 10:29:09,Apple,offline,302,http://melani.admin.ch/
+12035,www.rdercontoservicee.com,http://www.rdercontoservicee.com,2017-11-17 10:29:05,Apple,offline,302,http://melani.admin.ch/
+12034,kikolbutor.hu,https://kikolbutor.hu/valami/hirek/57de5f571abc8/57de5f571abc8/CH/,2017-11-17 10:27:59,Apple,offline,403,http://melani.admin.ch/
+12033,www.grupoello.com,https://www.grupoello.com/cafe-moido-melitta-vacuo-250g,2017-11-17 10:27:45,Apple,offline,404,http://melani.admin.ch/
+12032,vkgaleria.com,http://vkgaleria.com/includes/filetransfer/maw/login.php,2017-11-17 10:27:31,PayPal,offline,404,http://melani.admin.ch/
+12031,amazonaccountstatus.com,https://amazonaccountstatus.com/accountStatusPolicyDe/,2017-11-17 08:39:21,Amazon,dnserror,0,http://melani.admin.ch/
+12030,ericin4l.beget.tech,http://ericin4l.beget.tech/--/Whatup/What/2018/,2017-11-17 08:38:39,Visa,offline,404,http://melani.admin.ch/
+12029,vincomltd.com,http://vincomltd.com/shop/,2017-11-17 08:38:27,Visa,dnserror,0,http://melani.admin.ch/
+12028,thehazbija.fr,https://thehazbija.fr/wp-includes/js/crop/java/navyfederal.org/,2017-11-17 08:22:41,Navy Federal Credit Union,offline,302,http://melani.admin.ch/
+12027,pgsd.unnes.ac.id,https://pgsd.unnes.ac.id/wp-includes/css/redir.php,2017-11-17 08:22:38,Navy Federal Credit Union,offline,404,http://melani.admin.ch/
+12026,willowandcook.com.au,http://willowandcook.com.au/site/account_termination/,2017-11-17 08:21:06,E-Mail Provider,offline,404,http://melani.admin.ch/
+12024,salaoutitids.com,http://salaoutitids.com/auth/,2017-11-16 20:06:15,PayPal,offline,302,http://melani.admin.ch/
+12023,sichererccount.com,http://sichererccount.com/,2017-11-16 20:05:49,PayPal,offline,302,http://melani.admin.ch/
+12022,www.allegradubai.com,http://www.allegradubai.com/image/cache/catalog/Caps/apple.loginn/lnc/,2017-11-16 15:10:49,Apple,offline,404,http://melani.admin.ch/
+12021,200.61.163.26,http://200.61.163.26/Viseca/,2017-11-16 14:21:35,Viseca,offline,404,http://melani.admin.ch/
+12020,app-viseca.com,http://app-viseca.com/,2017-11-16 14:21:11,Viseca,dnserror,0,http://melani.admin.ch/
+12019,lala.style,http://lala.style/updat/Bluebaba.php,2017-11-16 13:31:15,Swisscom,offline,404,http://melani.admin.ch/
+12018,www.sedona.biz,http://www.sedona.biz/bluwiin.php</td,2017-11-16 08:32:11,Swisscom,offline,404,http://melani.admin.ch/
+12017,gsscc2015.com,https://gsscc2015.com/js/logins.php,2017-11-16 07:15:38,Amazon,offline,302,http://melani.admin.ch/
+12016,www.hvladvies.nl,http://www.hvladvies.nl/libraries/css/app/,2017-11-16 07:02:36,Apple,offline,404,http://melani.admin.ch/
+12015,mianfarm.vn,https://mianfarm.vn/resources/assets/sass/id/,2017-11-15 16:59:45,Apple,dnserror,0,http://melani.admin.ch/
+12014,mezlalklik.hopto.org,http://mezlalklik.hopto.org/,2017-11-15 16:59:38,Apple,offline,503,http://melani.admin.ch/
+12013,email1.paypal.ch.infos.xyagami.net,https://email1.paypal.ch.infos.xyagami.net/sp/,2017-11-15 15:16:31,PayPal,dnserror,0,http://melani.admin.ch/
+12012,secure-encryption-ama.com,https://secure-encryption-ama.com/script.php,2017-11-15 14:30:39,Amazon,dnserror,0,http://melani.admin.ch/
+12011,gobestchoice.com,http://gobestchoice.com/ds/public_html/webmail/webmail/index.php,2017-11-15 08:26:35,E-Mail Provider,offline,500,http://melani.admin.ch/
+12010,shadoo12.beget.tech,http://shadoo12.beget.tech/poste/post/,2017-11-15 07:56:20,Schweizerische Post,offline,404,http://melani.admin.ch/
+12009,www.kasthamandaptv.com,http://www.kasthamandaptv.com/wp-admin/includes/olo/crypt/,2017-11-15 07:30:24,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+12008,erstessicherheitskonto.com,http://erstessicherheitskonto.com/ch/,2017-11-15 07:01:59,Swisscom,offline,302,http://melani.admin.ch/
+12006,kernelking.com,http://kernelking.com/wp-content/Cloud005441256451/,2017-11-15 06:12:18,Apple,offline,404,http://melani.admin.ch/
+12005,www.ppsupport.ga,https://www.ppsupport.ga/info/bin/,2017-11-14 20:17:46,PayPal,dnserror,0,http://melani.admin.ch/
+12003,shop.doctorgavrilov.ru,https://shop.doctorgavrilov.ru/controllers/admin/rdbb.html,2017-11-14 19:11:20,PayPal,offline,404,http://melani.admin.ch/
+12001,www.allegradubai.com,http://www.allegradubai.com/catalog/model/extension/accountpaypal.login/login/,2017-11-14 19:10:10,PayPal,offline,404,http://melani.admin.ch/
+12000,schutzbenutzerjetzt.com,http://schutzbenutzerjetzt.com/Home/Login/,2017-11-14 15:52:16,Amazon,offline,302,http://melani.admin.ch/
+11999,schutzbenutzerjetzt.com,http://schutzbenutzerjetzt.com/team/,2017-11-14 15:48:35,Apple,offline,302,http://melani.admin.ch/
+11998,promozona.com.mx,http://promozona.com.mx/js/cropper/email/,2017-11-14 14:38:19,Visa,offline,404,http://melani.admin.ch/
+11997,sh216000.website.pl,http://sh216000.website.pl/identity/whatsapp/Support/apach.php,2017-11-14 14:37:53,Visa,offline,404,http://melani.admin.ch/
+11995,smartkusa.com,https://smartkusa.com/wp-content/console/redirect.html,2017-11-14 13:44:13,Chase,offline,404,http://melani.admin.ch/
+11994,cypreamarinesfoods.com,http://cypreamarinesfoods.com/,2017-11-14 12:03:22,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11993,raemdonckv.com,http://raemdonckv.com/wp-content/languages/plugins/gb/128d1da4e08667d5ec559d68354781c560a/,2017-11-14 09:58:21,BMO Bank of Montreal,offline,403,http://melani.admin.ch/
+11992,gomoais.ml,https://gomoais.ml/hspeed/,2017-11-14 09:50:04,UPC,dnserror,0,http://melani.admin.ch/
+11989,sicherheit2018.com,http://sicherheit2018.com/Kontoaktualisierung3dsicherappIesuiss/,2017-11-14 09:14:04,Apple,offline,302,http://melani.admin.ch/
+11988,segcomp.com.br,http://segcomp.com.br/caf.htm,2017-11-14 09:13:58,Apple,offline,404,http://melani.admin.ch/
+11987,validate-billinginfo.com,http://validate-billinginfo.com/89edf9f8ff48fu9u3i0di3uu9ff3/,2017-11-14 07:58:28,Netflix,dnserror,0,http://melani.admin.ch/
+11986,gluckgermany.com,http://gluckgermany.com/warmat/tax/tax.no/l/,2017-11-14 07:13:35,Skatteetaten,offline,404,http://melani.admin.ch/
+11985,www.criticosdecine.com,http://www.criticosdecine.com/wp-admin/user/4a7b97431a213e25164c9e218eb0a31b/4a7b9743/,2017-11-13 17:54:06,PayPal,dnserror,0,http://melani.admin.ch/
+11984,fa.hopehealthclub.com,https://fa.hopehealthclub.com/pay/_index.php,2017-11-13 17:53:59,PayPal,offline,404,http://melani.admin.ch/
+11983,comitatoinquilini.org,http://comitatoinquilini.org/wp-content/themes/twentyfourteen/inc/Pay/,2017-11-13 16:37:55,PayPal,dnserror,0,http://melani.admin.ch/
+11982,amsa.iua.edu.sd,http://amsa.iua.edu.sd/libraries/joomla/crypt/password/Pay/,2017-11-13 16:37:11,PayPal,offline,500,http://melani.admin.ch/
+11980,flowerss.mailrelay-v.com,http://flowerss.mailrelay-v.com/newslink/304597/2.html,2017-11-13 15:02:54,PayPal,offline,500,http://melani.admin.ch/
+11979,directblack22.com,http://directblack22.com/schedule/crypt/crypt/index.php,2017-11-13 15:02:33,E-Mail Provider,offline,404,http://melani.admin.ch/
+11978,sunrisehoix.weebly.com,https://sunrisehoix.weebly.com/,2017-11-13 10:06:55,Sunrise,offline,404,http://melani.admin.ch/
+11977,ama-secure-encryption.com,https://ama-secure-encryption.com/script.php,2017-11-13 09:43:07,Amazon,dnserror,0,http://melani.admin.ch/
+11976,server.nocdirect.in,http://server.nocdirect.in/~swirlytube/confirmation-account/mpp/webapps/,2017-11-13 07:56:42,PayPal,offline,403,http://melani.admin.ch/
+11975,confirmatione-restoration.slyip.com,http://confirmatione-restoration.slyip.com/datum/mobilenummer/tomtom-management/,2017-11-13 07:14:49,Apple,dnserror,0,http://melani.admin.ch/
+11974,confirmatione-restoration.etowns.org,http://confirmatione-restoration.etowns.org/datum/mobilenummer/tomtom-management/,2017-11-13 06:44:04,Apple,dnserror,0,http://melani.admin.ch/
+11973,secureidverification.com,http://secureidverification.com,2017-11-13 06:08:37,Apple,dnserror,0,http://melani.admin.ch/
+11972,racinginparadise.com,http://racinginparadise.com/light/hi/,2017-11-13 06:07:03,E-Mail Provider,offline,302,http://melani.admin.ch/
+11971,secure-ama-encryption.com,https://secure-ama-encryption.com/script.php,2017-11-13 05:40:48,Amazon,dnserror,0,http://melani.admin.ch/
+11970,sh215930.website.pl,http://sh215930.website.pl/2017/Secure.management/,2017-11-12 16:07:49,Apple,offline,404,http://melani.admin.ch/
+11969,www.fogosgaucho.com,http://www.fogosgaucho.com/install.php,2017-11-12 16:07:44,Apple,offline,404,http://melani.admin.ch/
+11968,yourgetawayguru.com,http://yourgetawayguru.com/pages/ch-de/,2017-11-12 16:07:28,PayPal,offline,500,http://melani.admin.ch/
+11967,lowfodmaplife.com,http://lowfodmaplife.com/wp-content/languages/de/,2017-11-12 16:07:20,PayPal,dnserror,0,http://melani.admin.ch/
+11965,www.parkstongroup.com,http://www.parkstongroup.com/wp-includes/install.php,2017-11-12 16:06:47,Apple,offline,302,http://melani.admin.ch/
+11964,www.support-servic.com,https://www.support-servic.com/chk/,2017-11-12 12:39:31,PayPal,dnserror,0,http://melani.admin.ch/
+11963,relax18plus.com,http://relax18plus.com/js/cropper/email/czuxcuwo,2017-11-12 12:35:35,Visa,offline,404,http://melani.admin.ch/
+11962,sh215921.website.pl,http://sh215921.website.pl/bin/whatsapp/Support/apach.php,2017-11-12 12:35:31,Visa,offline,404,http://melani.admin.ch/
+11961,creadoresdefuturo.com,https://creadoresdefuturo.com/wp-content/lang/crypt/,2017-11-12 08:54:19,E-Mail Provider,offline,500,http://melani.admin.ch/
+11959,colmo.in,http://colmo.in/si.php,2017-11-11 08:54:58,Alibaba,offline,500,http://melani.admin.ch/
+11958,confirmations-restoration.darktech.org,http://confirmations-restoration.darktech.org/remboursement/Secure/formulaire/,2017-11-11 08:38:07,Swiss Government,dnserror,0,http://melani.admin.ch/
+11957,tijanilu.beget.tech,http://tijanilu.beget.tech/videos/,2017-11-11 08:24:06,UBS,offline,404,http://melani.admin.ch/
+11955,factualtechsolutions.com,https://factualtechsolutions.com/redirect.php,2017-11-11 07:42:53,PayPal,offline,403,http://melani.admin.ch/
+11954,confirmation-restoration.slyip.com,http://confirmation-restoration.slyip.com/remboursement/Secure/formulaire/,2017-11-11 07:33:02,Swiss Government,dnserror,0,http://melani.admin.ch/
+11953,idapple-secure-update.ngrok.io,https://idapple-secure-update.ngrok.io/ID/,2017-11-11 07:32:29,Apple,offline,404,http://melani.admin.ch/
+11952,confirmation-restoration.scieron.com,http://confirmation-restoration.scieron.com/remboursement/Secure/formulaire/,2017-11-11 07:31:57,Swiss Government,dnserror,0,http://melani.admin.ch/
+11951,confirmation-restoration.slyip.net,http://confirmation-restoration.slyip.net/remboursement/Secure/formulaire/,2017-11-11 07:30:46,Swiss Government,dnserror,0,http://melani.admin.ch/
+11950,clogik.com,http://clogik.com/teawisdom.in/tax/tax.no/l/,2017-11-10 19:41:11,Skatteetaten,offline,404,http://melani.admin.ch/
+11949,falling-inlove.com,http://falling-inlove.com/old/ioncube/others/source/,2017-11-10 08:20:00,E-Mail Provider,offline,403,http://melani.admin.ch/
+11948,80.211.165.192,http://80.211.165.192/BLACKNIGHT2017/,2017-11-10 08:16:17,Americanas.com,offline,503,http://melani.admin.ch/
+11947,99-139-69-6.lightspeed.sntcca.sbcglobal.net,http://99-139-69-6.lightspeed.sntcca.sbcglobal.net/Includes/default.htm,2017-11-10 08:16:02,Americanas.com,offline,404,http://melani.admin.ch/
+11946,italisa.in,http://italisa.in/appdja/,2017-11-10 08:11:40,E-Mail Provider,offline,404,http://melani.admin.ch/
+11945,cilt-m.com.my,http://cilt-m.com.my/rs.php,2017-11-10 08:11:29,E-Mail Provider,offline,404,http://melani.admin.ch/
+11944,www-clhaese.com,http://www-clhaese.com/goodaddy/Daddy742f11a96562d5cee435986ade/,2017-11-10 06:02:17,GoDaddy,dnserror,0,http://melani.admin.ch/
+11943,bt-login.co.uk,http://bt-login.co.uk/,2017-11-10 05:56:23,BT,dnserror,0,http://melani.admin.ch/
+11942,www.santander.br-pessoa-fisica.com,http://www.santander.br-pessoa-fisica.com/,2017-11-10 05:55:50,Santander,dnserror,0,http://melani.admin.ch/
+11941,edit-account.information.womenshopdeal.com,https://edit-account.information.womenshopdeal.com/support-mohamed/account/,2017-11-10 05:55:22,PayPal,dnserror,0,http://melani.admin.ch/
+11940,www.autokoz.hu,http://www.autokoz.hu/redirect-ppl/,2017-11-10 05:55:14,PayPal,offline,403,http://melani.admin.ch/
+11939,hubmusicagency.com,http://hubmusicagency.com/wp-content/avito/,2017-11-10 05:54:00,Apple,offline,302,http://melani.admin.ch/
+11938,coopwheel.com.ar,http://coopwheel.com.ar/ona.htm,2017-11-10 05:53:53,Apple,offline,404,http://melani.admin.ch/
+11937,autoscout24.ch.vehid-view.one,http://autoscout24.ch.vehid-view.one/,2017-11-09 15:01:24,AutoScout24,dnserror,0,http://melani.admin.ch/
+11936,getfreestuffandcash.com,https://getfreestuffandcash.com/officeadminportal/,2017-11-09 14:57:33,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11935,mnslavoie.com,http://mnslavoie.com/wp-content/Office365/,2017-11-09 14:00:16,E-Mail Provider,offline,404,http://melani.admin.ch/
+11934,www.depart.de,http://www.depart.de/wp-admin/js/share.php,2017-11-09 14:00:13,E-Mail Provider,offline,503,http://melani.admin.ch/
+11933,onlinefrepdfviewer.000webhostapp.com,https://onlinefrepdfviewer.000webhostapp.com//,2017-11-09 12:50:28,E-Mail Provider,offline,403,http://melani.admin.ch/
+11932,67.222.16.128,http://67.222.16.128/~brightbe/-/apple/,2017-11-09 11:43:16,Apple,offline,404,http://melani.admin.ch/
+11931,www.profileme.it,http://www.profileme.it/m/,2017-11-09 11:43:13,Apple,offline,500,http://melani.admin.ch/
+11930,ruckerstattungswissconn.com,http://ruckerstattungswissconn.com/suiss,2017-11-09 09:19:31,Swisscom,offline,302,http://melani.admin.ch/
+11929,casinoweb24.com,http://casinoweb24.com/caf.htm,2017-11-09 09:19:24,Swisscom,offline,404,http://melani.admin.ch/
+11928,www.homestaysnepal.com,http://www.homestaysnepal.com/css/Excel/excel/,2017-11-08 18:04:08,E-Mail Provider,offline,404,http://melani.admin.ch/
+11927,axkantravel.com,http://axkantravel.com/wp-includes/ran/,2017-11-08 13:07:21,E-Mail Provider,offline,404,http://melani.admin.ch/
+11926,kobesportswear.date,http://kobesportswear.date/adobeCooom/,2017-11-08 12:57:47,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11925,azulbasics.com,https://azulbasics.com/confir9544/,2017-11-08 12:47:10,PayPal,offline,404,http://melani.admin.ch/
+11924,gvtguarulhos.com,https://gvtguarulhos.com/,2017-11-08 12:47:07,PayPal,dnserror,0,http://melani.admin.ch/
+11923,napaouxe.beget.tech,http://napaouxe.beget.tech/workbench/,2017-11-08 12:43:41,UBS,offline,404,http://melani.admin.ch/
+11922,www.western.ac.th,http://www.western.ac.th/images/index.php,2017-11-08 12:43:36,UBS,offline,404,http://melani.admin.ch/
+11921,mkl.undip.ac.id,http://mkl.undip.ac.id/wp-admin/network/upgrade/2015alldomain/,2017-11-08 11:42:25,E-Mail Provider,offline,404,http://melani.admin.ch/
+11920,just82.justhost.com,https://just82.justhost.com/~mdominmw/3213151314566file/w/,2017-11-08 10:04:55,Visa,offline,302,http://melani.admin.ch/
+11919,aicoo.com,https://aicoo.com/eletricabrasilbirigui/genlink/,2017-11-08 09:23:01,E-Mail Provider,offline,302,http://melani.admin.ch/
+11918,relaxjanitorial.com,http://relaxjanitorial.com/media/editors/educanet2.ch.html,2017-11-08 08:59:52,educa,offline,404,http://melani.admin.ch/
+11917,whenuwantuget.com,https://whenuwantuget.com/2/,2017-11-08 06:57:15,Apple,dnserror,0,http://melani.admin.ch/
+11916,whenuwantuget.com,https://whenuwantuget.com/flo2.html,2017-11-08 06:57:11,Apple,dnserror,0,http://melani.admin.ch/
+11915,www.starter-contact-application012-user-apdateid.rumosanq.beget.tech,http://www.starter-contact-application012-user-apdateid.rumosanq.beget.tech/folder_1/process/applications/number/finish/azerapple/,2017-11-08 06:56:50,Apple,offline,404,http://melani.admin.ch/
+11914,www.mainland-consulting.com,http://www.mainland-consulting.com/link0948786.php,2017-11-08 06:56:18,Apple,offline,404,http://melani.admin.ch/
+11912,vaziir.com,https://vaziir.com/authdirect/,2017-11-07 15:47:14,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11911,www.visayans.org,http://www.visayans.org/wp-admin/max/impo/,2017-11-07 15:19:08,impots.gouv.fr,offline,404,http://melani.admin.ch/
+11910,tierrasur.cl,https://tierrasur.cl/tmp/,2017-11-07 15:18:59,impots.gouv.fr,offline,404,http://melani.admin.ch/
+11908,verification-apple-appleid.eindhovenamsterdam.com,https://verification-apple-appleid.eindhovenamsterdam.com,2017-11-07 13:35:16,Apple,dnserror,0,http://melani.admin.ch/
+11906,devosdental.co.za,http://devosdental.co.za//wp-admin/maint/a/DHL.Percel/DHL/dhl/dhl/index.html,2017-11-07 13:34:24,E-Mail Provider,offline,404,http://melani.admin.ch/
+11905,220-133-88-99.hinet-ip.hinet.net,http://220-133-88-99.hinet-ip.hinet.net/images/goodsclass/,2017-11-07 09:34:34,Walmart,offline,500,http://melani.admin.ch/
+11904,www.autoinformcentre.com.ua,http://www.autoinformcentre.com.ua/vars/,2017-11-07 09:12:19,E-Mail Provider,offline,500,http://melani.admin.ch/
+11903,pyplusersverified.com,http://pyplusersverified.com,2017-11-07 08:09:48,PayPal,dnserror,0,http://melani.admin.ch/
+11902,perfumeriamercedes.cl,https://perfumeriamercedes.cl/image/catalog/iconnect-confirm-your-account-wmid901738119f4-110ll-pp16wmid2014m/home/,2017-11-07 08:09:27,Apple,dnserror,0,http://melani.admin.ch/
+11901,www.g4ladies.com,https://www.g4ladies.com/mm/,2017-11-07 06:16:25,PayPal,offline,500,http://melani.admin.ch/
+11900,213.152.162.79,http://213.152.162.79:50159/ubs2/,2017-11-07 06:09:19,UBS,offline,500,http://melani.admin.ch/
+11899,ebanking.ubs.com.ovmsndv.info,http://ebanking.ubs.com.ovmsndv.info/aktualisierung,2017-11-07 06:09:09,UBS,dnserror,0,http://melani.admin.ch/
+11898,www.paturnie.com,http://www.paturnie.com/infoaccount,2017-11-07 05:43:58,Netflix,offline,404,http://melani.admin.ch/
+11897,surinamepigfarms.sr,http://surinamepigfarms.sr/infoaccount/,2017-11-07 05:43:47,Netflix,offline,302,http://melani.admin.ch/
+11896,theuniversalorder.org.uk,https://theuniversalorder.org.uk/tayo/austia/index.php,2017-11-07 05:40:57,Microsoft,offline,404,http://melani.admin.ch/
+11895,areatera.com,http://areatera.com/post/,2017-11-06 12:16:13,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+11894,allstaff.ukit.me,http://allstaff.ukit.me/,2017-11-06 11:56:41,E-Mail Provider,offline,410,http://melani.admin.ch/
+11893,aforditoiroda.hu,https://aforditoiroda.hu/update/,2017-11-06 11:01:54,PayPal,offline,404,http://melani.admin.ch/
+11892,noroaming.hu,https://noroaming.hu/wp-admin/includes/rdbb.html,2017-11-06 11:01:50,PayPal,offline,404,http://melani.admin.ch/
+11891,e-sigin.com,http://e-sigin.com/QW021A/,2017-11-06 10:10:14,PostFinance,dnserror,0,http://melani.admin.ch/
+11890,sigln-unlock.com,http://sigln-unlock.com/home_ap/,2017-11-06 10:08:50,PostFinance,dnserror,0,http://melani.admin.ch/
+11889,www.sanguereal.org.br,https://www.sanguereal.org.br/jof/Log/,2017-11-06 10:06:22,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11888,webwebfu.beget.tech,http://webwebfu.beget.tech/ubs/keyclub/estore/,2017-11-06 09:08:44,UBS,offline,404,http://melani.admin.ch/
+11887,www.ayunaturalhealth.com,http://www.ayunaturalhealth.com/login.html,2017-11-06 09:07:02,Swisscom,offline,404,http://melani.admin.ch/
+11886,form.jotformeu.com,https://form.jotformeu.com/72951721421351,2017-11-06 09:06:49,Swisscom,offline,404,http://melani.admin.ch/
+11885,geosigma.cl,http://geosigma.cl/modules/upgrade/all/,2017-11-06 08:46:11,E-Mail Provider,offline,404,http://melani.admin.ch/
+11884,www.fischkueche-graf.de,http://www.fischkueche-graf.de/html/img/pool/cache/fonts/ch/secure/post/,2017-11-06 08:44:56,Schweizerische Post,dnserror,0,http://melani.admin.ch/
+11883,www.caritas-wohnen.com,http://www.caritas-wohnen.com/html/img/pool/secure/,2017-11-06 08:44:50,Schweizerische Post,offline,404,http://melani.admin.ch/
+11882,expedited-freight.com,http://expedited-freight.com/netflix_check_inc/,2017-11-06 07:55:32,Netflix,offline,404,http://melani.admin.ch/
+11881,anchorpointsafety.ca,http://anchorpointsafety.ca/profiles/minimal/cardcenter/,2017-11-06 07:27:04,UBS,offline,503,http://melani.admin.ch/
+11880,mishmoda.com,https://mishmoda.com/catalog/model/hozmegamenu/regional/,2017-11-06 07:08:50,PayPal,offline,404,http://melani.admin.ch/
+11878,email1.paypal.ch.websync2.online,http://email1.paypal.ch.websync2.online/web/,2017-11-06 07:08:28,PayPal,dnserror,0,http://melani.admin.ch/
+11877,abonnement-confirmmation-web.suroot.com,http://abonnement-confirmmation-web.suroot.com/profiles/apple/Secure/signLimithl.management/launchreason/,2017-11-06 07:08:12,Apple,dnserror,0,http://melani.admin.ch/
+11876,bibliafreestyle.com.br,http://bibliafreestyle.com.br/cally/crypt/index.html,2017-11-06 06:41:32,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11875,secure233.servconfig.com,https://secure233.servconfig.com/~zayhab5/privat/die/post/post/,2017-11-06 06:24:31,Schweizerische Post,offline,302,http://melani.admin.ch/
+11874,notlonkt.beget.tech,http://notlonkt.beget.tech/workbench/,2017-11-06 06:24:08,UBS,offline,404,http://melani.admin.ch/
+11873,www.omicsgroup.org,https://www.omicsgroup.org/bulk_upload/swisraa/,2017-11-06 06:23:59,UBS,offline,403,http://melani.admin.ch/
+11872,veriacct.000webhostapp.com,https://veriacct.000webhostapp.com/,2017-11-06 06:23:45,E-Mail Provider,offline,403,http://melani.admin.ch/
+11871,alppinib.beget.tech,http://alppinib.beget.tech/icloud-app1e/app-store/ihe/webmail-209/Support-Apple/oulppe/,2017-11-06 06:22:39,Apple,offline,404,http://melani.admin.ch/
+11868,ama-2017-secure.com,https://ama-2017-secure.com/script.php,2017-11-05 15:52:26,Amazon,dnserror,0,http://melani.admin.ch/
+11867,email1.paypal.ch.websession.ads.theoptix.online,http://email1.paypal.ch.websession.ads.theoptix.online/wac/,2017-11-05 15:46:53,PayPal,dnserror,0,http://melani.admin.ch/
+11866,halifax-login.co.uk,http://halifax-login.co.uk/auth/index.php,2017-11-05 13:18:49,Halifax,dnserror,0,http://melani.admin.ch/
+11864,aicoo.com,https://aicoo.com/comaya/genlink/,2017-11-05 11:18:53,E-Mail Provider,offline,302,http://melani.admin.ch/
+11863,www.southwestplantation.com,http://www.southwestplantation.com/cms/ap/,2017-11-05 09:45:06,Apple,offline,403,http://melani.admin.ch/
+11861,weinort-reith.at,http://weinort-reith.at/links/postfin/index.php,2017-11-05 09:29:47,PostFinance,offline,404,http://melani.admin.ch/
+11860,amigoint.net,http://amigoint.net/Ricardo/icard.ch/Umfrage-ID-99003-chvu/Genau_mein_Ding/klickn/Gratulatiom/2017/Ricardo.tk/index.htm,2017-11-05 09:25:54,Ricardo,offline,404,http://melani.admin.ch/
+11859,confirmation-folgenden-transaction.bbsindex.com,http://confirmation-folgenden-transaction.bbsindex.com/pay/Secure/Secure-signLimithl.management/,2017-11-05 09:13:55,PayPal,dnserror,0,http://melani.admin.ch/
+11858,email1.paypal.ch.websync2.online,http://email1.paypal.ch.websync2.online/wex/,2017-11-05 08:13:53,PayPal,dnserror,0,http://melani.admin.ch/
+11857,brandtricks.com,http://brandtricks.com//wp-content/plugins/jetpack/languages/___/,2017-11-05 08:13:33,Apple,offline,302,http://melani.admin.ch/
+11856,www.efpacs.ir,http://www.efpacs.ir/install.phtml,2017-11-05 08:13:23,Apple,offline,403,http://melani.admin.ch/
+11855,freemobile.top,http://freemobile.top/whatsapp/,2017-11-05 08:12:57,Visa,offline,404,http://melani.admin.ch/
+11854,abonnement-confirmation-web.slyip.net,http://abonnement-confirmation-web.slyip.net/ch/web.whatsapp.com/propos.de.whatsApp.management/,2017-11-04 21:47:18,Visa,dnserror,0,http://melani.admin.ch/
+11853,www.desi-nbg.de,http://www.desi-nbg.de/html/img/pool/hjd864hh7hjd864hh7hjd864hh7hjd864hh7hjd864hh7hjd864hh7hjd864hh7hjd864hh7hjd864hh7n/post/,2017-11-04 21:46:20,Schweizerische Post,offline,404,http://melani.admin.ch/
+11852,www.schiller-lockt.de,http://www.schiller-lockt.de/html/script/,2017-11-04 20:36:32,Schweizerische Post,offline,404,http://melani.admin.ch/
+11851,mishmoda.com,https://mishmoda.com/catalog/model/localisation/regional/85b1150cb64d0d1361be7372311f40aa/en_US/i/scr/regional/,2017-11-04 16:19:31,PayPal,offline,404,http://melani.admin.ch/
+11850,iglemdv.com,http://iglemdv.com/components/com_media/helpers/,2017-11-04 16:19:23,PayPal,offline,403,http://melani.admin.ch/
+11849,web-whatsapp.solutions,https://web-whatsapp.solutions/security/unlock/rO2y69Nt/update.php,2017-11-04 16:19:11,Visa,dnserror,0,http://melani.admin.ch/
+11848,store2.apple.ch.webession.inetmassx.net,http://store2.apple.ch.webession.inetmassx.net/app/log/,2017-11-04 08:41:49,Apple,dnserror,0,http://melani.admin.ch/
+11847,sicherheitfurdenkunden.com,http://sicherheitfurdenkunden.com/san.htm,2017-11-04 08:31:20,Visa,offline,302,http://melani.admin.ch/
+11846,213.152.161.211,http://213.152.161.211:50423/ubs2/,2017-11-04 08:30:56,UBS,offline,500,http://melani.admin.ch/
+11845,www.ubsvinzn.online,http://www.ubsvinzn.online,2017-11-04 08:30:12,UBS,dnserror,0,http://melani.admin.ch/
+11844,whatsupsuiss.com,http://whatsupsuiss.com/papple/,2017-11-04 08:29:55,Apple,offline,302,http://melani.admin.ch/
+11843,webcmd.netflixusersupport.billingupdate.netflix-restrictions.com,https://webcmd.netflixusersupport.billingupdate.netflix-restrictions.com/,2017-11-03 11:38:02,Netflix,dnserror,0,http://melani.admin.ch/
+11842,sigin-check.com,https://sigin-check.com/e-update/,2017-11-03 10:20:45,PostFinance,dnserror,0,http://melani.admin.ch/
+11841,check-account.com,https://check-account.com/home_ap/,2017-11-03 10:20:15,PostFinance,dnserror,0,http://melani.admin.ch/
+11840,www.pceim.unam.mx,https://www.pceim.unam.mx/plugins/extension/joomla/,2017-11-03 10:07:44,PayPal,offline,404,http://melani.admin.ch/
+11839,www.dhitracker.com,http://www.dhitracker.com/healthy/burna/webalert/,2017-11-03 09:15:37,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11838,www.florandina.com,http://www.florandina.com/sitio//modulos/gestor/gestormultimedia/server/php/files/logn/,2017-11-03 08:45:55,PayPal,offline,404,http://melani.admin.ch/
+11837,cspsychology.com.au,http://cspsychology.com.au/acc_verify.php,2017-11-03 07:45:35,E-Mail Provider,offline,404,http://melani.admin.ch/
+11836,support-resolved-yourapp-abuse.ga,http://support-resolved-yourapp-abuse.ga/,2017-11-03 07:39:10,Apple,dnserror,0,http://melani.admin.ch/
+11835,www.bharatbulksms.com,https://www.bharatbulksms.com/bpi-express/,2017-11-03 06:19:08,Bank of the Philippine Islands,offline,404,http://melani.admin.ch/
+11834,support.apple.com-ticket-a-0712.cc,https://support.apple.com-ticket-a-0712.cc/,2017-11-03 05:52:37,Apple,dnserror,0,http://melani.admin.ch/
+11832,www.ochonga.com,https://www.ochonga.com/wp-includes/js/cramt/crypt/,2017-11-03 05:51:40,E-Mail Provider,offline,302,http://melani.admin.ch/
+11831,www.supplementshop.lk,http://www.supplementshop.lk/wp-includes/images/smilies/degd/crypt/,2017-11-03 05:51:00,E-Mail Provider,offline,404,http://melani.admin.ch/
+11830,webcmd.netflixuser-support.billingupdate.netflix-restriction.com,https://webcmd.netflixuser-support.billingupdate.netflix-restriction.com/,2017-11-03 05:44:59,Netflix,dnserror,0,http://melani.admin.ch/
+11829,youbeenfux.com,http://youbeenfux.com/admin/,2017-11-02 19:59:23,Bank of America,dnserror,0,http://melani.admin.ch/
+11828,oshanderleeb.com,http://oshanderleeb.com/1/,2017-11-02 19:51:26,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11827,retroponamzde.com,http://retroponamzde.com/admin/signin/dropbox2016/Home/,2017-11-02 19:47:17,Dropbox,dnserror,0,http://melani.admin.ch/
+11826,com-bz.com,http://com-bz.com/bxbx/i/bxbx/,2017-11-02 19:44:49,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11825,ninaykaalkran.com,http://ninaykaalkran.com/file/encrypted/docusign/Docsigns/,2017-11-02 19:44:34,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11824,kerinoohchaedi.com,http://kerinoohchaedi.com/capitalonebank/capitalone/,2017-11-02 19:44:22,Capital One,dnserror,0,http://melani.admin.ch/
+11822,dankovrealty.ru,http://dankovrealty.ru/images/properties/,2017-11-02 19:42:59,UBS,offline,403,http://melani.admin.ch/
+11821,rederconto.com,http://rederconto.com/san.htm,2017-11-02 15:45:17,Apple,dnserror,0,http://melani.admin.ch/
+11820,umleitungssicherheitt.com,http://umleitungssicherheitt.com/papple/,2017-11-02 15:45:01,Apple,dnserror,0,http://melani.admin.ch/
+11819,testfffff.tk,http://testfffff.tk/oraaaax/crypt/,2017-11-02 15:43:15,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11818,wbag.ch,http://wbag.ch/lang/amazon/updete/index.php,2017-11-02 12:46:21,Amazon,offline,403,http://melani.admin.ch/
+11817,www.creciendoenbuenatierra.com,http://www.creciendoenbuenatierra.com/wp-content/plugins/css-ready-selectors/moneyman/list1/,2017-11-02 11:36:18,E-Mail Provider,offline,404,http://melani.admin.ch/
+11816,surisehoix.weebly.com,https://surisehoix.weebly.com/,2017-11-02 09:20:22,Sunrise,offline,404,http://melani.admin.ch/
+11815,webmailusmmaedu.weebly.com,http://webmailusmmaedu.weebly.com/,2017-11-02 09:03:49,E-Mail Provider,offline,404,http://melani.admin.ch/
+11814,j760671.myjino.ru,http://j760671.myjino.ru/j760671/beta/,2017-11-02 08:33:01,E-Mail Provider,offline,403,http://melani.admin.ch/
+11813,www.fairwaytoyou.com,http://www.fairwaytoyou.com/secured/,2017-11-02 07:09:20,E-Mail Provider,offline,302,http://melani.admin.ch/
+11811,metalollipop.com,http://metalollipop.com/docsign/file.php,2017-11-01 13:36:30,E-Mail Provider,offline,404,http://melani.admin.ch/
+11810,collegestaffcampus.net,http://collegestaffcampus.net/staff/UP/,2017-11-01 05:53:44,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11808,login-postfinance.com,https://login-postfinance.com/ap/,2017-10-31 11:22:06,PostFinance,dnserror,0,http://melani.admin.ch/
+11807,support-postfinance.com,https://support-postfinance.com/e-finance/,2017-10-31 11:20:48,PostFinance,dnserror,0,http://melani.admin.ch/
+11806,www.servicesseront.com,http://www.servicesseront.com/magento/Svizzera/Secure.management/index.html,2017-10-31 10:28:48,Apple,offline,404,http://melani.admin.ch/
+11805,www.vidullanka.com,http://www.vidullanka.com/LanKacomS.html,2017-10-31 10:28:42,Apple,offline,404,http://melani.admin.ch/
+11804,adestrandopalavras.site-br.pw,http://adestrandopalavras.site-br.pw/files/,2017-10-31 10:09:19,Swisscom,dnserror,0,http://melani.admin.ch/
+11803,webscmd.netflixuser-support.billingupdate.billingid-netflix.com,https://webscmd.netflixuser-support.billingupdate.billingid-netflix.com/,2017-10-31 09:57:33,Netflix,dnserror,0,http://melani.admin.ch/
+11802,sicherheitsmaximum.com,http://sicherheitsmaximum.com/support/,2017-10-31 07:31:27,Apple,dnserror,0,http://melani.admin.ch/
+11801,umleitungssicherheit.com,http://umleitungssicherheit.com/san.htm,2017-10-31 07:31:23,Apple,offline,500,http://melani.admin.ch/
+11800,dancingheals.net,http://dancingheals.net/media/paypal.com-localXch.webapps-service-login%20/dir-de/,2017-10-31 07:31:05,PayPal,dnserror,0,http://melani.admin.ch/
+11799,aei.com.do,https://aei.com.do/cdn/cgi-bin/manager/customers-config/ld/auth/log/,2017-10-31 06:40:54,PayPal,offline,404,http://melani.admin.ch/
+11798,www.longchampsgroup.com,https://www.longchampsgroup.com/wp-content/upgrade/asb56aat.php,2017-10-31 06:40:47,PayPal,offline,403,http://melani.admin.ch/
+11797,sirahata.com.br,http://sirahata.com.br/sc/postfin/,2017-10-31 06:40:12,PostFinance,offline,404,http://melani.admin.ch/
+11796,campustoall.com,http://campustoall.com/directory/UP/,2017-10-31 06:35:46,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11795,www.blog.santawasinmyhouse.com,http://www.blog.santawasinmyhouse.com/varse/,2017-10-30 16:07:51,E-Mail Provider,offline,404,http://melani.admin.ch/
+11793,vertdici.eu,https://vertdici.eu/level/crypt/,2017-10-30 09:45:51,E-Mail Provider,offline,404,http://melani.admin.ch/
+11792,webserviceinfo.5gbfree.com,http://webserviceinfo.5gbfree.com/de_ch/,2017-10-30 07:03:37,Visa,dnserror,0,http://melani.admin.ch/
+11791,rafactive.co.uk,https://rafactive.co.uk/submitarticle/files/Home/Home/,2017-10-30 05:59:29,Apple,offline,404,http://melani.admin.ch/
+11790,dsagc.edu.bd,http://dsagc.edu.bd/index3.html,2017-10-30 05:58:58,Apple,offline,302,http://melani.admin.ch/
+11789,paypai.servise.secrty.home.rodmidia.com.br,https://paypai.servise.secrty.home.rodmidia.com.br/12/,2017-10-30 05:58:42,PayPal,offline,403,http://melani.admin.ch/
+11788,gis.ambon.go.id,https://gis.ambon.go.id/sites/all/themes/sky/images/,2017-10-30 05:56:36,PayPal,offline,500,http://melani.admin.ch/
+11787,intranet.cised.fr,http://intranet.cised.fr/images/photostrombi/Netflix/,2017-10-29 08:02:38,Netflix,offline,500,http://melani.admin.ch/
+11786,cellpointoutlet.com,http://cellpointoutlet.com/Netflix/,2017-10-28 13:25:56,Netflix,offline,302,http://melani.admin.ch/
+11785,servicekunde-comdirect.top,https://servicekunde-comdirect.top/execution,2017-10-28 08:54:09,Comdirect,dnserror,0,http://melani.admin.ch/
+11784,ingebrink.dk,http://ingebrink.dk/images/pdf/Swisscom/index.html,2017-10-28 08:23:51,Swisscom,offline,404,http://melani.admin.ch/
+11783,www.dgdhele.com,http://www.dgdhele.com/cheditor5/duam/download-PO367459/,2017-10-28 08:12:28,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11782,orangeservicecourrier.weebly.com,http://orangeservicecourrier.weebly.com,2017-10-28 07:06:09,Orange,offline,404,http://melani.admin.ch/
+11781,www.travofox.com,http://www.travofox.com/wp-content/Whatup/What/,2017-10-28 07:05:44,Visa,offline,500,http://melani.admin.ch/
+11780,www.amababa.com,http://www.amababa.com/downloader/skin/images/,2017-10-28 07:05:36,Visa,offline,500,http://melani.admin.ch/
+11779,secure-2017-encrypted.gdn,https://secure-2017-encrypted.gdn/script.php,2017-10-27 10:53:29,Amazon,dnserror,0,http://melani.admin.ch/
+11778,www.toles.com.tr,http://www.toles.com.tr/css/winp/tax.no/,2017-10-27 09:25:46,Skatteetaten,offline,302,http://melani.admin.ch/
+11777,eurus.lt,http://eurus.lt/fkdfkjflksjflkdsjgdfgfdgfd/,2017-10-27 08:55:04,amfeli.fr,offline,302,http://melani.admin.ch/
+11776,inscription-ameli-fr-clients.ca-portail.com,https://inscription-ameli-fr-clients.ca-portail.com/login//PortailAS/appmanager/PortailAS/assure_somtc=true/,2017-10-27 08:54:25,amfeli.fr,offline,503,http://melani.admin.ch/
+11775,kantonsspitalwinterthur.weebly.com,https://kantonsspitalwinterthur.weebly.com,2017-10-27 08:40:13,Winterthur Spital,offline,404,http://melani.admin.ch/
+11774,genelesser.com,http://genelesser.com/fx.html,2017-10-27 08:39:21,Netflix,offline,404,http://melani.admin.ch/
+11773,www.promontime.com,http://www.promontime.com/net/net/,2017-10-27 07:58:34,Netflix,offline,404,http://melani.admin.ch/
+11772,g2kfitness.com,http://g2kfitness.com/flixi.html,2017-10-27 07:58:26,Netflix,offline,404,http://melani.admin.ch/
+11771,ashokpdf.tk,http://ashokpdf.tk/Administrator/Counter/index.php,2017-10-27 06:47:39,E-Mail Provider,dnserror,0,http://melani.admin.ch/
+11770,www.tatilpanosu.net,https://www.tatilpanosu.net/wp-includes/rest-api/fields/Login-account/,2017-10-27 05:46:38,PayPal,offline,404,http://melani.admin.ch/
+11768,italy-amazon-sicurezza.vbasc.com,http://italy-amazon-sicurezza.vbasc.com/login-bie=UTF8&node=89867300311/,2017-10-26 13:46:04,Amazon,offline,403,http://melani.admin.ch/
+11767,accauntverifica.www1.biz,http://accauntverifica.www1.biz/redirect/,2017-10-26 13:45:55,Amazon,offline,500,http://melani.admin.ch/
+11766,secure-ama-encrypted.gdn,https://secure-ama-encrypted.gdn//script.php,2017-10-26 13:04:55,Amazon,dnserror,0,http://melani.admin.ch/
+11765,blockchainel.info,https://blockchainel.info/wallet/,2017-10-26 11:44:14,Blockchain,dnserror,0,http://melani.admin.ch/
+11764,dubaishoreexcursions.com,https://dubaishoreexcursions.com/BRUGG_Email_Updating/aut.php,2017-10-26 06:55:17,Brugg,offline,404,http://melani.admin.ch/
+11763,worldagriculturalheritage.com,http://worldagriculturalheritage.com/zipo/,2017-10-26 06:45:47,Apple,offline,404,http://melani.admin.ch/
+11762,helga-wiktorin.de,http://helga-wiktorin.de/pages/client/,2017-10-26 05:00:49,OVH,offline,404,http://melani.admin.ch/

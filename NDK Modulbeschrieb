@@ -1,0 +1,35 @@
+Modulbezeichnung Laufnummer Heimathafen / Semester Sprache
+Lerninhalte
+Netzwerke und Kommunikation
+B-LS-MI 004 MI / 3 Deutsch
+Degen Markus (Modulverantwortliche/r) Schmutz Rolf (Unterrichtende/r)
+⦁ Einführung, Schichtenmodell der Datenübertragung ⦁ ISO/OSI vs TCP/IP, Protokolle vs Services
+⦁ Physikalische Datenübertragung
+⦁ Physikalische Limitationen, Mulitplexing, Bitserielle Übertragung, Netzwerkgeräte auf dieser Ebene
+⦁ Verbindungsschicht, Lokale Netzwerke
+⦁ Frames, Adressierung, Layer-2 Switches
+⦁ Globale End-zu-End Adressierung
+⦁ IPv6, IPv6, Routing, Routing-Protokolle
+⦁ Transportschicht
+⦁ TCP, UDP, Buffering, Windowing
+⦁ Anwendungsschicht
+⦁ State Machines von Protokollen, Beispiele bekannter L7 Protokolle (z.B. HTTP, SMTP, FTP)
+⦁ Basisdienste im Internet
+⦁ DNS, Mail, Web, Sicherheitsaspekte, Verschlüsselung
+⦁ Sicherheitsinfrastruktur
+⦁ Angreiferprofile, Verteidigungsstrategien, Segmentierungen, Firewalls
+⦁ «Cloud»-Dienste
+⦁ Moderne virtualisierte Umgebungen, «Elastic computing»
+⦁ Netzwerkdienste für den Einsatz im (CH) Gesundheitswesen: ⦁ Beispiele von Dienstanbietern (z.B. HIN, DocBox)
+1. sind in der Lage mit eigenen Worten die Konzepte, Probleme und konkreten Umsetzungen von geschichteten Kommunikationsprotokollen zu erklären und verwenden dabei die gängigen Begriffe
+2. sind in der Lage TCP/IP Netzwerke zu konfigurieren und an eigenen Beispielen die Adressierung zu definieren, das Routing zu demonstrieren und Sicherheitsaspekte zu beschreiben
+3. kennen auswendig die wichtigsten medizinischen Netzwerkdienstleister (CH) und Cloudprovider mit den jeweiligen angebotenen Diensten
+- Einführung in die Informatik - 1 2 3 4 5
+10 Wochen à 4 Semester-Lektionen (4L)
+gemäss Modulverzeichnis in der aktuellen StuPO
+Netzwerke und Kommunikation
+Lernziele
+Voraussetzungen 1)
+Modus
+Überprüfung der erlangten Kompetenzen
+1) Ziffern beziehen sich auf die jeweilige Nummer des Lernziels im entsprechenden Modul
