@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T10:33:30.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="LWCdJ1gwYarZ3JnJkaxt" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-22T10:42:15.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="XuPAuAwkr-OFQ25nrvOy" version="13.7.3" type="github">
   <diagram id="912Zr3RTYpiyvAySCrGM" name="Page-1">
     <mxGraphModel dx="1185" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -899,8 +899,8 @@
         <mxCell id="lTmBYxLJnF9V94jLEyZx-28" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="723" y="792" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lTmBYxLJnF9V94jLEyZx-29" value="&lt;b&gt;TODO:&lt;br&gt;&lt;/b&gt;Level:&lt;br&gt;&lt;br&gt;Line Code&lt;br&gt;Bilevel&lt;br&gt;NRZ&lt;br&gt;Manchester&lt;br&gt;etc&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Time:&lt;br&gt;sync/clock-line (sychron data transfer)&lt;br&gt;Startbit&lt;br&gt;Start-Sequenz/Preamble&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;(all baseband)&lt;br&gt;&lt;br&gt;- Q: what if Full-Duplex required and only 2 wires available?&lt;br&gt;- base-band example radio-operator: mic baseband, broadcast modulated/broadband&lt;br&gt;Modulated&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="589" width="262" height="111" as="geometry" />
+        <mxCell id="lTmBYxLJnF9V94jLEyZx-29" value="&lt;b&gt;TODO:&lt;br&gt;&lt;/b&gt;Level:&lt;br&gt;&lt;br&gt;Line Code&lt;br&gt;Bilevel-Schemes: NRZ, etc&lt;br&gt;Manchester&lt;br&gt;etc&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Time:&lt;br&gt;sync/clock-line (sychron data transfer)&lt;br&gt;Startbit&lt;br&gt;Start-Sequenz/Preamble&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;(all baseband)&lt;br&gt;&lt;br&gt;- Q: what if Full-Duplex required and only 2 wires available?&lt;br&gt;- base-band example radio-operator: mic baseband, broadcast modulated/broadband&lt;br&gt;Modulated&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;TDM / FDM / CDM&lt;br&gt;&lt;br&gt;Modulationsarten&lt;br&gt;&lt;br&gt;Duplex&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Codierungen&lt;br&gt;&lt;br&gt;&lt;br&gt;Netztopologie&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1399" y="534" width="262" height="111" as="geometry" />
         </mxCell>
         <mxCell id="lTmBYxLJnF9V94jLEyZx-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="97" y="846" width="370" height="147" as="geometry" />
