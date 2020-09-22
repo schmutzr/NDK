@@ -1,0 +1,24 @@
+\frametitle{Tool References 2/2}
+\begin{itemize}
+	\item \texttt{traceroute} UNIX (Darwin):
+	\begin{tiny}
+	\begin{verbatim}
+Usage: traceroute [-adDeFInrSvx] [-A as_server] [-f first_ttl] [-g gateway] [-i iface]
+	[-M first_ttl] [-m max_ttl] [-p port] [-P proto] [-q nqueries] [-s src_addr]
+	[-t tos] [-w waittime] [-z pausemsecs] host [packetlen]
+	\end{verbatim}
+	\end{tiny}
+	\item \texttt{tracert} Windos:
+	\begin{tiny}
+	\begin{verbatim}
+Syntax: tracert [-d] [-h Max. Abschnitte] [-j Hostliste] [-w Zeitlimit]
+                [-R] [-S Quelladresse] [-4] [-6] Zielname
+
+Optionen:
+    -d                  Löst Adressen nicht in Hostnamen auf.
+    -h Max. Abschnitte  Maximale Anzahl an Abschnitten bei Zielsuche
+    -j Hostliste        "Loose Source Route" gemaess Hostliste (nur IPv4)
+    -w Zeitlimit        Zeitlimit in Millisekunden für eine Antwort
+	\end{verbatim}
+	\end{tiny}
+\end{itemize}
