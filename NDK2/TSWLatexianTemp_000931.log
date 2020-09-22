@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.30)  22 SEP 2020 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.30)  22 SEP 2020 21:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex
-(/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex
+**/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex
+(/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasercs.sty
@@ -740,8 +740,8 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 Package: beamercolorthemedolphin 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemeinfolines.sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
-))) (./TSWLatexianTemp_000287.aux)
-\openout1 = `TSWLatexianTemp_000287.aux'.
+))) (./TSWLatexianTemp_000931.aux)
+\openout1 = `TSWLatexianTemp_000931.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -828,9 +828,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
- (./TSWLatexianTemp_000287.out) (./TSWLatexianTemp_000287.out)
+ (./TSWLatexianTemp_000931.out) (./TSWLatexianTemp_000931.out)
 \@outlinefile=\write5
-\openout5 = `TSWLatexianTemp_000287.out'.
+\openout5 = `TSWLatexianTemp_000931.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
@@ -895,7 +895,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 20.
- (./TSWLatexianTemp_000287.nav)
+ (./TSWLatexianTemp_000931.nav)
 Overfull \hbox (55.31758pt too wide) in paragraph at lines 20--20
  [][][][]  
  []
@@ -988,7 +988,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 )
 File: asciitable.txt  (verbatim)
 
-/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex:93: Missing $ inserted.
+/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex:93: Missing $ inserted.
 <inserted text> 
                 $
 l.93 \end{frame}
@@ -996,7 +996,7 @@ l.93 \end{frame}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex:93: Missing $ inserted.
+/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex:93: Missing $ inserted.
 <inserted text> 
                 $
 l.93 \end{frame}
@@ -1040,7 +1040,7 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 [7
 
  <./simplest-serial-clock.pdf>]
-/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex:116: Missing $ inserted.
+/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex:116: Missing $ inserted.
 <inserted text> 
                 $
 l.116 \end{frame}
@@ -1048,7 +1048,7 @@ l.116 \end{frame}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000287.tex:116: Missing $ inserted.
+/Users/rschmutz/FHNW/2020/NDK/NDK2/TSWLatexianTemp_000931.tex:116: Missing $ inserted.
 <inserted text> 
                 $
 l.116 \end{frame}
@@ -1082,11 +1082,11 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 ] <asynchron-startbit.pdf, id=308, 268.12169pt x 109.3686pt>
 File: asynchron-startbit.pdf Graphic file (type pdf)
  <use asynchron-startbit.pdf>
-Package pdftex.def Info: asynchron-startbit.pdf used on input line 144.
-(pdftex.def)             Requested size: 268.12103pt x 109.36832pt.
+Package pdftex.def Info: asynchron-startbit.pdf used on input line 145.
+(pdftex.def)             Requested size: 209.2609pt x 85.35826pt.
 File: ../fhnw.png Graphic file (type png)
  <use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 144.
+Package pdftex.def Info: ../fhnw.png used on input line 145.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
@@ -1095,14 +1095,14 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 
 [10
 
- <./asynchron-startbit.pdf>] <asynchron-ethernet.pdf, id=349, 319.1925pt x 195.6108pt>
+ <./asynchron-startbit.pdf>] <asynchron-ethernet.pdf, id=350, 319.1925pt x 195.6108pt>
 File: asynchron-ethernet.pdf Graphic file (type pdf)
  <use asynchron-ethernet.pdf>
-Package pdftex.def Info: asynchron-ethernet.pdf used on input line 155.
+Package pdftex.def Info: asynchron-ethernet.pdf used on input line 156.
 (pdftex.def)             Requested size: 232.14163pt x 142.26378pt.
 File: ../fhnw.png Graphic file (type png)
  <use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 155.
+Package pdftex.def Info: ../fhnw.png used on input line 156.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
@@ -1112,42 +1112,314 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 [11
 
  <./asynchron-ethernet.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 169.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+] <threshold.pdf, id=415, 284.98468pt x 109.3686pt>
+File: threshold.pdf Graphic file (type pdf)
+ <use threshold.pdf>
+Package pdftex.def Info: threshold.pdf used on input line 184.
+(pdftex.def)             Requested size: 284.98398pt x 109.36832pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 184.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+ <./threshold.pdf>] <threshold-soso.pdf, id=458, 268.12169pt x 109.3686pt>
+File: threshold-soso.pdf Graphic file (type pdf)
+ <use threshold-soso.pdf>
+Package pdftex.def Info: threshold-soso.pdf used on input line 195.
+(pdftex.def)             Requested size: 268.12103pt x 109.36832pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 195.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+ <./threshold-soso.pdf>] <schmitt-trigger.pdf, id=501, 274.1442pt x 132.495pt>
+File: schmitt-trigger.pdf Graphic file (type pdf)
+ <use schmitt-trigger.pdf>
+Package pdftex.def Info: schmitt-trigger.pdf used on input line 205.
+(pdftex.def)             Requested size: 274.14351pt x 132.49466pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 205.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+ <./schmitt-trigger.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 222.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+] <baseband-circuit.pdf, id=570, 462.76888pt x 31.0761pt>
+File: baseband-circuit.pdf Graphic file (type pdf)
+ <use baseband-circuit.pdf>
+Package pdftex.def Info: baseband-circuit.pdf used on input line 237.
+(pdftex.def)             Requested size: 341.43306pt x 22.9286pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 237.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+ <./baseband-circuit.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./bitcodes.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<bitcodes.pdf, id=609, 597.50786pt x 845.04686pt>
+File: bitcodes.pdf Graphic file (type pdf)
+ <use bitcodes.pdf>
+Package pdftex.def Info: bitcodes.pdf used on input line 252.
+(pdftex.def)             Requested size: 211.23695pt x 298.75394pt.
+
+Overfull \vbox (157.83066pt too high) detected at line 252
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 252.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
+
+ <./bitcodes.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 264.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+] <multiplex.pdf, id=672, 162.6075pt x 544.0325pt>
+File: multiplex.pdf Graphic file (type pdf)
+ <use multiplex.pdf>
+Package pdftex.def Info: multiplex.pdf used on input line 288.
+(pdftex.def)             Requested size: 59.75052pt x 199.90256pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 288.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
+
+ <./multiplex.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 306.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+] <broadband-circuit.pdf, id=740, 462.76888pt x 68.1747pt>
+File: broadband-circuit.pdf Graphic file (type pdf)
+ <use broadband-circuit.pdf>
+Package pdftex.def Info: broadband-circuit.pdf used on input line 320.
+(pdftex.def)             Requested size: 341.43306pt x 50.30075pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 320.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+ <./broadband-circuit.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 332.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
+
+] <fm-spectra.pdf, id=804, 340.3917pt x 330.27388pt>
+File: fm-spectra.pdf Graphic file (type pdf)
+ <use fm-spectra.pdf>
+Package pdftex.def Info: fm-spectra.pdf used on input line 342.
+(pdftex.def)             Requested size: 234.60043pt x 227.62204pt.
+
+Overfull \vbox (2.69876pt too high) detected at line 342
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 342.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+ <./fm-spectra.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 353.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+] <bandwidth.pdf, id=869, 250.0542pt x 125.5089pt>
+File: bandwidth.pdf Graphic file (type pdf)
+ <use bandwidth.pdf>
+Package pdftex.def Info: bandwidth.pdf used on input line 371.
+(pdftex.def)             Requested size: 170.0613pt x 85.35826pt.
+ <line-circuit.pdf, id=870, 253.90858pt x 99.2508pt>
+File: line-circuit.pdf Graphic file (type pdf)
+ <use line-circuit.pdf>
+Package pdftex.def Info: line-circuit.pdf used on input line 371.
+(pdftex.def)             Requested size: 218.36874pt x 85.35826pt.
+
+Overfull \vbox (5.15991pt too high) detected at line 371
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 371.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+ <./bandwidth.pdf> <./line-circuit.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 378.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[27
+
+]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 384.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[28
+
+]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 390.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[29
+
+]
 \tf@nav=\write6
-\openout6 = `TSWLatexianTemp_000287.nav'.
+\openout6 = `TSWLatexianTemp_000931.nav'.
 
 \tf@toc=\write7
-\openout7 = `TSWLatexianTemp_000287.toc'.
+\openout7 = `TSWLatexianTemp_000931.toc'.
 
 \tf@snm=\write8
-\openout8 = `TSWLatexianTemp_000287.snm'.
+\openout8 = `TSWLatexianTemp_000931.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
- (./TSWLatexianTemp_000287.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
-Package rerunfilecheck Info: File `TSWLatexianTemp_000287.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+ (./TSWLatexianTemp_000931.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
+Package rerunfilecheck Info: File `TSWLatexianTemp_000931.out' has not changed.
 (rerunfilecheck)             Checksum: F5D5B1941192E0162C10645742BF92F9;54.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
  ) 
 Here is how much of TeX's memory you used:
- 17184 strings out of 493089
- 332309 string characters out of 6134842
+ 17313 strings out of 493089
+ 334010 string characters out of 6134842
  401554 words of memory out of 5000000
- 20195 multiletter control sequences out of 15000+600000
- 12849 words of font info for 47 fonts, out of 8000000 for 9000
+ 20277 multiletter control sequences out of 15000+600000
+ 14150 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,466b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on TSWLatexianTemp_000287.pdf (11 pages, 246955 bytes).
+ 56i,17n,57p,466b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on TSWLatexianTemp_000931.pdf (29 pages, 584258 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 928 compressed objects within 10 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
