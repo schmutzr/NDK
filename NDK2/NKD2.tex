@@ -254,7 +254,7 @@ Es muss eine \"Ubereinkunft \"uber die verwendeten Codierungen\footnote{deshalb 
 
 
 \begin{frame}
-\frametitle{Multiplexing/``Broadband'' (1/6)}
+\frametitle{Multiplexing/``Broadband'' (1/7)}
 Bisher wurde angenommen, dass die \"Ubertragung \"uber Leitungen (galvanisch, optisch) ``exklusiv'' erfolgt.
 \begin{block}{Duplex/Multiplex}
 Was nun, wenn \"uber zwei Dr\"ahte mehr als ein ``Kanal'' implementiert werden soll?\footnote{z.B. Radio-/Fernsehkan\"ale Broadcast oder eine Modem-Strecke Duplex senden/empfangen auf der selben Leitung} Oder gar keine gleichstrom-f\"ahige Leitung zur Verf\"ugung steht (Radioband, Modemleitungen)
@@ -267,7 +267,7 @@ Dazu muss ein {\emph Multiplexing}-Verfahren eingerichtet werden. Eine solche \"
 
 
 \begin{frame}
-\frametitle{Multiplexing (2/6)}
+\frametitle{Multiplexing (2/7)}
 \begin{columns}
 \begin{column}{3cm}
 \begin{center}
@@ -294,7 +294,7 @@ Dazu muss ein {\emph Multiplexing}-Verfahren eingerichtet werden. Eine solche \"
 
 
 \begin{frame}
-\frametitle{Multiplexing: TDM (3/6)}
+\frametitle{Multiplexing: TDM (3/7)}
 Time-Division\footnote{oder ``Domain''} Multiplexing weist zeitlich getrennt (``Zeitschlitze'') einen \"Ubertragungskanal\footnote{normalerweise im Basisband, aber auch \"uber FDM-Kan\a"le \"ublich: WLAN, Funkamateure, etc} verschiedenen Quellen zu. 
 
 Dabei kommen verschiedene Techniken zum Einsatz:
@@ -312,11 +312,14 @@ Dabei kommen verschiedene Techniken zum Einsatz:
 
 
 \begin{frame}
-\frametitle{Multiplexing: FDM (4/6)}
+\frametitle{Multiplexing: FDM (4/7)}
 Es werden mehrere exklusive Kan\"ale auf dem geteilten Medium eingerichtet. Dazu wird das Nutzsignal zus\"atzlich auf eine Tr\"agerwelle \emph{aufmoduliert}\footnote{z.B. Radio-/Fernsehkan\"ale, WLAN}
 \vspace{0.5cm}
 
 \includegraphics[width=12cm]{broadband-circuit}
+\begin{block}{}
+Die Modulation kann kontinuierlich (analog) oder in Schritten (quantisiert) erfolgen. Bei der digitalen Daten\"ubermittlung wird als ``\{Amplitude,Frequency,Phase\}-Shift-Keying'' bezeichnet.
+\end{block}
 \end{frame}
 
 
@@ -324,11 +327,19 @@ Es werden mehrere exklusive Kan\"ale auf dem geteilten Medium eingerichtet. Dazu
 
 
 \begin{frame}
-\frametitle{Multiplexing: FDM (5/6)}
-AM
-FM
-PM
-Kombinationen
+\frametitle{Multiplexing: FDM (5/7)}
+\includegraphics[height=9cm]{modulation-schemes}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Multiplexing: FDM (5/7)}
+QAM, QPSK, APSK
+
+Note: at any scheme (even in baseband) there might be multiple signal-levels and/or ``shifts'' to transmit more than one bit at a sampling point
 \end{frame}
 
 
@@ -336,8 +347,9 @@ Kombinationen
 
 
 
+
 \begin{frame}
-\frametitle{Multiplexing: FDM (6/6)}
+\frametitle{Multiplexing: FDM (6/7)}
 \includegraphics[height=8cm]{fm-spectra}
 \end{frame}
 
