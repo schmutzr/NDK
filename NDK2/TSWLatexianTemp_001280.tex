@@ -19,7 +19,7 @@
 
 \begin{document} % ===============================================================
 
-\section{NDK B-LS-MI 004: L2}
+\section{NDK B-LS-MI 004: L1}
 
 
 
@@ -37,6 +37,21 @@
 	\item{Fehlererkennung und -Korrektur}
 \end{itemize}
 \end{frame}
+
+
+\frame { %------------------------------------------
+\frametitle{Layer 1: Physical Layer}
+\begin{itemize}
+\item Der \emph{Physical Layer} ist f\"ur die bitweise \"Ubertragung der
+	Daten verantwortlich.
+\item Es werden Eigenschaften in den folgenden Gebieten definiert:
+\begin{itemize}
+\item Mechanische (Pinbelegungen, Stecker)
+\item \"Ubertragungsart  (Elektrisch, Optisch, RF, Modulation oder Basisband, Seriell oder Parallel)
+\item Prozedurale und Funktionale Abl\"aufe
+\end{itemize}
+\end{itemize}
+}
 
 
 
@@ -205,6 +220,21 @@ Abhilfe schafft ein sogenannter Schmitt-Trigger\footnote{in fast allen Pegelbasi
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Nicht-Pegelbasierten Signale}
+\begin{itemize}
+  \item Phasenlage\footnote{relative...}: wird durch D\"ampfung nicht beeinflusst
+\includegraphics[height=1.5cm]{asynchron-ethernet}
+
+  \item Nulldurchg\"ange/Flanken: Richtung der Flanke (up/down) wird ebenfalls nicht durch D\"ampfung beeinflusst und ist sehr robust zu detektieren\footnote{``Manchester''-Code}
+
+\includegraphics[height=3cm]{zero-crossing}
+\end{itemize}
+Diese Techniken werden unter ``Multiplexing'' vertieft.
+\end{frame}
+
+
+
 
 \begin{frame}
 \frametitle{Interlude}
@@ -337,9 +367,16 @@ Die Modulation kann kontinuierlich (analog) oder in Schritten (quantisiert) erfo
 
 \begin{frame}
 \frametitle{Multiplexing: FDM (5/7)}
-QAM, QPSK, APSK
+Bei allen \"Ubertragungsarten sind auch ``Multi-Level''-Codierungen m\"oglich:
 
-Note: at any scheme (even in baseband) there might be multiple signal-levels and/or ``shifts'' to transmit more than one bit at a sampling point
+
+\begin{itemize}
+  \item es kann mehr als ein Bit pro Sampling-Point \"ubertragen werden
+  \item durch die vielen \"Uberg\"ange beim Signalverlauf entsteht ein ``breiteres'' Spektrum
+  \item \{\_,A,Q\}-PSK und FSK sind aber ``robust''\footnote{Phasenlage und Frequenz wird nicht beeinflusst} gegen\"uber Verzerrungen durch Bandbreitenbeschr/"ankung
+\end{itemize}
+
+\includegraphics[width=10cm]{multilevel}
 \end{frame}
 
 
@@ -361,7 +398,17 @@ Note: at any scheme (even in baseband) there might be multiple signal-levels and
 
 
 \begin{frame}
-\frametitle{EMPTY}
+\frametitle{Interlude}
+
+\myurl{http://websdr.ewi.utwente.nl:8901}
+
+Mit einem Multiplex-Verfahren kann ein Physikalischer Kanal\footnote{galvanisch, galvanisch-entkoppelt, Radiofrequenzen, optischer Link} in virtuelle ``Sub-Kan\"ale'' unterteilt werden. 
+
+\begin{tiny}silly analogy ahead...\end{tiny}
+\begin{itemize}
+  \item TDM: Fernseh-/Radioprogramm: jede Sendung hat den Kanal exklusiv w\"ahrend einer bestimmten Zeitdauer
+  \item FDM: Fernseh-/Radioprogramm: alle Sender k\"onnen gleichzeitig auf ``ihrem'' Kanal\footnote{``virtuell'' aufmoduliert auf eine bestimmten Tr\"agerfrequenz, mit bestimmter Bandbreite} senden 
+\end{itemize}
 \end{frame}
 
 
@@ -385,27 +432,121 @@ Note: at any scheme (even in baseband) there might be multiple signal-levels and
 
 
 \begin{frame}
-\frametitle{Interlude: fight the noise}
-Resilienz gegen\"uber Imissionen
+\frametitle{``Twisted-Pair'': Telegraphenleitung}
+\includegraphics[width=11cm]{telegraph-line}
 \end{frame}
 
 
 
 \begin{frame}
-\frametitle{Twister-Pair: Telegraphenleitung}
+\frametitle{Twisted-Pair: TP-Leitungen}
+\framesubtitle{Kabel / RJ-45 Stecker}
+
+
+\begin{itemize}
+\item [UTP] Unshielded Twisted Pair: g\"unstig, physikalisch stabil, bis ca. 50m
+Die meisten Netzwerkkabel mit RJ-45 Stecker f\"ur Ethernet
+	enthalten 8 isolierte Leiter in vier Paaren verdrillt. Bis 
+	100MBit/s werden nur zwei Paare ben\"otigt.
+	Bei Patchkabeln sind alle Adern der Stecker 1:1 verbunden,
+	bei Crossover-Kabeln sind sie ausgekreuzt.
+\item [STP] Shielded Twisted Pair: Die einzelnen Aderpaare (FTP:
+ Folied Twisted Pair)  sind bzw. auch noch 
+	das ganze Kabel (S/FTP: Screened Foiled Twisted Pair) sind
+	 zus\"atzlich zur Verdrillung abgeschirmt), teuerer als UTP, 
+	 l\"angere Leitungsl\"angen m\"oglich (bis ca. 100m), bessere EMV.
+
+\item [CAT5] Kabelklasse, welche bis 100 MBit/s verwendet wird.
+\end{itemize}
+\includegraphics[width=2.5cm\textwidth]{rj45Stecker.jpg}
+\includegraphics[width=2.5cm\textwidth]{rj45Buchse.jpg}
+
 \end{frame}
 
 
 
-\begin{frame}
-\frametitle{Twister-Pair: TP-Leitungen}
-\end{frame}
+
+\frame { %------------------------------------------
+\footnotetext[1]{\tiny{A. Tanenbaum, ''Computer Networks'', http://authors.phptr.com/tanenbaumcn4/}}
+\frametitle{Weitere \"Ubertragungsmedien}
+\begin{columns}
+\begin{column}{5.5cm}
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{2-04.jpg}
+\caption{ \tiny{2-04\footnotemark[1], Koaxial-Kabel}}
+\end{figure}
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{2-07.jpg}
+\caption{ \tiny{2-07\footnotemark[1], LWL}}
+\end{figure}
+\end{column}
+\begin{column}{5.5cm}
+\begin{figure}
+\includegraphics[width=0.7\textwidth]{2-11.jpg}
+\caption{ \tiny{2-11\footnotemark[1], Frequenzspektrum}}
+\end{figure}
+\begin{figure}
+\includegraphics[width=0.6\textwidth]{2-15.jpg}
+\caption{ \tiny{2-15\footnotemark[1], Satelliten}}
+\end{figure}
+\end{column}
+\end{columns}
+}
 
 
+\frame { %------------------------------------------
+\frametitle{L1:  \"Ubertragungsmedien 3/4}
+\framesubtitle{Verluste/D\"ampfung}
+Beim Einsatz von Kupferkabeln muss bei der \"Ubertragung immer
+mit Verlusten gerechnet werden. Verluste entsprechen einer
+\alert{D\"ampfung} und werden in \alert{dB} angegeben.
+Dabei gilt f\"ur das Verh\"altnis zwischen Eingangs- und Ausgangs\alert{spannung}:
+  \begin{displaymath}
+  a = 20\log \left(\frac{V2}{V1}\right)
+  \end{displaymath}
+{\tiny \textit{a: D\"ampfung in dB, V2: Ausgangsspannung, V1 Eingangsspannung}}\\
+Zus\"atzlich ist es bei Kabeln interessant, wie stark die einzelnen
+Leitungspaare einander beeinflussen, dies wird z.B. mit dem \alert{NEXT}
+(Near End Crosstalk) Wert angegeben (+Weitere Parameter).
+\begin{center}
+\includegraphics[width=0.4\textwidth]{next.png}  
+\includegraphics[width=0.4\textwidth]{daempfung.png} 
+\end{center}
+\small Siehe auch: \myurl{http://www.netzmafia.de/skripten/netze/netz6.html\#6.1}
+}
 
 
+\frame { %------------------------------------------
+\frametitle{L1:  \"Ubertragungsmedien 4/4}
+\framesubtitle{Lichtwellenleiter / Glasfaser}
+\small
+%Die heute immer vermehrt eingesetzten Lichtwellenleiter in der
+%Vernetzungstechnik sind noch immer einiges teuerer als die 
+%herk\"ommlichen Kupferkabel, bieten aber auch einige Vorteile:
+\begin{itemize}
+\footnotesize
+\item LWL's sind viel st\"orungsunempfindlicher als Cu-Kabel, 
+	es kann praktisch keine Fremdeinkopplung von St\"orsignalen 
+	stattfinden.
+\item Die Leitungsd\"ampfung ist praktisch frequenzunabh\"angig und 
+	wesentlich tiefer als bei Cu-Kabeln.
+\item Die \"Ubertragungskapazit\"at in LWL's ist ist gr\"osser als die von
+	Cu-Kabeln (bis in den GBit/s Bereich). Es k\"onnen	unterschiedliche Wellenl\"angen parallel verwendet werden.
+\end{itemize}
+Bei LWL's werden verschiedene Typen unterschieden:
+\begin{description}
+\footnotesize
+\item[Monomode] Sehr d\"unne Faser, welche das Licht nur bei 
+	einer bestimmten Wellenl\"ange gut leiten, es findet praktisch
+	keine Reflexion am Cladding statt, es sind grosse Geschwindigkeiten
+	und lange Leitungsl\"angen m\"oglich.
+\item[Multimode] Leiten das Licht auf verschiedenen Wellenl\"angen,
+	die Ausbreitung findet durch Reflexion am Cladding statt, daher
+	ist die D\"ampfung etwas gr\"osser als bei Monomode-Fasern.
+\end{description}
 
-
+Siehe auch: \myurl{http://www.netzmafia.de/skripten/netze/netz5.html\#5.6}
+}
 
 
 
