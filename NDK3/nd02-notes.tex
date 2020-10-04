@@ -1,0 +1,194 @@
+\documentclass{beamer}
+
+\usepackage{../fhnw-beamer}
+
+\date{\today}
+\author{rolf.schmutz@fhnw.ch}
+\institute{FHNW}
+\title{ND03 Layer-2}
+\renewcommand{\footnotesize}{\tiny}
+
+\begin{document}
+
+\begin{frame}
+\frametitle{Layer-2 Objectives}
+\begin{itemize}
+	\item{Layer 2 responsibilities}
+	\item{Layer 2 format}
+	\item{Layer 2 operation}
+	\item{Bridge operation}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{L2 Responsibilities}
+\begin{itemize}
+	\item packaging of data for transport over links (ie, between adjacent nodes/LAN\footnote{Local Area Network: typical in-house network connected to the Internet via a Router. WAN/Wide Area Network consist of many LANs $\rightarrow$ Internet})
+	\item implementation of {\em local} destination- and source-addressing in LAN
+	\item Ethernet/IEEE-802.3 allows for multicast- and broadcast destination\footnote{message to some or all nodes on LAN}
+	\item Ethernet L2 does {\em not} assure delivery\footnote{ie, the layers above must handle lost messages}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{L2 Factlets}
+\begin{itemize}
+	\item most abundant LANs/L2-Networks today are 802.3/Ethernet and 802.11/Wireless
+	\item devices for {\em building} LANs: Hub/Repeater (L1) and Bridge/Switch (L2)
+	\item devices {\em interconnecting} LANs to other LANs or the ``outside world'': Router (L3) or Firewall/Router (L3+)
+	\item L2 addressing is of {\em local} \footnote{there is no need for your computer to know the L2 address of a webserver in the Internet} interest only!
+	\item{a LAN/L2 is a so called ``broadcast domain'': \texttt{0xFF:FF:FF:FF:FF:FF} destination is limited {\em not} to the LAN}
+	\item{802.x/Ethernet is a TDM\footnote{Time Domain Multiplexing} network}
+	\item{messages on a Ethernet LAN are called {\em frames}}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{L2 Frame-Header/Metadata}
+encapsulates -- ``frames'' -- a certain\footnote{on Ethernet maximum 1518 Bytes - layer-2 metadata, minimum 64 Bytes} amount of data\footnote{the ``payload'', often somewhat incorrectly refered to as PDU, Protocol Data Unit} from above layer with metadata:
+\begin{itemize}
+	\item \textbf{Preamble}: a special synchronize sequence\footnote{\myurl{http://en.wikipedia.org/wiki/Ethernet\_frame}}
+	\item \textbf{Address}: source- and destination address of adjacent nodes
+	\item \textbf{Type}: identifies encapsulated data, eg \texttt{0x0800} for IP
+	\item \textbf{Frame Checksum}: allows the destination node to check consistency of data received
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{L2 Adressing}
+\begin{itemize}
+	\item{Ethernet L2/MAC addresses consists of 6 Bytes (3 vendor-id\footnote{\myurl{https://db.uga.edu/network/public/vendorcode.cgi}}, 3 serial)}
+	\item{this allows for (theoretical) $2^{48}\sim 256$ trillion addresses}
+	\item{the usual notation for MAC addresses are hex\footnote{sometimes identified by \texttt{0x}-prefix} bytes seperated by ``:''}
+	\item{MAC adresses are guaranteed\footnote{theoretically\ldots most OS/network cards allows you to alter this address and sometimes the vendor just blows it} to be unique}
+	\item{\texttt{0xFF:FF:FF:FF:FF:FF} is the {\em broadcast} \footnote{limited to LAN} destination address}
+	\item{any address with the \texttt{0x\_1:\_\_:\_\_:\_\_:\_\_:\_\_} bit set is {\em multicast} \footnote{eg. to ``all routers'' in LAN}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{L2 Interlude}
+\begin{itemize}
+	\item{find your computers MAC address\footnote{UNIX: \texttt{ifconfig}, Microsoft Windows: \texttt{ipconfig /all}}}
+	\item{find the vendor of your computers NIC\footnote{Network Interface Card}}
+	\item{find other MACs your computer had conversation with\footnote{\texttt{arp -a}, add another \texttt{-n} on UNIX for faster responses}}
+	\item{find the vendor of the router\footnote{``default gateway''} connecting you to the internet\footnote{this is actually a L3 theme\ldots use \texttt{netstat -rn} to find the routers IP and locate the corresponding MAC in the \texttt{arp -a} output}}
+	\item{find the MAC of your neighbours PC\footnote{use \texttt{ping {\em IP}} first then issue \texttt{arp -a} once again}}
+	\item{find the MAC of \texttt{www.eff.org}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{L2 Bridging}
+\begin{itemize}
+	\item{{\em bridges} are devices to extend the reach of a LAN. The resulting network is still a single LAN}
+	\item{multiport\footnote{anything with more than a few ports} bridges are called (L3) {\em switches}}
+	\item{bridges {\em segment} a LAN by analyzing the destination address and send out frames only on ports leading to the target device}
+	\item{\ldots thus providing some ``privacy''\footnote{try yourself: use \texttt{wireshark} or \texttt{tcpdump} and see if you can spy on your neighbous traffic}}
+	\item{this is achieved by building a MAC-address/port lookup table by storing the {\em source} MAC-address along with the receiving port number}
+	\item{as long as a particular destination MAC-address is not known, frames must be {\em flooded} out to all except the receiving port}
+	\item{broadcast frames are send out on all ports except on the receiving one}
+\end{itemize}
+\end{frame}
+
+% Alix
+%eth0      Link encap:Ethernet  HWaddr 00:0d:b9:1a:01:3c  
+%          inet addr:192.168.1.46  Bcast:192.168.1.255  Mask:255.255.255.0
+%          inet6 addr: fe80::20d:b9ff:fe1a:13c/64 Scope:Link
+%          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+%          RX packets:63769 errors:0 dropped:0 overruns:0 frame:0
+%          TX packets:7151 errors:0 dropped:0 overruns:0 carrier:0
+%          collisions:0 txqueuelen:1000 
+%          RX bytes:16734971 (15.9 MiB)  TX bytes:999474 (976.0 KiB)
+%          Interrupt:10 Base address:0x2000 
+%
+%eth1      Link encap:Ethernet  HWaddr 00:0d:b9:1a:01:3d  
+%          BROADCAST MULTICAST  MTU:1500  Metric:1
+%          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+%          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+%          collisions:0 txqueuelen:1000 
+%          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+%          Interrupt:15 Base address:0x8000 
+
+
+% collisions and collision-domain
+\begin{frame}
+\frametitle{L2 CSMA/CD, Collision-Domain}
+\begin{itemize}
+  \item{CSMA: Carrier Sense Multiple Access/Collision Detection}
+	\item{since the cable/medium\footnote{in case of twisted-pair cables the send/receive lines are physically seperated allowing for full-duplex traffic. Traditional coax-cables are half-duplex only} allows for at a single transmission only at any given time (TDM), the sender constantly monitors its transmission and cancels it in case of noise: {\em collision detection}}
+	\item{such a L2-segment\footnote{single broadcast-medium cable (coax) or repeater/hub interconnected} is called a ``collision-domain''}
+	\item{bridged seperates ``collision-domains'', thus a end-device connected to a switch has its private collision-domain\footnote{and will never encounter collisions at all if configured correctly}}
+\end{itemize}
+\end{frame}
+
+
+% cut-through vs store-and-forward
+\begin{frame}
+\frametitle{L2 Bridging: Cut-Through vs Store-and-Forward}
+\begin{itemize}
+	\item{traditionally bridges/switches receives a whole frame and forwards it if the frame-checksum matches}
+	\item{this adds a certain {\em latency} \footnote{a delay, in this case dependent of the frame-length} to the transmission}
+	\item{some bridges/switches offer a {\em cut-through} forwarding mode, where the frame is forwarded as soon as the destination-address is received}
+	\item{this mode allows for a {\em constant} and minimal latency}
+	\item{in case of line-noise, the bridge may forward defective frames in cut-through mode}
+	\item{advanced bridges mitigate this problem by fall-back to store-and-forward mode in presence of errors}
+\end{itemize}
+\end{frame}
+
+
+% Loops, Spanning-Tree
+\begin{frame}
+\frametitle{L2 Briding: Loops and avoidance of}
+\begin{itemize}
+	\item{complex LANs with multiple bridges may form {\em loops} \footnote{try this at home: ``short-circuit'' your (auto-crossover) switch by connecting a cable back-to-back}}
+	\item{especially broadcast frames may lead to a (broadcast) {\em storm}}
+	\item{advanced bridges employ a {\em spanning-tree \footnote{IEE 802.3D STP Spanning Tree Protocol: an application of the Djikstra-Algorithm, we'll study this in L3 OSPF}} protocol to avoid this}
+\end{itemize}
+\end{frame}
+
+
+% VLAN
+\begin{frame}
+\frametitle{L2 Bridging: VLAN}
+\begin{itemize}
+	\item{advanced bridges allow for {\em Virtual LANs} (VLANs)}
+	\item{VLANs are seperated LAN/L2-segments\footnote{ie, a router is required to interconnect VLANs}}
+	\item{the L2 metadata is extended by a VLAN-identification number}
+	\item{a physical port on the bridge can be configured to allow for one VLAN only\footnote{the VLAN-id is {\em stripped} from the metadata} -- usually to connect to end-devices}
+	\item{physical ports may also be configured to operate in {\em trunking} mode -- usually in bridge-to-bridge {\em aggregated} link or to allow for advanced end-devices to seperate VLANs internally}
+	\item{typical applications: seperate external-, internal- and server-LAN for security reasons\footnote{this is considered bad practice}}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{L2: References for ND03}
+\begin{itemize}
+\item \myurl{http://en.wikipedia.org/wiki/Ethernet\_frame}, \myurl{http://en.wikipedia.org/wiki/Ethernet\_II\_framing}
+\item \myurl{http://en.wikipedia.org/wiki/802.3}
+\item \myurl{http://en.wikipedia.org/wiki/IEEE_802.1D}
+\item \myurl{http://en.wikipedia.org/wiki/Bridging\_(networking)} especially the part ``bridging makes no assumptions about where in the network a particular address is located'' $\rightarrow$ ``flooding''
+\item \myurl{http://en.wikipedia.org/wiki/Frame\_(networking)}
+\item \myurl{https://db.uga.edu/network/public/vendorcode.cgi}, MAC vendor
+\end{itemize}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Layer-3}
+%\begin{itemize}
+%	\item{packet-switched network, best-effort (ie, no assured delivery/acknowledge/resend on L3)}
+%	\item{arp, determine MAC of peer or router}
+%	\item{end-to-end addressing}
+%	\item{reachability on L3: \texttt{ping}, \texttt{traceroute}/\texttt{tracert}}
+%	\item{address-format, classes}
+%	\item{subnets, CIDR}
+%	\item{routing-table, forwarding, routing-protocol manages routing-table}
+%	\item{routing-protocols}
+%\end{itemize}
+%\end{frame}
+
+
+\end{document}

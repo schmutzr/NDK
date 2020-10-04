@@ -1,0 +1,22 @@
+IP/L3                         MAC/L2
+-------------                 -----------------
+192.168.1.247 dev eth0 lladdr 58:9c:fc:0d:09:dc REACHABLE
+192.168.1.29  dev eth0 lladdr 00:0c:42:e9:25:57 PROBE
+192.168.1.10  dev eth0 lladdr c8:2a:14:55:aa:e3 REACHABLE
+192.168.1.87  dev eth0 lladdr 3c:2a:f4:eb:f0:fc REACHABLE
+192.168.1.2   dev eth0 lladdr b8:69:f4:c5:3c:97 REACHABLE
+192.168.1.16  dev eth0 lladdr 00:22:15:dd:59:16 REACHABLE
+192.168.1.23  dev eth0 lladdr 00:10:6c:05:15:fe REACHABLE
+192.168.1.26  dev eth0 lladdr 00:15:5d:01:16:01 REACHABLE
+192.168.1.32  dev eth0 lladdr 10:40:f3:97:14:e4 REACHABLE
+192.168.1.1   dev eth0 lladdr d4:ca:6d:f8:6e:7e REACHABLE
+192.168.1.254 dev eth0 lladdr 00:21:cc:ca:d3:e8 REACHABLE
+192.168.1.4   dev eth0 lladdr 00:0c:42:e9:25:57 REACHABLE
+192.168.1.14  dev eth0 lladdr 00:08:9b:c1:17:fd REACHABLE
+192.168.1.18  dev eth0 lladdr 00:08:9b:8c:c0:72 REACHABLE
+192.168.1.25  dev eth0 lladdr 00:0c:42:e9:25:57 REACHABLE
+192.168.1.79  dev eth0 lladdr 80:1f:02:51:d0:79 REACHABLE
+192.168.1.83  dev eth0 lladdr 24:77:03:a3:29:0c REACHABLE
+192.168.1.20  dev eth0 lladdr 08:00:27:5e:78:6c REACHABLE
+192.168.1.22  dev eth0 lladdr d8:9e:f3:7c:dd:f5 REACHABLE
+fe80::d6ca:6dff:fef8:6e7e dev eth0 lladdr d4:ca:6d:f8:6e:7e router STALE

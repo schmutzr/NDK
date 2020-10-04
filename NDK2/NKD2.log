@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.30)  22 SEP 2020 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.30)  26 SEP 2020 08:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -895,7 +895,8 @@ Package: beamercolorthemedolphin 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emeinfolines.sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
-))) (./NKD2.aux)
+)))
+No file NKD2.aux.
 \openout1 = `NKD2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -912,7 +913,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -990,8 +990,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
-
-(./NKD2.out) (./NKD2.out)
 \@outlinefile=\write5
 \openout5 = `NKD2.out'.
 
@@ -1073,7 +1071,9 @@ r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 20.
- (./NKD2.nav)
+
+No file NKD2.nav.
+
 Overfull \hbox (55.31758pt too wide) in paragraph at lines 20--20
  [][][][]  
  []
@@ -1111,15 +1111,26 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 
 [2
 
-] <simplest-serial.pdf, id=80, 311.24278pt x 197.7789pt>
-File: simplest-serial.pdf Graphic file (type pdf)
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
-<use simplest-serial.pdf>
-Package pdftex.def Info: simplest-serial.pdf used on input line 52.
-(pdftex.def)             Requested size: 311.24202pt x 197.77841pt.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 54.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 File: ../fhnw.png Graphic file (type png)
  <use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 52.
+Package pdftex.def Info: ../fhnw.png used on input line 54.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
@@ -1128,13 +1139,15 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 
 [3
 
- <./simplest-serial.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] <simplest-serial.pdf, id=107, 311.24278pt x 197.7789pt>
+File: simplest-serial.pdf Graphic file (type pdf)
 
+<use simplest-serial.pdf>
+Package pdftex.def Info: simplest-serial.pdf used on input line 67.
+(pdftex.def)             Requested size: 311.24202pt x 197.77841pt.
 File: ../fhnw.png Graphic file (type png)
-
-<use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 64.
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 67.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
@@ -1143,20 +1156,22 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 
 [4
 
-]
+ <./simplest-serial.pdf>]
 File: ../fhnw.png Graphic file (type png)
  <use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 64.
+Package pdftex.def Info: ../fhnw.png used on input line 78.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[5]
+[5
+
+]
 File: ../fhnw.png Graphic file (type png)
  <use ../fhnw.png>
-Package pdftex.def Info: ../fhnw.png used on input line 79.
+Package pdftex.def Info: ../fhnw.png used on input line 93.
 (pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
 Overfull \hbox (55.31758pt too wide) has occurred while \output is active
@@ -1166,466 +1181,652 @@ Overfull \hbox (55.31758pt too wide) has occurred while \output is active
 [6
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+File: asciitable.txt  (verbatim)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 96.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.108 \end{frame}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.108 \end{frame}
+                 
+? 
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 108.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+[7
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \end{frame}
-                
-? 
+] <simplest-serial-clock.pdf, id=235, 387.36719pt x 197.7789pt>
+File: simplest-serial-clock.pdf Graphic file (type pdf)
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+<use simplest-serial-clock.pdf>
+Package pdftex.def Info: simplest-serial-clock.pdf used on input line 114.
+(pdftex.def)             Requested size: 387.36624pt x 197.77841pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \end{frame}
-                
-? 
+Overfull \hbox (45.07094pt too wide) in paragraph at lines 114--114
+[][]  
+ []
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 114.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \end{frame}
-                
-? 
-! Missing \endgroup inserted.
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
+
+ <./simplest-serial-clock.pdf>]
+! Missing $ inserted.
 <inserted text> 
-                \endgroup 
-l.96 \end{frame}
-                
+                $
+l.131 \end{frame}
+                 
 ? 
-! Missing \endgroup inserted.
+! Missing $ inserted.
 <inserted text> 
-                \endgroup 
-l.96 \end{frame}
-                
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.96 \end{frame}
-                
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.96 \end{frame}
-                
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.96 \end{frame}
-                
-? 
-! Misplaced \cr.
-<inserted text> \cr 
-                    
+                $
+l.131 \end{frame}
+                 
+? 
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 131.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 146.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+] <asynchron-startbit.pdf, id=331, 268.12169pt x 109.3686pt>
+File: asynchron-startbit.pdf Graphic file (type pdf)
+
+<use asynchron-startbit.pdf>
+Package pdftex.def Info: asynchron-startbit.pdf used on input line 160.
+(pdftex.def)             Requested size: 209.2609pt x 85.35826pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 160.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+ <./asynchron-startbit.pdf>]
+<asynchron-ethernet.pdf, id=374, 319.1925pt x 195.6108pt>
+File: asynchron-ethernet.pdf Graphic file (type pdf)
+
+<use asynchron-ethernet.pdf>
+Package pdftex.def Info: asynchron-ethernet.pdf used on input line 171.
+(pdftex.def)             Requested size: 232.14163pt x 142.26378pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 171.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+ <./asynchron-ethernet.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 184.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+] <threshold.pdf, id=439, 284.98468pt x 109.3686pt>
+File: threshold.pdf Graphic file (type pdf)
+ <use threshold.pdf>
+Package pdftex.def Info: threshold.pdf used on input line 199.
+(pdftex.def)             Requested size: 284.98398pt x 109.36832pt.
+File: ../fhnw.png Graphic file (type png)
+
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 199.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+ <./threshold.pdf>] <threshold-soso.pdf, id=482, 268.12169pt x 109.3686pt>
+File: threshold-soso.pdf Graphic file (type pdf)
+
+<use threshold-soso.pdf>
+Package pdftex.def Info: threshold-soso.pdf used on input line 210.
+(pdftex.def)             Requested size: 268.12103pt x 109.36832pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 210.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+ <./threshold-soso.pdf>]
+<schmitt-trigger.pdf, id=524, 274.1442pt x 132.495pt>
+File: schmitt-trigger.pdf Graphic file (type pdf)
+
+<use schmitt-trigger.pdf>
+Package pdftex.def Info: schmitt-trigger.pdf used on input line 220.
+(pdftex.def)             Requested size: 274.14351pt x 132.49466pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 220.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+ <./schmitt-trigger.pdf>]
+File: asynchron-ethernet.pdf Graphic file (type pdf)
+ <use asynchron-ethernet.pdf>
+Package pdftex.def Info: asynchron-ethernet.pdf used on input line 234.
+(pdftex.def)             Requested size: 69.64297pt x 42.67912pt.
+
+<zero-crossing.pdf, id=566, 221.8689pt x 171.76169pt>
+File: zero-crossing.pdf Graphic file (type pdf)
+ <use zero-crossing.pdf>
+Package pdftex.def Info: zero-crossing.pdf used on input line 234.
+(pdftex.def)             Requested size: 110.26047pt x 85.35826pt.
+File: ../fhnw.png Graphic file (type png)
+
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 234.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+ <./zero-crossing.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 252.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
+
+] <baseband-circuit.pdf, id=631, 462.76888pt x 31.0761pt>
+File: baseband-circuit.pdf Graphic file (type pdf)
+
+<use baseband-circuit.pdf>
+Package pdftex.def Info: baseband-circuit.pdf used on input line 267.
+(pdftex.def)             Requested size: 341.43306pt x 22.9286pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 267.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+ <./baseband-circuit.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./bitcodes.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+<bitcodes.pdf, id=670, 597.50786pt x 845.04686pt>
+File: bitcodes.pdf Graphic file (type pdf)
+ <use bitcodes.pdf>
+Package pdftex.def Info: bitcodes.pdf used on input line 282.
+(pdftex.def)             Requested size: 211.23695pt x 298.75394pt.
+
+Overfull \vbox (157.83066pt too high) detected at line 282
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 282.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
+
+ <./bitcodes.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 294.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+] <multiplex.pdf, id=733, 162.6075pt x 544.0325pt>
+File: multiplex.pdf Graphic file (type pdf)
+ <use multiplex.pdf>
+Package pdftex.def Info: multiplex.pdf used on input line 318.
+(pdftex.def)             Requested size: 59.75052pt x 199.90256pt.
+File: ../fhnw.png Graphic file (type png)
+
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 318.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+ <./multiplex.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 336.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
+
+] <broadband-circuit.pdf, id=800, 462.76888pt x 68.1747pt>
+File: broadband-circuit.pdf Graphic file (type pdf)
+
+<use broadband-circuit.pdf>
+Package pdftex.def Info: broadband-circuit.pdf used on input line 353.
+(pdftex.def)             Requested size: 341.43306pt x 50.30075pt.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 353
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 353.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 353.
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 353.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+ <./broadband-circuit.pdf>]
+<modulation-schemes.pdf, id=839, 591.16856pt x 529.01637pt>
+File: modulation-schemes.pdf Graphic file (type pdf)
+
+<use modulation-schemes.pdf>
+Package pdftex.def Info: modulation-schemes.pdf used on input line 362.
+(pdftex.def)             Requested size: 286.16615pt x 256.0748pt.
+
+Overfull \vbox (31.15152pt too high) detected at line 362
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 362.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+ <./modulation-schemes.pdf>]
+<multilevel.pdf, id=882, 487.8225pt x 231.74579pt>
+File: multilevel.pdf Graphic file (type pdf)
+ <use multilevel.pdf>
+Package pdftex.def Info: multilevel.pdf used on input line 380.
+(pdftex.def)             Requested size: 284.52756pt x 135.16937pt.
+
+Overfull \vbox (7.28362pt too high) detected at line 380
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 380.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+ <./multilevel.pdf>] <fm-spectra.pdf, id=924, 340.3917pt x 330.27388pt>
+File: fm-spectra.pdf Graphic file (type pdf)
+
+<use fm-spectra.pdf>
+Package pdftex.def Info: fm-spectra.pdf used on input line 391.
+(pdftex.def)             Requested size: 234.60043pt x 227.62204pt.
+
+Overfull \vbox (2.69876pt too high) detected at line 391
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 391.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[27
+
+ <./fm-spectra.pdf>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 412.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[28
+
+] <bandwidth.pdf, id=989, 250.0542pt x 125.5089pt>
+File: bandwidth.pdf Graphic file (type pdf)
+ <use bandwidth.pdf>
+Package pdftex.def Info: bandwidth.pdf used on input line 430.
+(pdftex.def)             Requested size: 170.0613pt x 85.35826pt.
+
+<line-circuit.pdf, id=990, 253.90858pt x 99.2508pt>
+File: line-circuit.pdf Graphic file (type pdf)
+ <use line-circuit.pdf>
+Package pdftex.def Info: line-circuit.pdf used on input line 430.
+(pdftex.def)             Requested size: 218.36874pt x 85.35826pt.
+
+Overfull \vbox (5.15991pt too high) detected at line 430
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 430.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[29
+
+ <./bandwidth.pdf> <./line-circuit.pdf>]
+<telegraph-line.pdf, id=1036, 393.38968pt x 252.945pt>
+File: telegraph-line.pdf Graphic file (type pdf)
+
+<use telegraph-line.pdf>
+Package pdftex.def Info: telegraph-line.pdf used on input line 437.
+(pdftex.def)             Requested size: 312.9803pt x 201.24855pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 437.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[30
+
+ <./telegraph-line.pdf>] <rj45Stecker.jpg, id=1078, 289.08pt x 330.9966pt>
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+File: rj45Stecker.jpg Graphic file (type jpg)
+<use rj45Stecker.jpg>
+Package pdftex.def Info: rj45Stecker.jpg used on input line 464.
+(pdftex.def)             Requested size: 71.13188pt x 81.44588pt.
+ <rj45Buchse.jpg, id=1079, 433.62pt x 484.209pt>
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.464 \end{frame}
+                 
+? 
+File: rj45Buchse.jpg Graphic file (type jpg)
+<use rj45Buchse.jpg>
+Package pdftex.def Info: rj45Buchse.jpg used on input line 464.
+(pdftex.def)             Requested size: 71.13188pt x 79.42555pt.
+
+Overfull \vbox (8.26015pt too high) detected at line 464
+ []
+
+File: ../fhnw.png Graphic file (type png)
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 464.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[31
+
+ <./rj45Stecker.jpg> <./rj45Buchse.jpg>]
+<2-04.jpg, id=1108, 384.4764pt x 107.6823pt>
+File: 2-04.jpg Graphic file (type jpg)
+ <use 2-04.jpg>
+Package pdftex.def Info: 2-04.jpg used on input line 495.
+(pdftex.def)             Requested size: 140.84016pt x 39.44583pt.
+
+<2-07.jpg, id=1109, 400.8576pt x 139.4811pt>
+File: 2-07.jpg Graphic file (type jpg)
+ <use 2-07.jpg>
+Package pdftex.def Info: 2-07.jpg used on input line 495.
+(pdftex.def)             Requested size: 140.84016pt x 49.0064pt.
+
+<2-11.jpg, id=1110, 361.35pt x 202.1151pt>
+File: 2-11.jpg Graphic file (type jpg)
+ <use 2-11.jpg>
+Package pdftex.def Info: 2-11.jpg used on input line 495.
+(pdftex.def)             Requested size: 109.54262pt x 61.2703pt.
+
+<2-15.jpg, id=1111, 361.35pt x 204.5241pt>
+File: 2-15.jpg Graphic file (type jpg)
+ <use 2-15.jpg>
+Package pdftex.def Info: 2-15.jpg used on input line 495.
+(pdftex.def)             Requested size: 93.89503pt x 53.14378pt.
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 495.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[32
+
+ <./2-04.jpg> <./2-07.jpg> <./2-11.jpg> <./2-15.jpg>]
+<next.png, id=1139, 440.64626pt x 131.49126pt>
+File: next.png Graphic file (type png)
+ <use next.png>
+Package pdftex.def Info: next.png used on input line 517.
+(pdftex.def)             Requested size: 136.91603pt x 40.85616pt.
+
+<daempfung.png, id=1140, 273.02pt x 85.31876pt>
+File: daempfung.png Graphic file (type png)
+ <use daempfung.png>
+Package pdftex.def Info: daempfung.png used on input line 517.
+(pdftex.def)             Requested size: 136.91603pt x 42.78554pt.
+File: ../fhnw.png Graphic file (type png)
+
+<use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 517.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[33
+
+ <./next.png> <./daempfung.png>]
+File: ../fhnw.png Graphic file (type png)
+ <use ../fhnw.png>
+Package pdftex.def Info: ../fhnw.png used on input line 550.
+(pdftex.def)             Requested size: 46.55809pt x 11.38092pt.
+
+Overfull \hbox (55.31758pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[34
+
+]
+\tf@nav=\write6
+\openout6 = `NKD2.nav'.
+
+\tf@toc=\write7
+\openout7 = `NKD2.toc'.
+
+\tf@snm=\write8
+\openout8 = `NKD2.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
+ (./NKD2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
+
+
+Package rerunfilecheck Warning: File `NKD2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `NKD2.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AF8909BEB9A307643FA6ACA83083C788;54.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
+ ) 
+Here is how much of TeX's memory you used:
+ 17388 strings out of 493089
+ 336346 string characters out of 6134842
+ 400390 words of memory out of 5000000
+ 20337 multiletter control sequences out of 15000+600000
+ 14501 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,17n,57p,413b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on NKD2.pdf (34 pages, 1241148 bytes).
+PDF statistics:
+ 1256 PDF objects out of 1440 (max. 8388607)
+ 1107 compressed objects within 12 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+
