@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-05T10:54:59.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="1t6rMZeFBlIFS9LI6r7X" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-05T11:04:26.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Wj30kF_Y7PHxLu6UAlw0" version="13.7.7" type="github">
   <diagram id="GS0gh4Sqh1Imd_AyxvJ1" name="Page-1">
     <mxGraphModel dx="1422" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -31,13 +31,13 @@
             <mxPoint x="650" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-14" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-RnJZwd3Cinr7Ehx1_a-4" target="A-RnJZwd3Cinr7Ehx1_a-18">
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-14" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-RnJZwd3Cinr7Ehx1_a-78" target="A-RnJZwd3Cinr7Ehx1_a-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="400" as="sourcePoint" />
             <mxPoint x="360" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-18" value="lookup L2 dest in CAM/Port-Table" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="700" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A-RnJZwd3Cinr7Ehx1_a-19" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
@@ -64,7 +64,7 @@
         <mxCell id="A-RnJZwd3Cinr7Ehx1_a-25" value="L1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="30" y="250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-26" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="A-RnJZwd3Cinr7Ehx1_a-9">
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-26" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-RnJZwd3Cinr7Ehx1_a-80" target="A-RnJZwd3Cinr7Ehx1_a-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="219" as="sourcePoint" />
             <mxPoint x="960" y="219.5" as="targetPoint" />
@@ -208,6 +208,27 @@
         </mxCell>
         <mxCell id="A-RnJZwd3Cinr7Ehx1_a-75" value="exact same frame &quot;repeated&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="890" y="170" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-76" value="&lt;ol style=&quot;line-height: 200%&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Bridge &lt;i&gt;interprets &lt;/i&gt;L2-Addresses (lookup/update CAM/port-table)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;The frame is &quot;&lt;/span&gt;&lt;i&gt;repeated&lt;/i&gt;&lt;span&gt;&quot; &lt;/span&gt;&lt;i&gt;unchanged&lt;/i&gt;&lt;span&gt;, ie. the L2-Addresses are not altered in any way&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-78" value="&lt;font style=&quot;font-size: 9px&quot; face=&quot;Verdana&quot;&gt;1&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="216.33" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-79" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-RnJZwd3Cinr7Ehx1_a-4" target="A-RnJZwd3Cinr7Ehx1_a-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="700" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-80" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Verdana;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="820" y="214.67" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="A-RnJZwd3Cinr7Ehx1_a-81" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="A-RnJZwd3Cinr7Ehx1_a-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="219" as="sourcePoint" />
+            <mxPoint x="1320" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
