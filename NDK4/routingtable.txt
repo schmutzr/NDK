@@ -1,0 +1,21 @@
+Destination        Gateway            Flags        Refs      Use   Netif Expire
+default            10.175.52.1        UGSc           12        0     en1
+10.175.52/24       link#5             UCS             1        0     en1
+10.175.52.1/32     link#5             UCS             1        0     en1
+10.175.52.1        0:22:bd:f8:19:ff   UHLWIir        13       16     en1    869
+
+Flags: X - disabled, A - active, D - dynamic, C - connect, S - static, r - rip, b - bgp, o - ospf, m - mme, 
+  B - blackhole, U - unreachable, P - prohibit 
+#      DST-ADDRESS        PREF-SRC        GATEWAY            DISTANCE
+  0 ADS  0.0.0.0/0                          84.72.40.1                2
+  2 ADC  84.72.40.0/21      84.72.42.48     ether1-gateway            0
+  3 ADC  192.168.1.0/24     192.168.1.1     bridge1                   0
+
+S*    0.0.0.0/0 [1/0] via 193.247.171.25
+B     0.0.0.0/8 [200/0] via 192.168.1.1, 4w0d
+      2.0.0.0/32 is subnetted, 1 subnets
+B        2.58.228.145 [200/0] via 192.168.1.1, 2w3d
+      5.0.0.0/32 is subnetted, 17 subnets
+B        5.2.64.113 [200/0] via 192.168.1.1, 1d18h
+B        5.2.64.133 [200/0] via 192.168.1.1, 1d19h
+...

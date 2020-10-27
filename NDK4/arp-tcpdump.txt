@@ -1,0 +1,5 @@
+tcpdump -l -e -nnn arp
+10:33:07.37 00:26:18:ce:27:6d > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42:
+                                                   Request who-has 192.168.1.17 tell 192.168.1.16, length 28
+10:33:07.37 00:0d:b9:16:bf:e4 > 00:26:18:ce:27:6d, ethertype ARP (0x0806), length 60:
+                                                   Reply 192.168.1.17 is-at 00:0d:b9:16:bf:e4, length 46

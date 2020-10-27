@@ -1,0 +1,10 @@
+- [ready] base services: dns, dhcp
+- [needs-work] application-protocols: email, web
+- [nothing-done-yes] iot/automation: mqtt, etc
+
+[x]     dns
+[ ]     dhcp
+[x]     ldap
+[ ]     ntp
+[ ]     snmp
+[ ]     smb/nfs

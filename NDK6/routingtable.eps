@@ -1,0 +1,1030 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 24 4 286 673
+%%Title: routingtable
+%%CreationDate: Wed Feb 13 04:42:40 2002
+%%Creator: Tgif-4.1.40 by William Chia-Wei Cheng (william@cs.UCLA.edu)
+%%ProducedBy: (unknown)
+%%Pages: 1
+%%DocumentFonts: (atend)
+%%EndComments
+%%BeginProlog
+
+/tgifdict 88 dict def
+tgifdict begin
+
+/tgifellipsedict 6 dict def
+tgifellipsedict /mtrx matrix put
+
+/TGEL % tgifellipse
+ { tgifellipsedict begin
+      /yrad exch def
+      /xrad exch def
+      /y exch def
+      /x exch def
+      /savematrix mtrx currentmatrix def
+      x y translate
+      xrad yrad scale
+      0 0 1 0 360 arc
+      savematrix setmatrix
+   end
+ } def
+
+/tgifarrowtipdict 8 dict def
+tgifarrowtipdict /mtrx matrix put
+
+/TGAT % tgifarrowtip
+ { tgifarrowtipdict begin
+      /dy exch def
+      /dx exch def
+      /h exch def
+      /w exch def
+      /y exch def
+      /x exch def
+      /savematrix mtrx currentmatrix def
+      x y translate
+      dy dx atan rotate
+      0 0 moveto
+      w neg h lineto
+      w neg h neg lineto
+      savematrix setmatrix
+   end
+ } def
+
+/tgifpatdict 10 dict def
+
+/tgifpatbyte
+ { currentdict /retstr get exch
+   pat i cellsz mod get put
+ } def
+
+/tgifpatproc
+ { 0 1 widthlim {tgifpatbyte} for retstr
+   /i i 1 add def
+ } def
+
+/TGPF % tgifpatfill
+ { tgifpatdict begin
+      /h exch def
+      /w exch def
+      /lty exch def
+      /ltx exch def
+      /cellsz exch def
+      /pat exch def
+
+      /widthlim w cellsz div cvi 1 sub def
+      /retstr widthlim 1 add string def
+      /i 0 def
+
+      tgiforigctm setmatrix
+      ltx lty translate
+      w h true [1 0 0 1 0 0] {tgifpatproc} imagemask
+      ltx neg lty neg translate
+   end
+ } def
+
+/pat3 <8000000008000000> def
+/pat4 <8800000022000000> def
+/pat5 <8800220088002200> def
+/pat6 <8822882288228822> def
+/pat7 <aa55aa55aa55aa55> def
+/pat8 <77dd77dd77dd77dd> def
+/pat9 <77ffddff77ffddff> def
+/pat10 <77ffffff77ffffff> def
+/pat11 <7fffffff7fffffff> def
+/pat12 <8040200002040800> def
+/pat13 <40a00000040a0000> def
+/pat14 <ff888888ff888888> def
+/pat15 <ff808080ff080808> def
+/pat16 <f87422478f172271> def
+/pat17 <038448300c020101> def
+/pat18 <081c22c180010204> def
+/pat19 <8080413e080814e3> def
+/pat20 <8040201008040201> def
+/pat21 <8844221188442211> def
+/pat22 <77bbddee77bbddee> def
+/pat23 <c1e070381c0e0783> def
+/pat24 <7fbfdfeff7fbfdfe> def
+/pat25 <3e1f8fc7e3f1f87c> def
+/pat26 <0102040810204080> def
+/pat27 <1122448811224488> def
+/pat28 <eeddbb77eeddbb77> def
+/pat29 <83070e1c3870e0c1> def
+/pat30 <fefdfbf7efdfbf7f> def
+/pat31 <7cf8f1e3c78f1f3e> def
+
+/TGMAX
+ { exch dup 3 1 roll exch dup 3 1 roll gt { pop } { exch pop } ifelse
+ } def
+/TGMIN
+ { exch dup 3 1 roll exch dup 3 1 roll lt { pop } { exch pop } ifelse
+ } def
+/TGSW { stringwidth pop } def
+
+/bd { bind def } bind def
+
+/GS { gsave } bd
+/GR { grestore } bd
+/NP { newpath } bd
+/CP { closepath } bd
+/CHP { charpath } bd
+/CT { curveto } bd
+/L { lineto } bd
+/RL { rlineto } bd
+/M { moveto } bd
+/RM { rmoveto } bd
+/S { stroke } bd
+/F { fill } bd
+/TR { translate } bd
+/RO { rotate } bd
+/SC { scale } bd
+/MU { mul } bd
+/DI { div } bd
+/DU { dup } bd
+/NE { neg } bd
+/AD { add } bd
+/SU { sub } bd
+/PO { pop } bd
+/EX { exch } bd
+/CO { concat } bd
+/CL { clip } bd
+/EC { eoclip } bd
+/EF { eofill } bd
+/IM { image } bd
+/IMM { imagemask } bd
+/ARY { array } bd
+/SG { setgray } bd
+/RG { setrgbcolor } bd
+/SD { setdash } bd
+/W { setlinewidth } bd
+/SM { setmiterlimit } bd
+/SLC { setlinecap } bd
+/SLJ { setlinejoin } bd
+/SH { show } bd
+/FF { findfont } bd
+/MS { makefont setfont } bd
+/AR { arcto 4 {pop} repeat } bd
+/CURP { currentpoint } bd
+/FLAT { flattenpath strokepath clip newpath } bd
+/TGSM { tgiforigctm setmatrix } def
+/TGRM { savematrix setmatrix } def
+
+end
+
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%Page: 1 1
+
+%%PageBoundingBox: 24 4 286 673
+tgifdict begin
+/tgifsavedpage save def
+
+1 SM
+1 W
+
+0 SG
+
+90 RO
+72 0 MU 72 0 MU TR
+72 128 DI 100.000 MU 100 DI DU NE SC
+
+GS
+
+/tgiforigctm matrix currentmatrix def
+
+% OVAL
+GS
+   676 414 TR
+   [0.766 0.643 -0.643 0.766 3 -8] CO
+   676 NE 414 NE TR
+0 SG
+GS
+   NP 688 454 12 40 TGEL
+   CP 1 SG F
+   0 SG
+   NP 688 454 12 40 TGEL
+   CP EC NP
+   pat3 8 624 400 80 88 TGPF
+GR
+GR
+
+% BOX
+0 SG
+GS
+   NP 230 184 M 960 184 L 960 204 L 230 204 L CP 1 SG F
+   0 SG
+   NP 230 184 M 960 184 L 960 204 L 230 204 L CP EC NP
+   pat4 8 224 176 744 32 TGPF
+GR
+GS
+   10 SM
+   GS
+      NP 230 184 M 960 184 L 960 204 L 230 204 L CP
+      1 SG S 0 SG
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      250 150 M
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (talisker:~ # netstat -rn) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (Kernel IP routing table) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (193.8.196.95    0.0.0.0         255.255.255.255 UH       40 0          0 ippp0) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (192.168.45.0    0.0.0.0         255.255.255.0   U        40 0          0 eth1) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (10.100.1.0      0.0.0.0         255.255.255.0   U        40 0          0 eth0) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (127.0.0.0       0.0.0.0         255.0.0.0       U        40 0          0 lo) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (0.0.0.0         193.8.196.95    0.0.0.0         UG       40 0          0 ippp0) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      145 80 M
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (192.168.45.33) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      65 80 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (destination ) SH
+      GR
+   GR
+
+% OVAL
+0 SG
+GS
+   GS
+      NP 125 175 25 25 TGEL
+      S
+   GR
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      175 85 M
+      141.67 101.67 125.00 123.33
+      40 0 atan DU cos 8.000 MU 125 exch SU
+      exch sin 8.000 MU 150 exch SU CT
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      125 150 8.000 3.000 0 40 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      125 150 8.000 3.000 0 40 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      125 180 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (AND) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (AND) SH
+      GR
+   GR
+
+% OVAL
+0 SG
+GS
+   GS
+      NP 597 194 67 10 TGEL
+      S
+   GR
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      540 190 M
+      510.00 153.33 475.00 130.00 435.00 120.00 CT
+      395.00 110.00 350.83 107.50 302.50 112.50 CT
+      254.17 117.50 203.33 135.00
+      45 -80 atan DU cos 8.000 MU 150 exch SU
+      exch sin 8.000 MU 165 exch SU CT
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      150 165 8.000 3.000 -80 45 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      150 165 8.000 3.000 -80 45 TGAT
+   CP F
+GR
+
+% OVAL
+0 SG
+GS
+   GS
+      NP 175 225 25 25 TGEL
+      S
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      175 230 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (EQUAL?) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (EQUAL?) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      143 193 M
+      15 15 atan DU cos 8.000 MU 158 exch SU
+      exch sin 8.000 MU 208 exch SU L
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      158 208 8.000 3.000 15 15 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      158 208 8.000 3.000 15 15 TGAT
+   CP F
+GR
+
+% OVAL
+0 SG
+GS
+   GS
+      NP 305 194 60 10 TGEL
+      S
+   GR
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      245 190 M
+      225.00 183.33 206.67 188.33
+      25 -25 atan DU cos 8.000 MU 190 exch SU
+      exch sin 8.000 MU 205 exch SU CT
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      190 205 8.000 3.000 -25 25 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      190 205 8.000 3.000 -25 25 TGAT
+   CP F
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [4 4] 0 SD
+   NP
+      195 240 M
+      115 110 atan DU cos 8.000 MU 305 exch SU
+      exch sin 8.000 MU 355 exch SU L
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      305 355 8.000 3.000 110 115 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      305 355 8.000 3.000 110 115 TGAT
+   CP F
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [4 4] 0 SD
+   NP
+      155 240 M
+      60 -45 atan DU cos 8.000 MU 110 exch SU
+      exch sin 8.000 MU 300 exch SU L
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      110 300 8.000 3.000 -45 60 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      110 300 8.000 3.000 -45 60 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+NP 212 258 M 228 258 L 228 272 L 212 272 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      220 270 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (yes) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (yes) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+NP 128 258 M 141 258 L 141 272 L 128 272 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      135 270 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (no) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (no) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+NP 209 275 M 295 275 L 295 344 L 209 344 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      210 290 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (destination is) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (in subnet,) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (check for) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (local subnet) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      555 400 M
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (talisker:~ # ip route show) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (193.8.196.95 dev ippp0  proto kernel  scope link  src 192.168.0.99 ) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (192.168.45.0/24 dev eth1  proto kernel  scope link  src 192.168.45.1 ) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (10.100.1.0/24 dev eth0  proto kernel  scope link  src 10.100.1.41 ) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (127.0.0.0/8 dev lo  scope link ) SH
+      GR
+      0 16 RM
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (default via 193.8.196.95 dev ippp0) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      550 350 M
+      516.67 400.00 516.67 450.00
+      550 500 CT
+   TGSM
+   1 W
+   S
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      1145 350 M
+      1178.33 400.00 1178.33 450.00
+      1145 500 CT
+   TGSM
+   1 W
+   S
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      10 300 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (destination is) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (not in this sub-) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (net, check next row) SH
+      GR
+   GR
+
+% OVAL
+0 SG
+GS
+   GS
+      NP 325 375 25 25 TGEL
+      S
+   GR
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      325 380 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (SET?) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (SET?) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      700 200 M
+      726.67 230.00 734.17 255.00 722.50 275.00 CT
+      710.83 295.00 650.83 307.50 542.50 312.50 CT
+      434.17 317.50 366.67 331.67
+      35 -40 atan DU cos 8.000 MU 340 exch SU
+      exch sin 8.000 MU 355 exch SU CT
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      340 355 8.000 3.000 -40 35 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      340 355 8.000 3.000 -40 35 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      320 315 M
+      GS
+            0 SG
+            /Courier FF [14 0 0 -14 0 0] MS
+            (G) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   NP
+      325 320 M
+      30 0 atan DU cos 8.000 MU 325 exch SU
+      exch sin 8.000 MU 350 exch SU L
+   TGSM
+   1 W
+   S
+GR
+GS
+   TGSM
+   NP
+      325 350 8.000 3.000 0 30 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      325 350 8.000 3.000 0 30 TGAT
+   CP F
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [4 4] 0 SD
+   NP
+      345 390 M
+      60 40 atan DU cos 8.000 MU 385 exch SU
+      exch sin 8.000 MU 450 exch SU L
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      385 450 8.000 3.000 40 60 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      385 450 8.000 3.000 40 60 TGAT
+   CP F
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [4 4] 0 SD
+   NP
+      305 390 M
+      60 -45 atan DU cos 8.000 MU 260 exch SU
+      exch sin 8.000 MU 450 exch SU L
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      260 450 8.000 3.000 -45 60 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      260 450 8.000 3.000 -45 60 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+NP 352 408 M 368 408 L 368 422 L 352 422 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      360 420 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (yes) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (yes) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+NP 278 408 M 291 408 L 291 422 L 278 422 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      285 420 M
+      GS
+        GS
+        0
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (no) TGSW 
+        AD
+        GR
+      2 DI NE 0 RM
+            0 SG
+            /Helvetica FF [10 0 0 -10 0 0] MS
+            (no) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+NP 209 455 M 291 455 L 291 507 L 209 507 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      210 470 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (local subnet,) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (do ARP and) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (deliver L2) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+NP 354 455 M 459 455 L 459 507 L 354 507 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      355 470 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (remote net,) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (forward via) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (gateway-column) SH
+      GR
+   GR
+
+% TEXT
+NP
+0 SG
+   GS
+      1 W
+      650 60 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (Note the sort-order of the routing table \(automatically done by the OS\):) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (longest-prefix/netmask to shortest, this corresponds to most-specific) SH
+      GR
+      0 17 RM
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (to least-specific) SH
+      GR
+   GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [2 2] 0 SD
+   NP
+      645 90 M
+      598.33 96.67 575.00 121.67
+      65 0 atan DU cos 8.000 MU 575 exch SU
+      exch sin 8.000 MU 165 exch SU CT
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      575 165 8.000 3.000 0 65 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      575 165 8.000 3.000 0 65 TGAT
+   CP F
+GR
+
+% POLY/OPEN-SPLINE
+0 SG
+GS
+   [2 2] 0 SD
+   NP
+      920 95 M
+      986.67 178.33 1007.50 235.83 982.50 267.50 CT
+      957.50 299.17 917.50 315.00 862.50 315.00 CT
+      807.50 315.00 753.33 341.67
+      80 -80 atan DU cos 8.000 MU 700 exch SU
+      exch sin 8.000 MU 395 exch SU CT
+   TGSM
+   1 W
+   S
+   [] 0 SD
+GR
+GS
+   TGSM
+   NP
+      700 395 8.000 3.000 -80 80 TGAT
+   1 SG CP F
+   0 SG
+   NP
+      700 395 8.000 3.000 -80 80 TGAT
+   CP F
+GR
+
+% TEXT
+NP
+0 SG
+NP 559 360 M 861 360 L 861 378 L 559 378 L CP 1 SG F
+0 SG
+   GS
+      1 W
+      560 375 M
+      GS
+            0 SG
+            /Helvetica FF [14 0 0 -14 0 0] MS
+            (routing table display using next-generation tool:) SH
+      GR
+   GR
+
+GR
+tgifsavedpage restore
+end
+showpage
+
+%%Trailer
+%MatchingCreationDate: Wed Feb 13 04:42:40 2002
+%%DocumentFonts: Helvetica
+%%+ Courier
+%%EOF

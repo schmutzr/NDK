@@ -1,0 +1,191 @@
+%\documentclass[a4paper]{article}
+%\usepackage{beamerarticle}
+
+\documentclass[ignorenonframetext]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage{amssymb}
+
+\usepackage{../fhnw-beamer}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+
+%\mode<article>{\usepackage{fullpage}}
+%\mode<presentation>{\usetheme{Berlin}}
+
+\date{\today}
+\author{rolf.schmutz@fhnw.ch}
+\institute{FHNW}
+\title{Netzwerke und Kommunikation\\B-LS-MI 004\\Basisdienste\\LDAP/ActiveDirectory Verzeichnisdienst}
+
+
+\begin{document} % ===============================================================
+
+\section{NDK 02-050: LDAP}
+
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Ziele}
+\begin{itemize}
+	\item{Sie kennen die Aufgaben von LDAP}
+	\item{Sie k\"onnen gezielt LDAP-Server abfragen}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{LDAP: DNS f\"ur Personen und Inventar}
+LDAP steht f\"ur ``Lightweight Directory Access Protocol''\footnote{wie immer bei IETF wenn etwas ``simple'' oder ``lightweight'' heisst, ist es das nicht\ldots}
+\\
+\vspace{0.25cm}
+LDAP ist ein flexibler Verzeichnisdienst und z.B. verwendet f\"ur
+\begin{itemize}
+	\item Personenverzeichnis innerhalb einer Organisation (``Telefonbuch'')
+	\item Computer-Inventar
+\end{itemize}
+LDAP bietet im Gegensatz zu DNS auch eine Authentisierung\footnote{gesicherte Identifizierung} und wird f\"ur Autorisierung\footnote{Berechtigungen} verwendet
+\end{frame}
+
+\begin{frame}
+\frametitle{LDAP: Factlets}
+\begin{itemize}
+	\item LDAP basiert auf dem ISO/OSI X.500 Standard
+	\item LDAP wird meistens \"uber TCP\footnote{Port 389} implementiert
+	\item LDAP bietet ein \href{https://ldap.com/object-classes/}{Objektmodell} wobei jeder Eintrag von mehreren Klassen ``erben'' kann -- damit werden die vorhandenen Felder\footnote{z.B. objectClass=person $\rightarrow$ sn=Familienname, givenName=Vorname, mail, \ldots} bestimmt
+	\item anders als DNS wird LDAP nicht global/verteilt betrieben\footnote{obschon das
+	in X.500 so vorgesehen war}, d.h. die einzelnen Verzeichnisdienste m\"ussen dem Anfrager bekannt sein
+	\item es sind ``Federations'' m\"oglich -- eine Verlinkung auf andere Verzeichnisse (z.B. FHNW und Switch/AAI)
+	\item die Eintr\"age sind hierarchisch\footnote{\"uber Attribute \texttt{dc} (domain-component), \texttt{ou} (organisational-unit), \texttt{l} (location), etc} geordnet, meistens nach Unternehmensstruktur
+	\item es sind Beziehungen zwischen Objekten m\"oglich, das wird vorallem f\"ur Gruppenzugeh\"origkeit\footnote{memberOf} benutzt
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Implementierungen}
+LDAP ist wie DNS auch ein eher ``verborgener'' Dienst, der von Endbenutzer nicht
+direkt verwendet wird.
+
+\vspace{0.25cm}
+Serverseitig gibt es zwei wesentliche Implementierungen
+\begin{itemize}
+	\item \href{https://openldap.org}{\textbf{openLDAP}}
+	\item \textbf{AD}/ActiveDirectory von Microsoft
+\end{itemize}
+\vspace{0.5cm}
+Clientseitig wird meistens durch eine Benutzeranwendung\footnote{d.h. \"ahnlich wie eine URL/Hostnamen im Browser \"uber DNS aufgel\"ost wird} (Mail, Anmeldung, etc) und/oder
+spezielle Bibliotheken kommuiziert.
+\vspace{0.5cm}
+Einige spezielle LDAP-Clients (GUI, command-line) sind ebenfalls vorhanden, wir
+benutzen die ldap-utils von OpenLDAP
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Recordformat (1/2)}
+Das verwendete (externe) Datenformat ist \href{https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format}{LDIF}
+\begin{itemize}
+  \item einzelne ``Records''\footnote{anders als bei DNS sind das komplette Eintr\"age/Nodes mit mehreren Attributen -- die im DNS den Resource-Records/RR entsprechen} werden durch Leerzeile oder ``--'' getrennt
+  \item einzelne Attribute werden mit: \texttt{Attribut-Typ: Wert} aufgef\"uhrt
+  \item ein Wert kann \"uber mehrere Zeilen gehen, die Folgezeilen m\"ussen dann einger\"uckt werden
+  \item Werte k\"onnen base64 codiert sein: \texttt{sn:: S8O8dHRuZXI=}\footnote{wird mit ``::'' anstatt ``:'' als Attribut-Trenner signalisiert, vorallem f\"ur ``lange'' Werte wie Benutzerbild, Zertifikate, Namen mit Umlauten, etc} (``K\"uttner'')
+  \item mindestens werden die Attribute \texttt{objectClass}\footnote{kann mehrfach vorkommen}, \texttt{dn} ``distingushed name''/Pfad und \texttt{cn} ``common name''/Name erwartet
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Recordformat (2/2)}
+\begin{tiny}
+\begin{Verbatim}
+dn: cn=1000002, ou=Payroll, dc=willeke, dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: 1000002
+cn: KayC
+sn: Kay
+description: This is Chicky Kay's description
+l: Alameda
+ou: Payroll
+postalAddress: Payroll$Alameda
+telephoneNumber: +1 213 993-9665
+title: Elite Payroll Assistant
+uid: KayC
+givenName: Chicky
+mail: KayC@ns-mail4.com
+departmentNumber: 8982
+employeeType: Contract
+roomNumber: 9562
+secretary: cn=100135, ou=Human Resources, dc=willeke, dc=com
+manager: cn=100474, ou=Administrative, dc=willeke, dc=com 
+\end{Verbatim}
+\end{tiny}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+\frametitle{Abfragen}
+LDAP bietet eine flexible textbasierte \href{https://ldap.com/ldap-filters/}{Abfragesprache} nach einem funktionalen Ansatz:
+\begin{itemize}
+  \item Suche nach einem Namen: \texttt{(givenName=Fritz)}
+  \item Suchen k\"onnen mit ``\&'' (and), ``$\vert$'' (or) und ``!'' (not) verkn\"upft werden\footnote{dabei wird eine super-coole (LISP-like) Pr\"afixnotation verwendet: \texttt{(\& (a) (b) (c))}} -- mit zwei oder mehr Argumenten
+  \item Suche nach mehreren Argumenten: \\konjunktiv: \texttt{(\& (givenName=Fritz) (sn=Knob) )} \\
+  disjunktiv: \texttt{($\vert$ (objectClass=person) (objectClass=top) )} 
+  \item Suche mit Platzhalter: \texttt{(sn=K*)}
+  \item ``unscharfe''\footnote{wird nicht von allen Server unterst\"utzt} (approximate) Suche: \texttt{(givenName$\sim=$Franz)}
+  \item \ldots und alles kann noch ``verschachtelt'' werden :)
+\end{itemize} 
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exercises}
+\begin{itemize}
+  \item Verwenden sie die Shell/Terminal auf \url{https://fhnw.netlabs.ch/}
+  \item benutzen sie einen der \href{https://ldapwiki.com/wiki/Public\%20LDAP\%20Servers}{Public LDAP Server}\footnote{bitte nicht ``bombardieren'' sonst werden wir gesperrt}
+  \item Beispiel: \texttt{ldapsearch -x -H ldap://x500.bund.de '(sn=K*)'}
+  \item mit \texttt{ldapsearch -LLL -x\ldots} wird die Ausgabe ein wenig besser lesbar
+\end{itemize} 
+Suchen Sie:
+\begin{itemize}
+  \item alle Eintr\"age mit Vorname ``Fritz'' (\texttt{x500.bund.de})
+  \item Eintr\"ge mit einem Nachname beginnend mit ``K'' und Vorname beginnend mit ``M'' (\texttt{x.500.bund.de})
+  \item Eintr\"age mit einem \texttt{userCertificate} Attribut (\texttt{x500.bund.de})
+  \item Eintr\"age mit einem \texttt{collectiveOrganizationalUnitName} Attribut (\texttt{x500.bund.de})
+\end{itemize} 
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

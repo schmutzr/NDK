@@ -1,0 +1,387 @@
+\documentclass[a4paper,german]{scrartcl}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{textcomp}
+\usepackage{color}
+
+\definecolor{changed}{rgb}{0,1,0}
+
+\title{Netzwerke und Kommunikation\\B-LS-MI 004\\\"Ubungen IP-Adressen}
+\date{\today}
+
+\pagestyle{myheadings}
+\markboth{\"Ubungen IP-Adressen}{\"Ubungen IP-Adressen}
+
+\begin{document}
+
+
+\maketitle
+
+\section{Prefix isolieren}
+Router arbeiten nur aufgrund des Prefix-Anteils einer IP-Adresse (Routingtabelle).
+
+Die Trennung einer IP-Adresse in \emph{Netz-} und \emph{Host}-Anteil erfolgt mit der Netzmasken-Applikation.
+Der Netz-Anteil wird nach CIDR auch \emph{Pr\"afix} (etwa ``Vorwahl'') genannt. Grunds\"atzlich werden die Adresse(n) und die Maske im bin\"aren Format mit einer Bit-And\footnote{Bit-f\"ur-Bit Adresse:Maske AND-Operation. Die AND-Operation ergibt nur dann eine ``1'' (true) wenn beide Eingangsbits ``1'' sind}
+\begin{itemize}
+  \item Maske im ``dotted-decimal'' Format applizieren
+    \begin{itemize}
+      \item \texttt{0}-Byte in der Maske $\rightarrow$ \texttt{0}-Byte im Ergebnis
+      \item \texttt{255}-Byte in der Maske $\rightarrow$ \"ubernehmen des Bytes aus der Adresse in das Ergebnis
+      \item bei anderen Werte eines Maskenbytes werden \emph{f\"ur diese Byte-Position} die Maske und die Adresse in das bin\"are Format umgewandelt und dann Bit-f\"ur-Bit AND verkn\"upft. Da es nach CIDR\footnote{Restriktion f\"ur die Maske: zusammenh\"angende Reihe von ``1''-Bits von ``links'' (h\"oherwertige Bits)} f\"ur ein \emph{Masken}-Byte nur 9 M\"oglichkeiten gibt, kann man sich folgende Tabelle\footnote{diese Tabelle wird in der Probe zur Verf\"ugung stehen. {\bfseries Achtung:} die ``relative Pr\"afixl\"ange'' muss zu eventuell bestehenden \texttt{255}=8 L\"angen addiert werden} zur Hilfe nehmen:
+        \begin{center}
+          Tabelle \ref{Decimal-Binary-Relativelength}
+          \begin{tabular}{rrl}
+                    \label{Decimal-Binary-Relativelength}
+
+            \bfseries{Dezimal} & \bfseries{Bin\"ar} & \bfseries{\emph{relative} Pr\"afixl\"ange} \\
+            \hline
+0   & \texttt{00000000} & \texttt{+/0} \\
+128 & \texttt{10000000} & \texttt{+/1} \\
+192 & \texttt{11000000} & \texttt{+/2} \\
+224 & \texttt{11100000} & \texttt{+/3} \\
+240 & \texttt{11110000} & \texttt{+/4} \\
+248 & \texttt{11111000} & \texttt{+/5} \\
+252 & \texttt{11111100} & \texttt{+/6} \\
+254 & \texttt{11111110} & \texttt{+/7} \\
+255 & \texttt{11111111} & \texttt{+/8} \\
+          \end{tabular}
+        \end{center}
+        
+        Ebenfalls praktisch in diesem Zusammenhang ist eine Darstellung der Bit-Wertigkeit\footnote{einfach f\"ur alle ``1''-Bits die Wertigkeiten zusammenz\"ahlen -- et voila, wieder ins dezimale \"ubersetzt} in einem Byte
+        \begin{center}
+          \begin{tabular}{r|r|r|r|r|r|r|r|r|}
+            Potenz: & $2^{7}$ & $2^{6}$ & $2^{5}$ & $2^{4}$ & $2^{3}$ & $2^{2}$ & $2^{1}$ & $2^{0}$ \\
+            Wertigkeit (Dezimal): & 128 & 64 & 32 & 16 & 8 & 4 & 2 & 1 \\
+          \end{tabular}
+        \end{center}
+      \vspace{0.5cm}
+        
+
+   \item Beispiele:
+     \begin{enumerate}
+      \item Maske nur aus \texttt{0}- und \texttt{255}-Bytes zusammengesetzt:
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Adresse & \texttt{194} & \texttt{41} & \texttt{241} & \texttt{12} \\
+          Maske   & \texttt{255} & \texttt{255} & \texttt{255} & \texttt{0} \\
+          \hline
+          Resultat & \texttt{194} & \texttt{41} & \texttt{241} & \texttt{0} \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+
+      \item Maske mit ``kompliziertem'' Byte\footnote{Dabei kann das Masken-Byte aus der Tabelle abgelesen werden} (\texttt{240}) $\rightarrow$ nur diese Byte-Position muss bin\"ar bearbeitet werden:
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Adresse & \texttt{172} & \texttt{30} & \texttt{22} & \texttt{7} \\
+          Maske   & \texttt{255} & \emph{\texttt{240}} & \texttt{0} & \texttt{0} \\
+          \hline
+          Zwischenschritt: \\
+          Adresse-Bin\"ar & - & \texttt{00011110} & - & - \\
+          Maske-Bin\"ar & - & \texttt{11110000} & - & - \\
+          \hline
+          Bit-And: & (\"ubernehmen) & \texttt{00010000} & (0) & (0) \\
+          \hline
+          Resultat & \texttt{172} & \texttt{16} & \texttt{0} & \texttt{0} \\
+        \end{tabular}
+      \end{center}
+     \end{enumerate}
+
+   \item \"Ubungen: Maske applizieren (L\"osungen am Schluss)
+      \begin{center}
+        \begin{tabular}{rr}
+          Adresse & Maske \\
+          \hline
+          \texttt{221.37.133.77} & \texttt{255.255.254.0} \\
+          \texttt{10.202.5.245} & \texttt{255.255.255.0} \\
+          \texttt{192.16.45.12} & \texttt{255.255.240.0} \\
+          \texttt{194.41.242.190} & \texttt{255.255.255.128} \\
+          \texttt{202.101.10.13} & \texttt{255.255.255.255} \\
+          \texttt{202.101.10.13} & \texttt{255.255.254.248} \\
+          \texttt{88.97.142.31} & \texttt{255.255.255.224} \\
+          \texttt{17.254.12.11} & \texttt{255.0.0.0} \\
+          \texttt{147.86.3.160} & \texttt{255.224.0.0} \\
+          \texttt{12.12.12.12} & \texttt{0.0.0.0} \\
+        \end{tabular}
+      \end{center}
+     
+
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+
+\section{CIDR Pr\"afixl\"ange}
+\begin{itemize}
+  \item die kompakte Darstellung der Pr\"afixl\"ange nach CIDR ergibt bei den IPv4-Adressen (32-Bit) insgesamt 32 M\"oglichkeiten. Eine Tabelle mit 32 Eintr\"agen ``dotted-decimal-mask''$\leftrightarrow$``CIDR-prefixlength'' zu erstellen ergibt jedoch nur wenig Sinn. Am besten geht man folgendermassen vor:
+    \begin{description}
+      \item[mask $\rightarrow$ prefixlength] man liest die ``dotted-decimal'' Maske von links beginnend und addiert f\"ur jedes \texttt{255}-Byte 8 zur Pr\"afixl\"ange plus die ``relative'' L\"ange aus Tabelle \ref{Decimal-Binary-Relativelength} f\"ur die ``angeschnittenen'' Bytes
+      \item[prefixlength $\rightarrow$ mask]\footnote{$div$ ist die Ganzzahldivision, $mod$ der Restwert bei Ganzzahldivision} f\"ur ``Pr\"afixl\"ange \emph{div} 8'' wird je ein \texttt{255}-Maskenbyte geschrieben und nach Tabelle \ref{Decimal-Binary-Relativelength} f\"ur ``Pr\"afixl\"ange \emph{mod} 8'' den entsprechenden Eintrag. Die potentiell restlichen Maskenbytes werden als \texttt{0} notiert
+    \end{description}
+    
+    
+  \item Beispiele:
+    \begin{enumerate}
+      \item Maske $\rightarrow$ Pr\"afixl\"ange
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Maske & \texttt{255} & \texttt{255} & \texttt{255} & \texttt{0} \\
+          Pr\"afixl\"ange   & \texttt{+/8} & \texttt{+/8} & \texttt{+/8} & \texttt{+0} \\
+          \hline
+          Resultat & & & & \texttt{/24} \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Maske & \texttt{255} & \texttt{240} & \texttt{0} & \texttt{0} \\
+          Pr\"afixl\"ange   & \texttt{+/8} & \texttt{+/4} & \texttt{+/0} & \texttt{+0} \\
+          \hline
+          Resultat & & & & \texttt{/12} \\
+        \end{tabular}\\
+      (\texttt{240} $\rightarrow$ \texttt{+/4} aus Tabelle \ref{Decimal-Binary-Relativelength})
+      \end{center}
+      \vspace{0.25cm}
+
+      \item Pr\"afixl\"ange $\rightarrow$ Maske
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Pr\"afixl\"ange & & & & \texttt{/16} \\
+          Zwischenschritt: & \texttt{+/8} & \texttt{+/8} & \texttt{+/0} & \texttt{+/0} \\
+          \hline
+          Maske   & \texttt{255} & \texttt{255} & \texttt{0} & \texttt{0} \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+      \begin{center}
+        \begin{tabular}{r|r r r r}
+          Pr\"afixl\"ange & & & & \texttt{/23} \\
+          Zwischenschritt-1: & $1 \times 8$ & $1 \times 8$ & Rest $7$ & \texttt{+/0} \\
+          Zwischenschritt-2: & \texttt{+/8} & \texttt{+/8} & \texttt{+/7} & \texttt{+/0} \\
+          \hline
+          Maske   & \texttt{255} & \texttt{255} & \texttt{254} & \texttt{0} \\
+        \end{tabular}\\
+      (\texttt{+/7} $\rightarrow$ \texttt{254} aus Tabelle \ref{Decimal-Binary-Relativelength})
+      \end{center}
+      \vspace{0.25cm}
+    \end{enumerate}
+%
+\clearpage
+  \item \"Ubungen: Maske $\leftrightarrow$ Pr\"afixl\"ange (L\"osungen am Schluss)
+      \begin{center}
+        \begin{tabular}{rr}
+          Maske & Pr\"afixl\"ange \\
+          \hline
+          \texttt{255.255.255.0} & \texttt{?} \\
+          \texttt{?}             & \texttt{/32} \\
+          \texttt{255.240.0.0}   & \texttt{?} \\
+          \texttt{?}             & \texttt{/25} \\
+          \texttt{255.255.224.0} & \texttt{?} \\
+          \texttt{?}             & \texttt{/17} \\
+          \texttt{255.255.255.128} & \texttt{?} \\
+          \texttt{?}             & \texttt{/20} \\
+          \texttt{255.255.255.255} & \texttt{?} \\
+          \texttt{?}             & \texttt{/12} \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+
+%
+  \item ``sind zwei Adressen in selben Netz?''\\
+    Dazu wird die Maske auf beide Adressen appliziert und das Ergebnis (Netz/Pr\"afix) verglichen
+    \begin{itemize}
+      \item \"Ubungen ``Selbes Netz?'' (L\"osungen am Schluss)
+        \begin{center}
+        \begin{tabular}{rrrr}
+          Maske/Pr\"afixl\"ange & Adresse-A & Adresse-B & selbes Netz (ja/nein) \\
+          \hline
+          \texttt{255.255.255.0} & \texttt{192.168.2.24} & \texttt{192.168.2.250} & ? \\
+          \texttt{/16} & \texttt{172.31.250.7} & \texttt{172.31.7.250} & ? \\
+          \texttt{255.255.255.128} & \texttt{194.41.241.126} & \texttt{194.41.241.135} & ? \\
+          \texttt{/20} & \texttt{138.191.15.12} & \texttt{138.191.0.252} & ? \\
+          \texttt{0.0.0.0} & \texttt{212.121.7.35} & \texttt{17.254.12.3} & ? \\          
+          \texttt{/32} & \texttt{12.32.22.3} & \texttt{12.32.22.4} & ? \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+    \end{itemize}
+    
+    
+%    
+  \clearpage
+  \item ``wieviele Adressen pro Maske oder Pr\"afixl\"ange?''\\
+    Hier muss die Anzahl\footnote{minus zwei Adressen: alle Hostbits=0 und alle Hostbits=1} Permutationen der \emph{Host}bits gerechnet werden. Dazu rechnet man $2^{Hostbits}-2$. Um von der Pr\"afixl\"ange auf die Anzahl Hostbits zu kommen rechnet man 32-Pr\"afixl\"ange -- bei dotted-decimal Masken ist es ein bisschen schwieriger, am besten wird zuerst die Pr\"afixl\"ange ausgerechnet.
+\vspace{0.25cm}
+  \begin{itemize}
+    \item Beispiel\\
+      \begin{small}
+        \begin{tabular}{rrr}
+          Maske/Pr\"afixl\"ange & Zwischenschritt & Resultat \\
+          \hline
+          \texttt{255.255.255.0} & $Netzbits=3 \times 8=24$, $Hostbits=32-24=8$, Anzahl=$2^{8}-2$ & 254 \\
+          \texttt{/25} & $Netzbits=25$, $Hostbits=32-25=7$, Anzahl=$2^{7}-2$ & 126 \\
+          \texttt{/12} & $Netzbits=12$, $Hostbits=32-12=20$, Anzahl=$2^{20}-2$ & 1048574 \\
+          \texttt{255.255.255.255} & $Netzbits=4 \times 8=32$, $Hostbits=32-32=0$, Anzahl=$2^{0}-2$ & -1 {\tiny \texttt{:)} =``1''} \\
+        \end{tabular}
+      \end{small}
+      \vspace{0.25cm}
+    \item \"Ubungen ``wieviele Adressen pro Maske oder Pr\"afixl\"ange'' (L\"osungen am Schluss)
+        \begin{tabular}{r}
+          Maske/Pr\"afixl\"ange \\
+          \hline
+          \texttt{255.255.240.0} \\
+          \texttt{/8} \\
+          \texttt{255.255.254.0} \\
+          \texttt{/0} \\
+          \texttt{255.255.192.0} \\
+        \end{tabular}
+  \end{itemize}    
+\vspace{0.5cm}
+    
+\clearpage
+
+%  
+   \item ``welche Maske oder Pr\"afixl\"ange f\"ur eine gegebene Anzahl Adressen?''\\
+     Wenn Sie einen Taschenrechner haben: $32-\lceil \ln_{2} Anzahl \rceil$ -- d.h. der bin\"are\footnote{wenn Sie den auf dem Taschenrechner nicht finden: $\ln_{2} Anzahl = \frac{\ln Anzahl}{\ln 2}$} Logarithmus der Anzahl \emph{aufgerundet} auf die n\"achste Ganzzahl ergibt die Hostbits, $32-Hostbits$ ist dann die gesuchte Pr\"afixl\"ange. Wenn Sie keinen Taschenrechner haben: jedes Bit \emph{mehr}\footnote{jedes weniger: Halbierung des Bereichs} in den \emph{Hostbits} bedeutet eine Verdoppelung des Bereichs -- nun m\"ussen Sie sich nur noch merken, dass 8 Bit = 256 M\"oglichkeiten/Adressen (0 bis 255) $\rightarrow$ 9 Bit demnach 512, 10 Bit ist 1024, etc\\
+     {\bfseries Achtung:} das sind die \emph{Host}bits! D.h. um auf die Pr\"afixl\"ange zu kommen m\"ussen Sie $32-Hostbits$ (wie oben angegeben) rechnen.\\
+     {\bfseries Achtung-2:} z\"ahlen Sie jeweils zu der gegebenen Anzahl Hosts/Adressen noch zwei dazu (die beiden ``verbotenen''/unbelegten Adressen: alle-Hostbits=0 $\rightarrow$ {\emph Basisadresse}, alle-Hostbits=1 $\rightarrow$ {\emph limited-Broadcast})
+ \vspace{0.25cm}
+   \begin{itemize}
+     \item Beispiel\\
+       \begin{small}
+         \begin{tabular}{rlr}
+           Anzahl Adressen & Zwischenschritt & Pr\"afixl\"ange \\
+           \hline
+           \texttt{12} & $32-\lceil \frac{\ln (12+2)}{\ln 2} \rceil$ oder $\frac{256}{2 \times 2 \times 2 \times 2 \times 2}=16 \rightarrow 24+4$ & \texttt{28} \\
+           \texttt{254} & $32-\lceil \frac{\ln (254+2)}{\ln 2} \rceil$ oder $256=256 \rightarrow 24$ & \texttt{24} \\        \end{tabular}
+       \end{small}
+       \vspace{0.25cm}
+       \begin{center}
+         \begin{tabular}{rrrrr}
+           Anzahl-Adressen & \emph{n\"achste Zweierpotenz} & \emph{ben\"otigte Bits} & Pr\"afixl\"ange        & Maske \\
+           \hline
+           \texttt{5}           &      \emph{8}                & \emph{3}                      &       \texttt{/29}     & \texttt{255.255.255.248} \\
+           \texttt{180}          &      \emph{256}               & \emph{8}                      &       \texttt{/24}     & \texttt{255.255.255.0} \\
+           \texttt{515}         &      \emph{1024}              & \emph{10}                     &       \texttt{/22}     & \texttt{255.255.252.0} \\
+           \texttt{999}          &      \emph{1024}               & \emph{10}                      &       \texttt{/22}     & \texttt{255.255.252.0} \\
+         \end{tabular}
+       \end{center}
+
+     \item \"Ubungen ``wieviele Adressen pro Maske oder Pr\"afixl\"ange'' (L\"osungen am Schluss)
+       Minimale Netzgr\"osse f\"ur eine gegebene Anzahl Hosts (/0 w\"are sonst die L\"osung f\"ur alles).
+       Mit den zwei ``Hilfskolonnen'' {\emph n\"achste Zweierpotenz} und {\emph Anzahl-ben\"otigte Bits}:
+ 
+       \begin{center}
+         \begin{tabular}{rrrrr}
+           Anzahl-Adressen & \emph{n\"achste Zweierpotenz} & \emph{ben\"otigte Bits} & Pr\"afixl\"ange        & Maske \\
+           \hline
+           \texttt{29}           &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{110}          &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{231}          &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{1337}         &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{5001}         &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{371337}       &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+           \texttt{1}            &      $\ldots$         & $\ldots$                    &       $\ldots$     & $\ldots$ \\
+         \end{tabular}
+       \end{center}
+   \end{itemize}    
+ \vspace{0.5cm}    
+ 
+\end{itemize}
+
+
+\cleardoublepage
+
+\section{L\"osungen}
+
+\begin{itemize}
+   \item \"Ubungen: Maske applizieren
+      \begin{center}
+        \begin{tabular}{rrr}
+          Adresse & Maske & Resultat \\
+          \hline
+          \texttt{221.37.133.77} & \texttt{255.255.254.0} & \texttt{221.37.132.0} \\
+          \texttt{10.202.5.245} & \texttt{255.255.255.0} & \texttt{10.202.5.0} \\
+          \texttt{192.16.45.12} & \texttt{255.255.240.0} & \texttt{192.16.32.0} \\
+          \texttt{194.41.242.190} & \texttt{255.255.255.128} & \texttt{194.41.242.128} \\
+          \texttt{202.101.10.13} & \texttt{255.255.255.255} & \texttt{202.101.20.13} \\
+          \texttt{202.101.10.13} & \texttt{255.255.254.248} & \texttt{202.101.10.8} \\
+          \texttt{88.97.142.31} & \texttt{255.255.255.224} & \texttt{88.97.142.0} \\
+          \texttt{17.254.12.11} & \texttt{255.0.0.0} & \texttt{17.0.0.0} \\
+          \texttt{147.86.3.160} & \texttt{255.224.0.0} & \texttt{147.64.0.0} \\
+          \texttt{12.12.12.12} & \texttt{0.0.0.0} & \texttt{0.0.0.0} \\
+          \hline
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+
+      \item \"Ubungen ``Selbes Netz?''
+        \begin{center}
+        \begin{tabular}{rrrr}
+          Maske/Pr\"afixl\"ange & Adresse-A & Adresse-B & selbes Netz (ja/nein) \\
+          \hline
+          \texttt{255.255.255.0} & \texttt{192.168.2.24} & \texttt{192.168.2.250} & ja \\
+          \texttt{/16} & \texttt{172.31.250.7} & \texttt{172.31.7.250} & ja \\
+          \texttt{255.255.255.128} & \texttt{194.41.241.126} & \texttt{194.41.241.135} & nein \\
+          \texttt{/20} & \texttt{138.191.15.12} & \texttt{138.191.0.252} & ja \\
+          \texttt{0.0.0.0} & \texttt{212.121.7.35} & \texttt{17.254.12.3} & ja \\          
+          \texttt{/32} & \texttt{12.32.22.3} & \texttt{12.32.22.4} & nein \\
+        \end{tabular}
+      \end{center}
+      \vspace{0.25cm}
+
+    \item \"Ubungen ``wieviele Adressen pro Maske oder Pr\"afixl\"ange''
+      \begin{center}
+        \begin{tabular}{rl}
+          Maske/Pr\"afixl\"ange & Anzahl Adressen \\
+          \hline
+          \texttt{255.255.240.0} & 4094 (``4k-2'' ist auch OK) \\
+          \texttt{/8} & 16777214 (``16M-2'' ist auch OK \\
+          \texttt{255.255.254.0} & 510 \\
+          \texttt{/0} & 4294967294 (``4G-2'' ist auch OK) \\
+          \texttt{255.255.192.0} & 16382 \\
+        \end{tabular}
+      \end{center}
+        \vspace{0.25cm}
+
+
+  \clearpage
+  \item \"Ubungen: Maske $\leftrightarrow$ Pr\"afixl\"ange
+      \begin{center}
+        \begin{tabular}{rr}
+          Maske & Pr\"afixl\"ange \\
+          \hline
+          \texttt{255.255.255.0} & \texttt{/24} \\
+          \texttt{255.255.255.255}             & \texttt{/32} \\
+          \texttt{255.240.0.0}   & \texttt{/12} \\
+          \texttt{255.255.255.128}             & \texttt{/25} \\
+          \texttt{255.255.224.0} & \texttt{/19} \\
+          \texttt{255.255.128.0}             & \texttt{/17} \\
+          \texttt{255.255.255.128} & \texttt{/25} \\
+          \texttt{255.255.240.0}             & \texttt{/20} \\
+          \texttt{255.255.255.255} & \texttt{/32} \\
+          \texttt{255.240.0.0}             & \texttt{/12} \\
+        \end{tabular}
+      \end{center}
+
+
+  \item \"Ubungen: ``welche Maske oder Pr\"afixl\"ange f\"ur eine gegebene Anzahl Adressen?''
+      \begin{center}
+        \begin{tabular}{rrrrr}
+          {Anzahl-Adressen} & \emph{n\"achste Zweierpotenz} & \emph{ben\"otigte Bits} & Pr\"afixl\"ange        & Maske \\
+          \hline
+          \texttt{29}           &      \emph{32}                & \emph{5}                      &       \texttt{/27}     & \texttt{255.255.255.224} \\
+          \texttt{110}          &      \emph{128}               & \emph{7}                      &       \texttt{/25}     & \texttt{255.255.255.128} \\
+          \texttt{231}          &      \emph{256}               & \emph{8}                      &       \texttt{/24}     & \texttt{255.255.255.0} \\
+          \texttt{1337}         &      \emph{2048}              & \emph{11}                     &       \texttt{/21}     & \texttt{255.255.248.0} \\
+          \texttt{5001}         &      \emph{8192}              & \emph{13}                     &       \texttt{/19}     & \texttt{255.255.224.0} \\
+          \texttt{371337}       &      \emph{65536}             & \emph{16}                     &       \texttt{/16}     & \texttt{255.255.0.0} \\
+          \texttt{1}            &      \emph{1 $=2^0$}          & \emph{0}                      &       \texttt{/32}     & \texttt{255.255.255.255} \\
+        \end{tabular}
+      \end{center}
+\end{itemize}
+
+\clearpage
+
+\end{document}

@@ -1,0 +1,94 @@
+%\documentclass[a4paper]{article}
+%\usepackage{beamerarticle}
+
+\documentclass[ignorenonframetext]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage{amssymb}
+
+\usepackage{../fhnw-beamer}
+
+%\mode<article>{\usepackage{fullpage}}
+%\mode<presentation>{\usetheme{Berlin}}
+
+\date{\today}
+\author{rolf.schmutz@fhnw.ch}
+\institute{FHNW}
+\title {Netzwerke und Datenkommunikation\\Layer-3 IP part 2}
+
+
+\begin{document} % ===============================================================
+
+\section{ND05: IP, Part 2}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Ziele}
+\begin{itemize}
+	\item{Sie kennen die Struktur und Interpretation der Routingtabellen}
+	\item{Sie wissen, wie ``packet-forwarding''/``routing'' funktioniert}
+	\item{Sie kennen den Mechanismus, wie Layer-3/IP-Adressen auf Layer-2/MAC-Adressen umgesetzt werden}
+	\item{Sie wissen, wie man schnell und effizient Ostereier findet}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Routing und Routing-Table (1/3)}
+die Wegleitung -- {\em routing} -- im Internet:
+	\begin{itemize}
+	\item{{\em Router} empfangen Pakete und leiten sie in Richtung Zieladresse\footnote{aus dem Paketinhalt/Layer-3 Adresse} weiter: {\em routing} oder {\em forwarding}}
+	\item{jedes Paket wird gesondert betrachtet\footnote{wichtig um die Robustheit des paketvermittelnden Netzes zu gew\"ahrleisten (moderne Router arbeiten m\"oglicherweise effizienter)}}
+	\item{Pakete werden an den jeweils n\"achsten Router -- {\em next-hop} -- gesendet}
+	\item{der ``letzte Router''\footnote{Router-Interface ist im selben Netzwerk wie die Zieladresse} stellt das Paket direkt an den Zielknoten\footnote{Endger\"at} zu}
+	\item{entschieden wird das alles \"uber die {\em Routing-Tabelle}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Routing und Routing-Table (2/3)}
+die {\em Routing-Tabelle} (RT) enth\"alt (mindestens):
+\begin{itemize}
+	\item{{\em Ziel-Netz} {\small (``dest-net'' oder einfach ``net'')}}
+	\item{{\em Ziel-Maske} oder {\em Ziel-Pr\"afixl\"ange} {\small (``dest-mask'', ``prefixlength'', ``prefix'')}}
+	\item{{\em N\"achster-Router} {\small (``next-hop'' oder ``gateway'')}}
+	  %%\item{\includegraphics{routing-table}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Routing und Routing-Table (3/3)}
+
+Ablauf ``forwarding'' -- Paket weiterleiten
+
+\begin{itemize}
+  \item{finde passenden RT-Eintrag zur Zieladresse des weiterzuleitenden Pakets -- f\"ur jede Zeile \texttt{$j$} der RT:
+    \\ {\texttt target-ip \textbf{$\wedge$} dest-mask$_{j}$ = dest-net$_{j}$}}
+  \item{falls ein passender Eintrag gefunden wurde, wird das Paket als Frame zur L2-Adresse der L3-Adresse \textbf{\texttt{next-hop$_{j}$}} weitergeleitet}
+  \item{falls der Router selbst eine IP-Adresse/Interface im Ziel{\em netz} hat, wird das Frame direkt an das Endger\"at zugestellt}
+	\item{die Routing-Tabelle wird nach absteigender\footnote{von ``spezifisch'' zu ``allgemein''} Pr\"afixl\"ange abgearbeitet/sortiert}
+	\item{die {\em Default-Route}\,\footnote{``passt'' immer und wird am Schluss abgearbeitet} ist {\texttt 0.0.0.0/0}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Intermezzo}
+Tools zum Thema
+\begin{itemize}
+	\item{\textbf{\texttt{netstat -rn}} zeigt lokale Routing-Tabelle an $\rightarrow$ finden des ``Default-Router''}
+	\item{\textbf{\texttt{arp -a}} zeigt die lokale ARP-Tabelle an $\rightarrow$ zur Kontrolle der Layer-2/MAC-Adresse des Routers}
+	\item{\textbf{\texttt{traceroute}}\footnote{Windows: \texttt{tracert}} (unzuverl\"assiger) {\em Hin}weg\footnote{zeigt die Router an, \"uber die ein Paket wahrscheinlich weitergeleitet wird} zu einer bestimmten L3-Zieladresse}
+\end{itemize}
+\end{frame}
+
+
+%\begin{itemize}
+%	\item{spezielle IP-Adressen}
+%	\item{ARP}
+%	\item{ICMP}
+%	\item{IP-Header: TTL, L4-Protocol, ID/Fragmente $\rightarrow$ {\texttt tcpdump},etc }
+%\end{itemize}
+
+
+\end{document} 

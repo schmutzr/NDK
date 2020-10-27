@@ -1,0 +1,22 @@
+\frametitle {Routing: BGP Informationen 2/2}
+oder \"uber einen {\em Route-Server}{}\footnote{auch route-reflector. Liste bei \myurl{http://www.traceroute.org/\#Route\%20Servers}}:
+\begin{itemize}
+\item[gblx]{
+  \begin{tiny}
+  \begin{verbatim}
+telnet route-server.gblx.net
+...
+route-server.phx1>show ip bgp 194.41.161.1
+BGP routing table entry for 194.41.128.0/18, version 39211644
+Bestpath Modifiers: always-compare-med, deterministic-med
+Paths: (1 available, best #1)
+  Not advertised to any peer
+  6730 12511 12511 12511 12511, (received & used)
+    67.17.64.89 from 67.17.82.146 (67.17.82.146)
+      Origin IGP, localpref 300, valid, internal, best
+      Community: 3549:4723 3549:31756
+      Originator: 67.17.80.142, Cluster list: 0.0.0.141
+  \end{verbatim}
+  \end{tiny}
+}
+\end{itemize}

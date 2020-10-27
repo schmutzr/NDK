@@ -1,0 +1,24 @@
+
+Internet Protocol, Src Addr: 10.1.94.40 (10.1.94.40), Dst Addr: 209.85.135.103 (209.85.135.103)
+    [...]
+Transmission Control Protocol, Src Port: 42713 (42713), Dst Port: www (80), Seq: 3790047064, Ack: 0, Len: 0
+    [...]
+    Flags: 0x0002 (SYN)
+    [...]
+
+Internet Protocol, Src Addr: 209.85.135.103 (209.85.135.103), Dst Addr: 10.1.94.40 (10.1.94.40)
+    [...]
+Transmission Control Protocol, Src Port: www (80), Dst Port: 42713 (42713), Seq: 1340889640, Ack: 3790047065, Len: 0
+    [...]
+    Flags: 0x0012 (SYN, ACK)
+    [...]
+
+
+Internet Protocol, Src Addr: 10.1.94.40 (10.1.94.40), Dst Addr: 209.85.135.103 (209.85.135.103)
+    [...]
+Transmission Control Protocol, Src Port: 42713 (42713), Dst Port: www (80), Seq: 3790047065, Ack: 1340889641, Len: 0
+    [...]
+Flags: 0x0010 (ACK)
+    [...]
+
+

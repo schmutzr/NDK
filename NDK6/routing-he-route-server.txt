@@ -1,0 +1,78 @@
+rschmutz@callisto [⚙ 1]NDK6 $ telnet route-server.he.net
+Trying 64.62.142.154...
+Connected to route-server.he.net.
+Escape character is '^]'.
+*************************************************************************
+*****                      route-server.he.net                      *****
+*****              Hurricane Electric IP Route Monitor              *****
+*****                           AS 6939                             *****
+*************************************************************************
+
+This router maintains peering sessions with some of the core routers in
+Hurricane Electric's network. Hurricane Electric operates an international
+Internet Backbone and offers transit, colocation, and dedicated servers.
+
+Location                  IPv4                  IPv6
+---------------------     ----------------      ------------------------
+North America
+ Equinix Seattle          216.218.252.176       2001:470:0:3d::1
+ Equinix Palo Alto        216.218.252.165       2001:470:0:1b::1
+ Equinix San Jose         216.218.252.164       2001:470:0:1a::1
+ One Wilshire Los Angeles 216.218.252.178       2001:470:0:6c::1
+ Equinix Chicago          216.218.252.168       2001:470:0:16::1
+ Equinix Dallas           216.218.252.167       2001:470:0:1d::1
+ Equinix Toronto          216.218.252.147       2001:470:0:99::1
+ Equinix New York         216.218.252.171       2001:470:0:13::1
+ Equinix Ashburn          216.218.252.169       2001:470:0:17::1
+ NOTA Miami               216.218.252.177       2001:470:0:4a::1
+ CoreSite Denver          216.218.252.157       2001:470:0:155::1
+ 1102 Grand Kansas City	  216.218.252.190       2001:470:0:22b::1
+ Cologix Montreal         216.218.252.193       2001:470:0:224::1
+Europe
+ Telecity London          216.218.252.211       2001:470:0:2cc::1
+ NIKHEF Amsterdam         216.218.252.173       2001:470:0:e::1
+ Interxion Frankfurt      216.218.252.174       2001:470:0:2a::1
+ Telehouse Paris          216.218.252.184       2001:470:0:1ae::1
+ Equinix Zurich           216.218.252.130       2001:470:0:231::1
+ TeleCity Stockholm       216.218.252.154       2001:470:0:10f::1
+ PLIX/LIM Warsaw          216.218.252.189       2001:470:0:215::1
+Asia
+ Mega-I Hong Kong         216.218.252.180       2001:470:0:c2::1
+ Equinix Tokyo            216.218.252.151       2001:470:0:10a::1
+ Equinix Singapore	  216.218.252.179       2001:470:0:169::1
+route-server> show ip bgp sum
+BGP router identifier 64.62.142.154, local AS number 6939
+RIB entries 1514729, using 162 MiB of memory
+Peers 48, using 426 KiB of memory
+
+Neighbor        V         AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+216.218.252.82  4  6939  251471     344        0    0    0 05:42:23   832169
+216.218.252.130 4  6939       0       0        0    0    0 never    Active     
+216.218.252.147 4  6939  270267     344        0    0    0 05:42:23   833637
+216.218.252.151 4  6939  267496     344        0    0    0 05:42:23   833763
+216.218.252.154 4  6939  235880     344        0    0    0 05:42:23   832379
+216.218.252.157 4  6939  298188     344        0    0    0 05:42:24   833742
+216.218.252.164 4  6939  266574     344        0    0    0 05:42:24   833748
+216.218.252.165 4  6939  282254     344        0    0    0 05:42:24   833748
+216.218.252.167 4  6939  260725     344        0    0    0 05:42:24   832171
+216.218.252.168 4  6939  271475     344        0    0    0 05:42:23   833744
+216.218.252.169 4  6939  254313     344        0    0    0 05:42:24   833636
+216.218.252.171 4  6939  264327     344        0    0    0 05:42:23   833636
+216.218.252.173 4  6939  218436     344        0    0    0 05:42:22   832386
+216.218.252.174 4  6939  226544     344        0    0    0 05:42:23   832376
+216.218.252.176 4  6939  259314     344        0    0    0 05:42:23   833749
+216.218.252.177 4  6939  269797     344        0    0    0 05:42:23   832106
+216.218.252.178 4  6939  262034     344        0    0    0 05:42:23   833731
+216.218.252.179 4  6939  241845     344        0    0    0 05:42:22   833763
+216.218.252.180 4  6939  257011     344        0    0    0 05:42:22   833763
+216.218.252.184 4  6939  242419     344        0    0    0 05:42:22   832371
+216.218.252.189 4  6939  256578     344        0    0    0 05:42:23   832167
+216.218.252.190 4  6939  273150     344        0    0    0 05:42:23   833743
+216.218.252.193 4  6939  268775     344        0    0    0 05:42:24   833636
+216.218.252.211 4  6939  220398     344        0    0    0 05:42:22   832385
+
+Total number of neighbors 24
+
+Total num. Established sessions 23
+Total num. of routes received     19162549
+route-server> 

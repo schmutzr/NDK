@@ -1,0 +1,12 @@
+https://chart.googleapis.com/chart?cht=gv:neato&chl=graph{a--c[label="5",len=5];a--e[label="5",len=5];b--d[label="5",len=5];b--g[label="7",len=7];c--g[label="6",len=6];d--e[label="5",len=5];e--f[label="1",len=1];f--g[label="1",len=1]}
+
+a--c[label="5",len=5]
+a--e[label="5",len=5]
+b--d[label="5",len=5]
+b--g[label="7",len=7]
+c--g[label="6",len=6]
+d--e[label="5",len=5]
+e--f[label="1",len=1]
+f--g[label="1",len=1]
+
+ 
