@@ -1,0 +1,169 @@
+%\documentclass[a4paper]{article}
+%\usepackage{beamerarticle}
+
+\documentclass[ignorenonframetext]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage{amssymb}
+
+\usepackage{../fhnw-beamer}
+\usepackage{fancyvrb}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
+
+%\mode<article>{\usepackage{fullpage}}
+%\mode<presentation>{\usetheme{Berlin}}
+
+\date{\today}
+\author{rolf.schmutz@fhnw.ch}
+\institute{FHNW}
+\title{Netzwerke und Kommunikation\\B-LS-MI 004\\Kurze \"Ubersicht \"uber weitere Basisdienste\ldots}
+
+
+\begin{document} % ===============================================================
+
+\section{B-LS-MI 004: more base-services}
+
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Ziele}
+\begin{itemize}
+	\item{Sie kennen die Aufgaben der einzelnen Dienste}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{\ldots weitere Basisdienste}
+weitere {\em wichtige} Basisdienste, die praktisch universell zu finden sind:
+\\
+\vspace{0.25cm}
+\begin{itemize}
+	\item Fileserver/NAS: \href{https://en.wikipedia.org/wiki/Server_Message_Block}{CIFS/SMB} (IBM/Microsoft\footnote{SMB ursp\"unglich von IBM, CIFS eine Implementierung von SMB von Microsoft}), \href{https://en.wikipedia.org/wiki/Network_File_System}{NFS}\footnote{in typischen ``B\"uroumgebungen'' seltener zu finden, in der \href{https://en.wikipedia.org/wiki/Supercomputer}{HPC}-Welt aber noch stark vertreten. Wurde in den 2000er Jahren stark modernisiert (TCP, URLs, etc)} (Sun/Oracle)\\Common Internet Files Service wird praktisch universell unterst\"utzt, Network File Service vorallem von UNIX-\"ahnlichen Systemen
+	\item Zeitsynchronisation: \href{http://support.ntp.org/bin/view/Main/WebHome}{NTP}\footnote{ein nicht zu untersch\"atzender Dienst: z.B. Authetisierung via Kerberos/AD funktioniert mit engen Zeitfenster} Network Time Protocol\\erreicht Zeitsynchronisation im Millisekundenbereich (Internet)
+	\item Device-Control: \href{https://en.wikipedia.org/wiki/}{SNMP}\footnote{note: IETF $\rightarrow$ ain't ``simple''} Simple Network Management Protocol\\Steuern und \"Uberwachen von Router, Switches, Drucker, etc
+	\item Drucker: \href{https://en.wikipedia.org/wiki/Internet_Printing_Protocol}{IPP}/\href{https://en.wikipedia.org/wiki/CUPS}{CUPS} 631/tcp, \href{https://en.wikipedia.org/wiki/Line_Printer_Daemon_protocol}{lpr} 515/tcp, \href{https://en.wikipedia.org/wiki/JetDirect}{jetdirect} 9100/tcp\\
+	die meisten modernen Netzwerk-Drucker unterst\"utzen alle Transportmechanismen
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Allgemeines}
+\begin{itemize}
+	\item CIFS, NFS, NTP und SNMP werden \"uber UDP\footnote{effizienter in einer Umgebung mit kleinem ``packet-loss'' -- typischerweise Campus/Firmen-Netzwerke} und TCP angeboten
+	\item IPP, lpr, jedirect (die Druckerprotokolle) meistens \"uber TCP
+	\item alle Protokolle sind ``bin\"ar'', also mit einem nicht-menschenlesbaren Format\footnote{allgemein kompakter und einfacher zu implementieren in embedded-devices/kleinen Comp\"uterli}
+	\item ausser IPP sind alle ``uralt'' -- sp\"ate 80iger, fr\"uhe 90iger Jahre
+	\item die Protokolle werden von jedem aktuellen Betriebssystem unterst\"utzt
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Fileservices}
+\ldots heute popul\"arer als NAS -- Network Attached Storage bezeichnet
+\begin{itemize}
+	\item erlaubt das ``mounten'' eines entfernten Filesystems in die lokale FS-Hierarchie\footnote{die alte Windows-Technik des Laufwerk-mappings wird weiterhin unterst\"utz}
+	\item bieten File-Access auf Block-Level\footnote{anders als FTP/WebDAV, das File{\em transfer} implementiert}\\
+	also wie ein lokales Filesystem auf der Festplatte mit der bekannten
+	Zugriffsemantik \texttt{open}, \texttt{read}, \texttt{write}, \texttt{seek}, \texttt{close}
+	\item File-Locking Mechanismen um gleichzeitigen Zugriff zu erm\"oglichen
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+\frametitle{Printing}
+\begin{itemize}
+	\item von eher primitiv (jetdirect, lpr) bis ausgekl\"ugelt (IPP)
+	\item zus\"tzlich zum reinen ``drucken'' werden auch Statusabfragen/Steuerbefehle implementiert\footnote{printer-queue Verwaltung, Modusumschaltung, etc}
+	\item \ldots eher ``langweiliger'' Dienst aber unverzichtbar :)
+	\item Beispiel der Dienste\footnote{http/s wird zur Verwaltung benutzt, FTP tats\"achlich zum Drucken} eines ``modernen'' Netzwerkdruckers
+	\end{itemize}
+\begin{center}
+	\begin{tiny}
+	\begin{Verbatim}
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+9100/tcp open  jetdirect
+161/udp  open  snmp
+\end{Verbatim}
+\end{tiny}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Zeitsynchronisation}
+\begin{itemize}
+    \item hierarchische Zeitserver\footnote{Stratum 0 sind direkte C\"asium-Zeitquellen, Stratum 1 GPS-normale, etc}, Einweg- oder Mehrweg-Synchronisierung\footnote{client/server oder ``peer-to-peer``}
+    \item Links: \href{http://support.ntp.org/bin/view/Main/WebHome}{offizielle NTP Seite}\footnote{das HTML-Design ist in den 90iger Jahren stehengeblieben -- ein Tribut an die Effizienz}, \href{https://www.metas.ch/metas/en/home/fabe/zeit-und-frequenz/time-dissemination.html}{offizielle Zeitquelle des Bundes} (CH), \href{https://www.ntppool.org/}{NTP-Pool}, falls keine voreingestellte Zeitquelle eingerichtet ist
+
+	
+	\item Beispiel: (\texttt{ntpq -p})
+\end{itemize}
+\begin{center}
+\begin{tiny}
+\verbatiminput{ntpq-sample.txt}
+\end{tiny}
+\end{center}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{\href{https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol}{SNMP}}
+\begin{itemize}
+    \item erweiterbares Management-Protokoll (Schemas/MIB)
+	\item implementiert\footnote{``Agent''} auf den meisten Betriebssystemen, Netzwerk-Drucker, Netzwerk-Ger\"ate wie Router, Switches (``managed'')
+	\item \href{http://www.net-snmp.org}{net-snmp}, die oft verwendete ``Basis''-Implementation
+	\item Beispiel eines Schemas: (\texttt{snmpwalk -c public -v1 192.168.1.87})
+\end{itemize}
+\begin{center}
+\begin{tiny}
+\verbatiminput{brother-snmp-sample.txt}
+\end{tiny}
+\end{center}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

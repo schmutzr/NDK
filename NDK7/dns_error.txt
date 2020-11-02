@@ -1,0 +1,98 @@
+# tl;dr:
+# - zone is under dnssec-regime, requires freeze/thaw cycle on local edits (dummy me)
+#
+
+@googlecloudshell:~ $ dig fhnw.netlabs.ch
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> fhnw.netlabs.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22428
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;fhnw.netlabs.ch.               IN      A
+
+;; ANSWER SECTION:
+fhnw.netlabs.ch.        119     IN      A       3.125.62.173
+
+;; Query time: 33 msec
+;; SERVER: 169.254.169.254#53(169.254.169.254)
+;; WHEN: Wed Oct 28 16:49:07 UTC 2020
+;; MSG SIZE  rcvd: 60
+
+
+
+@homenetwork ~ $ dig fhnw.netlabs.ch
+
+; <<>> DiG 9.8.3-P1 <<>> fhnw.netlabs.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26056
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fhnw.netlabs.ch.		IN	A
+
+;; ANSWER SECTION:
+fhnw.netlabs.ch.	3600	IN	A	5.9.21.196
+
+;; Query time: 38 msec
+;; SERVER: 192.168.1.20#53(192.168.1.20)
+;; WHEN: Wed Oct 28 17:50:09 2020
+;; MSG SIZE  rcvd: 49
+
+
+
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10443
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 6, ADDITIONAL: 3
+;; WARNING: recursion requested but not available
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;fhnw.netlabs.ch.               IN      A
+;; ANSWER SECTION:
+fhnw.netlabs.ch.        120     IN      A       3.125.62.173
+;; AUTHORITY SECTION:
+netlabs.ch.             3600    IN      NS      ns5.he.net.
+netlabs.ch.             3600    IN      NS      ns2.he.net.
+netlabs.ch.             3600    IN      NS      ns1.he.net.
+netlabs.ch.             3600    IN      NS      ns4.he.net.
+netlabs.ch.             3600    IN      NS      ns3.he.net.
+netlabs.ch.             3600    IN      NS      dns0.netlabs.ch.
+;; ADDITIONAL SECTION:
+dns0.netlabs.ch.        3600    IN      A       188.40.65.199
+dns0.netlabs.ch.        3600    IN      AAAA    2a01:4f8:221:6c6::2
+;; Query time: 14 msec
+;; SERVER: 188.40.65.199#53(188.40.65.199)
+;; WHEN: Wed Oct 28 16:54:15 UTC 2020
+;; MSG SIZE  rcvd: 219
+
+zaphod (AA)
+zaphod:~# rndc freeze netlabs.ch
+zaphod:~# vim /etc/bind/netlabs.ch.zone
+zaphod:~# rndc reload
+server reload successful
+zaphod:~# rndc thaw netlabs.ch
+The zone reload and thaw was successful.
+
+rschmutz@zaphod:~$ host fhnw.netlabs.ch
+fhnw.netlabs.ch has address 3.125.62.173
+rschmutz@zaphod:~$ sudo -i
+zaphod:~# vim /etc/bind/netlabs.ch.zone
+zaphod:~# 
+zaphod:~# dig +short netlabs.ch SOA
+dns0.netlabs.ch. hostmaster.netlabs.ch. 2020101247 1200 300 604800 60
+zaphod:~# grep SOA /etc/bin/netlabs.ch.zone
+grep: /etc/bin/netlabs.ch.zone: No such file or directory
+zaphod:~# grep SOA /etc/bind/netlabs.ch.zone
+netlabs.ch		IN SOA	dns0.netlabs.ch. hostmaster.netlabs.ch. (
+zaphod:~# grep +A1 SOA /etc/bind/netlabs.ch.zone
+grep: SOA: No such file or directory
+zaphod:~# grep -A1 SOA /etc/bind/netlabs.ch.zone
+netlabs.ch		IN SOA	dns0.netlabs.ch. hostmaster.netlabs.ch. (
+				2020102701 ; serial

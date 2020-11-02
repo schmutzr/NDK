@@ -1,0 +1,14 @@
+# Lokale-Quelle (stratum 3)
+[rschmutz@aichi2 ~]$ ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*schwarzschild.n 217.147.208.1    3 u  139 1024  377    0.920   -0.092   1.120
++switch.netlabs. 217.147.208.1    3 u  659 1024  377    0.681   -0.501   0.659
+
+# Internet-Quellen:
+remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ static.140.181. 130.149.17.21    2 u 796d 1024    0    0.282   -2.019   0.000
+ 46.101.119.240  216.239.35.12    2 u  99d 1024    0    5.335   -0.533   0.000
+ eta.h6g-server. 205.46.178.169   2 u 504d 1024    0    2.744   -0.663   0.000
+*gromit.nocabal. 131.188.3.222    2 u  785 1024  377    0.264    0.163   0.073
